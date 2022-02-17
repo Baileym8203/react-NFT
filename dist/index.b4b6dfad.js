@@ -29321,44 +29321,53 @@ class MainView extends _reactDefault.default.Component {
                     lineNumber: 19,
                     columnNumber: 1
                 }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
-                    className: "center",
-                    style: {
-                        backgroundColor: "#a3a4fb",
-                        border: "solid 1px whitesmoke"
-                    },
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourStoryDefault.default, {
-                    }, void 0, false, {
-                        fileName: "src/components/main-view/main-view.jsx",
-                        lineNumber: 21,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/main-view/main-view.jsx",
-                    lineNumber: 20,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
-                    className: " main-view justify-content-md-center",
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Routes, {
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
-                            exact: true,
-                            path: "/",
-                            element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_homeView.HomePage, {
-                            }, void 0, false, void 0, void 0)
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Container, {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
+                            className: "center",
+                            style: {
+                                backgroundColor: "#a3a4fb",
+                                border: "solid 1px whitesmoke"
+                            },
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourStoryDefault.default, {
+                            }, void 0, false, {
+                                fileName: "src/components/main-view/main-view.jsx",
+                                lineNumber: 22,
+                                columnNumber: 1
+                            }, this)
                         }, void 0, false, {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 26,
+                            lineNumber: 21,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
+                            className: " main-view justify-content-md-center",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Routes, {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                                    exact: true,
+                                    path: "/",
+                                    element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_homeView.HomePage, {
+                                        className: "see"
+                                    }, void 0, false, void 0, void 0)
+                                }, void 0, false, {
+                                    fileName: "src/components/main-view/main-view.jsx",
+                                    lineNumber: 27,
+                                    columnNumber: 1
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/main-view/main-view.jsx",
+                                lineNumber: 26,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/main-view/main-view.jsx",
+                            lineNumber: 24,
                             columnNumber: 1
                         }, this)
-                    }, void 0, false, {
-                        fileName: "src/components/main-view/main-view.jsx",
-                        lineNumber: 25,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
+                    ]
+                }, void 0, true, {
                     fileName: "src/components/main-view/main-view.jsx",
-                    lineNumber: 23,
+                    lineNumber: 20,
                     columnNumber: 1
                 }, this)
             ]
@@ -29726,7 +29735,7 @@ class HomePage extends _reactDefault.default.Component {
                                 style: {
                                     width: '375px',
                                     height: '375px',
-                                    marginLeft: "20px",
+                                    marginLeft: "5px",
                                     marginTop: "50px",
                                     boxShadow: "2px 0px 15px 6px"
                                 },
@@ -29748,7 +29757,7 @@ class HomePage extends _reactDefault.default.Component {
                                 style: {
                                     width: '375px',
                                     height: '375px',
-                                    marginLeft: "20px",
+                                    marginLeft: "5px",
                                     marginTop: "50px",
                                     boxShadow: "2px 0px 15px 6px"
                                 },
@@ -29770,7 +29779,7 @@ class HomePage extends _reactDefault.default.Component {
                                 style: {
                                     width: '375px',
                                     height: '375px',
-                                    marginLeft: "20px",
+                                    marginLeft: "5px",
                                     marginTop: "50px",
                                     boxShadow: "2px 0px 15px 6px"
                                 },
@@ -34153,7 +34162,7 @@ class OurStory extends _reactDefault.default.Component {
                 className: "look",
                 children: [
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Item, {
-                        interval: 1000,
+                        interval: 6000,
                         children: [
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
                                 className: "d-block w-100",
@@ -34198,7 +34207,7 @@ class OurStory extends _reactDefault.default.Component {
                         columnNumber: 3
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Item, {
-                        interval: 1000,
+                        interval: 3000,
                         className: "looks",
                         children: [
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {

@@ -78,17 +78,17 @@ return (
 </Row>
 <Row className='background-color3'style={{textAlign: "center"}}>
 <Col lg={4}>
-<Image fluid  style={{width: '375px', height: '375px', marginLeft: "20px", marginTop: "50px", boxShadow: "2px 0px 15px 6px"}}
+<Image fluid  style={{width: '375px', height: '375px', marginLeft: "5px", marginTop: "50px", boxShadow: "2px 0px 15px 6px"}}
 src={clown}>
 </Image>
 </Col>
 <Col lg={4}>
-<Image fluid  style={{width: '375px', height: '375px', marginLeft: "20px", marginTop: "50px", boxShadow: "2px 0px 15px 6px"}}
+<Image fluid  style={{width: '375px', height: '375px', marginLeft: "5px", marginTop: "50px", boxShadow: "2px 0px 15px 6px"}}
 src={purple}>
 </Image>
 </Col>
 <Col lg={4}>
-<Image fluid  style={{width: '375px', height: '375px', marginLeft: "20px", marginTop: "50px", boxShadow: "2px 0px 15px 6px"}}
+<Image fluid  style={{width: '375px', height: '375px', marginLeft: "5px", marginTop: "50px", boxShadow: "2px 0px 15px 6px"}}
 src={king}>
 </Image>
 </Col>

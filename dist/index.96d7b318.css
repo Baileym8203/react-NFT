@@ -94,6 +94,10 @@
   justify-content: right;
   align-items: flex-end;
 }
+
+.see {
+  background-color: black;
+}
 .look {
   font-family: "Bubblegum Sans";
 }
@@ -102,4 +106,10 @@
   box-shadow: black 2px 2px 12px 10px;
 }
 
+.carousel-indicators li {
+  visibility: hidden;
+}
+.cool {
+  background-color: black;
+}
 /*# sourceMappingURL=index.96d7b318.css.map */
