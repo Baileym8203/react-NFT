@@ -26,12 +26,12 @@ import { HashLink as Link } from 'react-router-hash-link'
         <Link  className='font size' id="center" style={{color: 'white'}} to="#" smooth>FAQ</Link>
         <Link  className='font size' id="center" style={{color: 'white'}} to="#border" smooth>Roadmap</Link>
         <Nav>
-        <Nav.Link href="#t">
+        <Link to="#t">
         <Image className='move-right' src={twitter} style={{width: "3em", height: '3.2em'}}/>
-        </Nav.Link>
-        <Nav.Link href="#y">
+        </Link>
+        <Link to="#y">
         <Image className='move-left' src={discord} style={{width: "3em", height: '2.6em'}}/>
-      </Nav.Link>
+      </Link>
       </Nav>
       </Nav>
     </Navbar.Collapse>
