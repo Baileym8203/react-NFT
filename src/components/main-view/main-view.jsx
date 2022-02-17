@@ -17,14 +17,14 @@ return (
 <Router>
 
 <NavbarView className="a" />
-<Container>
+<Container  className="see">
 <Row className='center' style={{backgroundColor: "#a3a4fb", border: "solid 1px whitesmoke"}}>
 <OurStory />
 </Row>
 <Row className=" main-view justify-content-md-center">
 
 <Routes>
-<Route exact path="/" element={<HomePage className="see"/>}/>
+<Route exact path="/" element={<HomePage/>}/>
 </Routes>
 
 

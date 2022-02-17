@@ -1015,11 +1015,18 @@ var _mainViewDefault = parcelHelpers.interopDefault(_mainView);
 var _indexScss = require("./index.scss");
 class nftApplication extends _reactDefault.default.Component {
     render() {
-        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_mainViewDefault.default, {
-            className: "box"
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            className: "box",
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_mainViewDefault.default, {
+                className: "box"
+            }, void 0, false, {
+                fileName: "src/index.jsx",
+                lineNumber: 12,
+                columnNumber: 1
+            }, this)
         }, void 0, false, {
             fileName: "src/index.jsx",
-            lineNumber: 12,
+            lineNumber: 11,
             columnNumber: 1
         }, this));
     }
@@ -29323,6 +29330,7 @@ class MainView extends _reactDefault.default.Component {
                     columnNumber: 1
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Container, {
+                    className: "see",
                     children: [
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
                             className: "center",
@@ -29348,7 +29356,6 @@ class MainView extends _reactDefault.default.Component {
                                     exact: true,
                                     path: "/",
                                     element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_homeView.HomePage, {
-                                        className: "see"
                                     }, void 0, false, void 0, void 0)
                                 }, void 0, false, {
                                     fileName: "src/components/main-view/main-view.jsx",
