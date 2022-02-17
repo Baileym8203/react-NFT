@@ -67,6 +67,10 @@
 .border {
   border: solid 1px white fill;
 }
+
+.back {
+  border: solid 1px white;
+}
 .font {
   font-family: "Bubblegum Sans";
 }
@@ -96,7 +100,7 @@
 }
 
 .see {
-  background-color: black;
+  box-shadow: black 2px 2px 20px 8px;
 }
 .look {
   font-family: "Bubblegum Sans";
@@ -111,5 +115,8 @@
 }
 .cool {
   background-color: black;
+}
+.box {
+  box-shadow: black 2px 2px 20px 8px;
 }
 /*# sourceMappingURL=index.96d7b318.css.map */

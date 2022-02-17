@@ -9,7 +9,7 @@ class nftApplication extends react.Component {
 render () {
 return (
 
-<MainView  />
+<MainView className="box" />
 
 
   );

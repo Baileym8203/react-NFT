@@ -1016,6 +1016,7 @@ var _indexScss = require("./index.scss");
 class nftApplication extends _reactDefault.default.Component {
     render() {
         return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_mainViewDefault.default, {
+            className: "box"
         }, void 0, false, {
             fileName: "src/index.jsx",
             lineNumber: 12,
@@ -29413,6 +29414,7 @@ class HomePage extends _reactDefault.default.Component {
     render() {
         return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Container, {
             fluid: true,
+            className: "back",
             children: [
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
                     className: "background-color",

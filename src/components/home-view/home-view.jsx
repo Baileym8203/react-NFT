@@ -11,7 +11,7 @@ import king from '../../Images/king.png'
 export class HomePage extends react.Component {
 render() {
 return (
-<Container fluid>
+<Container fluid className='back'>
 <Row className='background-color' style={{textAlign: "center"}} id="up">
 <Col sm={6}>
 <h1 className='font' style={{backgroundColor: "#e8f6df", marginTop: "100px", marginLeft: "5px", boxShadow: "2px 4px 15px 6px"}}>Baby Turtles Club</h1>
