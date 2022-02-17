@@ -11,7 +11,7 @@ import king from '../../Images/king.png'
 export class HomePage extends react.Component {
 render() {
 return (
-<Container fluid>
+<Container fluid className='back'>
 <Row className='background-color' style={{textAlign: "center"}} id="up">
 <Col sm={6}>
 <h1 className='font' style={{backgroundColor: "#e8f6df", marginTop: "100px", marginLeft: "5px", boxShadow: "2px 4px 15px 6px"}}>Baby Turtles Club</h1>
@@ -78,17 +78,17 @@ return (
 </Row>
 <Row className='background-color3'style={{textAlign: "center"}}>
 <Col lg={4}>
-<Image fluid  style={{width: '375px', height: '375px', marginLeft: "20px", marginTop: "50px", boxShadow: "2px 0px 15px 6px"}}
+<Image fluid  style={{width: '375px', height: '375px', marginLeft: "5px", marginTop: "50px", boxShadow: "2px 0px 15px 6px"}}
 src={clown}>
 </Image>
 </Col>
 <Col lg={4}>
-<Image fluid  style={{width: '375px', height: '375px', marginLeft: "20px", marginTop: "50px", boxShadow: "2px 0px 15px 6px"}}
+<Image fluid  style={{width: '375px', height: '375px', marginLeft: "5px", marginTop: "50px", boxShadow: "2px 0px 15px 6px"}}
 src={purple}>
 </Image>
 </Col>
 <Col lg={4}>
-<Image fluid  style={{width: '375px', height: '375px', marginLeft: "20px", marginTop: "50px", boxShadow: "2px 0px 15px 6px"}}
+<Image fluid  style={{width: '375px', height: '375px', marginLeft: "5px", marginTop: "50px", boxShadow: "2px 0px 15px 6px"}}
 src={king}>
 </Image>
 </Col>

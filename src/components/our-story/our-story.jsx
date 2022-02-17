@@ -13,7 +13,7 @@ render() {
 return(
 <Container sm={12}>
 <Carousel touch={true} fade={true} className="look">
-  <Carousel.Item interval={1000}>
+  <Carousel.Item interval={6000}>
     <Image
       className="d-block w-100"
       src={clown}
@@ -26,7 +26,7 @@ return(
     </Carousel.Caption>
   </Carousel.Item>
 
-  <Carousel.Item interval={1000} className="looks">
+  <Carousel.Item interval={3000} className="looks">
     <img
       className="d-block w-100"
       src={astro}

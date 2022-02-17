@@ -67,13 +67,17 @@
 .border {
   border: solid 1px white fill;
 }
+
+.back {
+  border: solid 1px white;
+}
 .font {
   font-family: "Bubblegum Sans";
 }
 
 .color {
   filter: brightness(80%);
-  box-shadow: #3b3b3b 0px 1px 20px 8px;
+  box-shadow: #3b3b3b 0px 0px 15px 8px;
 }
 
 .size {
@@ -94,6 +98,10 @@
   justify-content: right;
   align-items: flex-end;
 }
+
+.see {
+  box-shadow: black 0px 2px 15px 5px;
+}
 .look {
   font-family: "Bubblegum Sans";
 }
@@ -102,4 +110,13 @@
   box-shadow: black 2px 2px 12px 10px;
 }
 
+.carousel-indicators li {
+  visibility: hidden;
+}
+.cool {
+  background-color: black;
+}
+.box {
+  box-shadow: black 2px 2px 20px 8px;
+}
 /*# sourceMappingURL=index.96d7b318.css.map */

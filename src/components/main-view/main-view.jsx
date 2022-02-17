@@ -17,6 +17,7 @@ return (
 <Router>
 
 <NavbarView className="a" />
+<Container  className="see">
 <Row className='center' style={{backgroundColor: "#a3a4fb", border: "solid 1px whitesmoke"}}>
 <OurStory />
 </Row>
@@ -30,7 +31,7 @@ return (
  
 
 </Row>
-
+</Container>
 </Router>
   );
  }

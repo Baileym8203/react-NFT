@@ -8,9 +8,9 @@ import './index.scss';
 class nftApplication extends react.Component {
 render () {
 return (
-
-<MainView />
-
+<div className="box">
+<MainView className="box" />
+</div>
 
   );
  }
