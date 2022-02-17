@@ -1,0 +1,104 @@
+.background-color {
+  background-color: #81e5ff;
+}
+
+.background-color2 {
+  background-color: #ffbee1;
+}
+
+.background-color3 {
+  background-color: #a3a4fb;
+}
+
+#up {
+  margin-top: 0px;
+}
+
+.font2 {
+  margin-left: 5px;
+  margin-top: 20px;
+  font-family: "Bubblegum Sans";
+  color: whitesmoke;
+  box-shadow: grey 0px 2px 12px 1px;
+  background-color: #a3a4fb;
+}
+
+.font3 {
+  margin-left: 5px;
+  margin-top: -6.9px;
+  font-family: "Bubblegum Sans";
+  color: whitesmoke;
+  box-shadow: grey 0px -2px 15px 3px;
+  background-color: #a3a4fb;
+}
+
+.font4 {
+  margin-left: 5px;
+  margin-top: -6.9px;
+  font-family: "Bubblegum Sans";
+  color: whitesmoke;
+  box-shadow: grey 0px -2px 15px 3px;
+  background-color: #ffbee1;
+  text-align: center;
+}
+
+.font5 {
+  margin-left: 5px;
+  margin-top: -7.3px;
+  font-family: "Bubblegum Sans";
+  color: whitesmoke;
+  box-shadow: grey 2px 2px 15px 3px;
+  background-color: #ffbee1;
+}
+
+.right {
+  margin-left: 6em;
+  box-shadow: 0px 3px 5px 3px;
+  margin-top: 20px;
+}
+
+#arrow {
+  transform: rotate(330deg);
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.border {
+  border: solid 1px white fill;
+}
+.font {
+  font-family: "Bubblegum Sans";
+}
+
+.color {
+  filter: brightness(80%);
+  box-shadow: #3b3b3b 0px 1px 20px 8px;
+}
+
+.size {
+  font-size: 24px;
+}
+
+.move-right {
+  margin-right: 300px;
+  margin-top: -4px;
+}
+
+#center {
+  margin-top: 8.5px;
+  margin-left: 10px;
+}
+.center {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+.look {
+  font-family: "Bubblegum Sans";
+}
+.look .text {
+  background-color: #ff5b58;
+  box-shadow: black 2px 2px 12px 10px;
+}
+@import url(https://www.pngitem.com/pimgs/m/108-1083749_white-discord-logo-png-png-free-discord-icon.png);
+/*# sourceMappingURL=index.67b42ae1.css.map */
