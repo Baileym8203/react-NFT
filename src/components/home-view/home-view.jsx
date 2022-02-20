@@ -73,7 +73,7 @@ return ( // start of the return in DOM!
 <Container fluid className='' style={{background: ""}}>
 <Row className='background-color' style={{textAlign: "center"}} id="up">
 <Col data-aos="fade-down" xs={6}>
-<h1 className='font' style={{ color: "white", marginTop: "100px"}}>Baby Turtles Club</h1>
+<h1 className='font' style={{ color: "white", marginTop: "200px"}}>Baby Turtles Club</h1>
 <h3 className='font' style={{color: "white",  marginTop: "-5px"}}>What we do?</h3>
 <h5 className='font' style={{color: "white",  marginTop: "-5px" }}>
   Nulla vitae elit libero, a pharetra augue mollis interdum.
@@ -86,7 +86,7 @@ return ( // start of the return in DOM!
   </h5>
 </Col>
 <Col data-aos="fade-down" xs={6}>
-<h1 className='font' style={{color: "white", marginTop: "100px",}}>Our Trade</h1>
+<h1 className='font' style={{color: "white", marginTop: "200px",}}>Our Trade</h1>
 <h3 className='font' style={{ color: "white", marginTop: "-5px"}}>How We Do It?</h3>
 <h5 className='font' style={{ color: "white", marginTop: "-5px"}}>
   Nulla vitae elit libero, a pharetra augue mollis interdum.
@@ -101,7 +101,7 @@ return ( // start of the return in DOM!
 </Row>
 <Row className='background-color' style={{textAlign: 'center'}}>
 <Col data-aos="fade-up" sm={12}>
-<h1 className='font' style={{color: "white", marginTop: "100px"}}>NFTs</h1>
+<h1 className='font' style={{color: "white", marginTop: "150px"}}>NFTs</h1>
 <h3 className='font'  style={{color: "white", marginTop: "-5px"}}>Why Buy One?</h3>
 <h5 className='font' style={{color: "white", marginTop: "-5px", marginBottom: "50px"}}>
   Nulla vitae elit libero, a pharetra augue mollis interdum.

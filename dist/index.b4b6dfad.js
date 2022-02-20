@@ -36386,7 +36386,7 @@ class HomePage extends _reactDefault.default.Component {
                                     className: "font",
                                     style: {
                                         color: "white",
-                                        marginTop: "100px"
+                                        marginTop: "200px"
                                     },
                                     children: "Baby Turtles Club"
                                 }, void 0, false, {
@@ -36432,7 +36432,7 @@ class HomePage extends _reactDefault.default.Component {
                                     className: "font",
                                     style: {
                                         color: "white",
-                                        marginTop: "100px"
+                                        marginTop: "200px"
                                     },
                                     children: "Our Trade"
                                 }, void 0, false, {
@@ -36489,7 +36489,7 @@ class HomePage extends _reactDefault.default.Component {
                                 className: "font",
                                 style: {
                                     color: "white",
-                                    marginTop: "100px"
+                                    marginTop: "150px"
                                 },
                                 children: "NFTs"
                             }, void 0, false, {
@@ -40192,7 +40192,7 @@ class OurStory extends _reactDefault.default.Component {
             fade: true,
             className: "look",
             style: {
-                marginTop: "45px",
+                marginTop: "75px",
                 boxShadow: "2px 2px 10px 7px",
                 borderRadius: '15px',
                 width: "35em"
