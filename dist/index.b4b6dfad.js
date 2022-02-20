@@ -36256,8 +36256,6 @@ var _faq = require("../faq/faq");
 var _faqDefault = parcelHelpers.interopDefault(_faq);
 var _roadmapView = require("../roadmap-view/roadmap-view");
 var _roadmapViewDefault = parcelHelpers.interopDefault(_roadmapView);
-var _ourStory = require("../our-story/our-story");
-var _ourStoryDefault = parcelHelpers.interopDefault(_ourStory);
 // All the main file imports!
 var _homeViewScss = require("./home-view.scss");
 // This is the scss file!
@@ -36294,24 +36292,24 @@ class HomePage extends _reactDefault.default.Component {
                             children: "Contact Form"
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 41,
+                            lineNumber: 40,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 40,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal.Body, {
                         children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_roadmapViewDefault.default, {
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 46,
+                            lineNumber: 45,
                             columnNumber: 10
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 45,
+                        lineNumber: 44,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal.Footer, {
@@ -36320,18 +36318,18 @@ class HomePage extends _reactDefault.default.Component {
                             children: "Close"
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 49,
+                            lineNumber: 48,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 48,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/home-view/home-view.jsx",
-                lineNumber: 34,
+                lineNumber: 33,
                 columnNumber: 7
             }, this));
         }
@@ -36350,7 +36348,7 @@ class HomePage extends _reactDefault.default.Component {
                         children: "Contact Us"
                     }, void 0, false, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 60,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(MyVerticallyCenteredModal, {
@@ -36358,7 +36356,7 @@ class HomePage extends _reactDefault.default.Component {
                         onHide: ()=>setModalShow(false)
                     }, void 0, false, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 64,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, this)
                 ]
@@ -36393,7 +36391,7 @@ class HomePage extends _reactDefault.default.Component {
                                     children: "Baby Turtles Club"
                                 }, void 0, false, {
                                     fileName: "src/components/home-view/home-view.jsx",
-                                    lineNumber: 77,
+                                    lineNumber: 76,
                                     columnNumber: 1
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
@@ -36405,7 +36403,7 @@ class HomePage extends _reactDefault.default.Component {
                                     children: "What we do?"
                                 }, void 0, false, {
                                     fileName: "src/components/home-view/home-view.jsx",
-                                    lineNumber: 78,
+                                    lineNumber: 77,
                                     columnNumber: 1
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
@@ -36417,13 +36415,13 @@ class HomePage extends _reactDefault.default.Component {
                                     children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                                 }, void 0, false, {
                                     fileName: "src/components/home-view/home-view.jsx",
-                                    lineNumber: 79,
+                                    lineNumber: 78,
                                     columnNumber: 1
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 76,
+                            lineNumber: 75,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -36439,7 +36437,7 @@ class HomePage extends _reactDefault.default.Component {
                                     children: "Our Trade"
                                 }, void 0, false, {
                                     fileName: "src/components/home-view/home-view.jsx",
-                                    lineNumber: 90,
+                                    lineNumber: 89,
                                     columnNumber: 1
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
@@ -36451,7 +36449,7 @@ class HomePage extends _reactDefault.default.Component {
                                     children: "How We Do It?"
                                 }, void 0, false, {
                                     fileName: "src/components/home-view/home-view.jsx",
-                                    lineNumber: 91,
+                                    lineNumber: 90,
                                     columnNumber: 1
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
@@ -36463,19 +36461,19 @@ class HomePage extends _reactDefault.default.Component {
                                     children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                                 }, void 0, false, {
                                     fileName: "src/components/home-view/home-view.jsx",
-                                    lineNumber: 92,
+                                    lineNumber: 91,
                                     columnNumber: 1
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 89,
+                            lineNumber: 88,
                             columnNumber: 1
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/home-view/home-view.jsx",
-                    lineNumber: 75,
+                    lineNumber: 74,
                     columnNumber: 1
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
@@ -36496,7 +36494,7 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "NFTs"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 105,
+                                lineNumber: 104,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
@@ -36508,7 +36506,7 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "Why Buy One?"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 106,
+                                lineNumber: 105,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
@@ -36521,18 +36519,18 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 107,
+                                lineNumber: 106,
                                 columnNumber: 1
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 104,
+                        lineNumber: 103,
                         columnNumber: 1
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/home-view/home-view.jsx",
-                    lineNumber: 103,
+                    lineNumber: 102,
                     columnNumber: 1
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
@@ -36559,7 +36557,7 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "Roadmap"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 120,
+                                lineNumber: 119,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
@@ -36569,7 +36567,7 @@ class HomePage extends _reactDefault.default.Component {
                                 now: 20
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 121,
+                                lineNumber: 120,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
@@ -36580,7 +36578,7 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "looks after at Q1 2022"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 122,
+                                lineNumber: 121,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
@@ -36588,7 +36586,7 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 123,
+                                lineNumber: 122,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
@@ -36598,7 +36596,7 @@ class HomePage extends _reactDefault.default.Component {
                                 now: 40
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 125,
+                                lineNumber: 124,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
@@ -36609,7 +36607,7 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "looks after at Q2 2022"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 126,
+                                lineNumber: 125,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
@@ -36617,7 +36615,7 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 127,
+                                lineNumber: 126,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
@@ -36627,7 +36625,7 @@ class HomePage extends _reactDefault.default.Component {
                                 now: 60
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 129,
+                                lineNumber: 128,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
@@ -36638,7 +36636,7 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "looks after at Q3 2022"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 130,
+                                lineNumber: 129,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
@@ -36646,7 +36644,7 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 131,
+                                lineNumber: 130,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
@@ -36656,7 +36654,7 @@ class HomePage extends _reactDefault.default.Component {
                                 now: 80
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 133,
+                                lineNumber: 132,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
@@ -36667,7 +36665,7 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "looks after at Q4 2022"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 134,
+                                lineNumber: 133,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
@@ -36678,18 +36676,18 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 135,
+                                lineNumber: 134,
                                 columnNumber: 1
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 119,
+                        lineNumber: 118,
                         columnNumber: 1
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/home-view/home-view.jsx",
-                    lineNumber: 118,
+                    lineNumber: 117,
                     columnNumber: 1
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
@@ -36713,12 +36711,12 @@ class HomePage extends _reactDefault.default.Component {
                                 src: _clown2PngDefault.default
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 141,
+                                lineNumber: 140,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 140,
+                            lineNumber: 139,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -36735,12 +36733,12 @@ class HomePage extends _reactDefault.default.Component {
                                 src: _purplePngDefault.default
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 146,
+                                lineNumber: 145,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 145,
+                            lineNumber: 144,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -36757,18 +36755,18 @@ class HomePage extends _reactDefault.default.Component {
                                 src: _arrowPngDefault.default
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 151,
+                                lineNumber: 150,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 150,
+                            lineNumber: 149,
                             columnNumber: 1
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/home-view/home-view.jsx",
-                    lineNumber: 139,
+                    lineNumber: 138,
                     columnNumber: 1
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
@@ -36789,7 +36787,7 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "Our Story"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 158,
+                                lineNumber: 157,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
@@ -36802,18 +36800,18 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 159,
+                                lineNumber: 158,
                                 columnNumber: 1
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 157,
+                        lineNumber: 156,
                         columnNumber: 1
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/home-view/home-view.jsx",
-                    lineNumber: 156,
+                    lineNumber: 155,
                     columnNumber: 1
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
@@ -36835,12 +36833,12 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "Our Team"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 179,
+                                lineNumber: 178,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 178,
+                            lineNumber: 177,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -36849,12 +36847,12 @@ class HomePage extends _reactDefault.default.Component {
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 182,
+                                lineNumber: 181,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 181,
+                            lineNumber: 180,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -36863,12 +36861,12 @@ class HomePage extends _reactDefault.default.Component {
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 185,
+                                lineNumber: 184,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 184,
+                            lineNumber: 183,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -36877,27 +36875,12 @@ class HomePage extends _reactDefault.default.Component {
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 188,
+                                lineNumber: 187,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 187,
-                            columnNumber: 1
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                            "data-aos": "slide-up",
-                            sm: 4,
-                            className: "margin",
-                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
-                            }, void 0, false, {
-                                fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 191,
-                                columnNumber: 1
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 190,
+                            lineNumber: 186,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -36907,12 +36890,27 @@ class HomePage extends _reactDefault.default.Component {
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 194,
+                                lineNumber: 190,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 193,
+                            lineNumber: 189,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            "data-aos": "slide-up",
+                            sm: 4,
+                            className: "margin",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 193,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 192,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -36925,18 +36923,18 @@ class HomePage extends _reactDefault.default.Component {
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 197,
+                                lineNumber: 196,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 196,
+                            lineNumber: 195,
                             columnNumber: 1
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/home-view/home-view.jsx",
-                    lineNumber: 177,
+                    lineNumber: 176,
                     columnNumber: 1
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
@@ -36959,12 +36957,12 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "FAQ"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 203,
+                                lineNumber: 202,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 202,
+                            lineNumber: 201,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -36973,12 +36971,12 @@ class HomePage extends _reactDefault.default.Component {
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 206,
+                                lineNumber: 205,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 205,
+                            lineNumber: 204,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -36987,12 +36985,12 @@ class HomePage extends _reactDefault.default.Component {
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 209,
+                                lineNumber: 208,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 208,
+                            lineNumber: 207,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -37001,12 +36999,12 @@ class HomePage extends _reactDefault.default.Component {
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 212,
+                                lineNumber: 211,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 211,
+                            lineNumber: 210,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -37015,12 +37013,12 @@ class HomePage extends _reactDefault.default.Component {
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 215,
+                                lineNumber: 214,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 214,
+                            lineNumber: 213,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -37029,12 +37027,12 @@ class HomePage extends _reactDefault.default.Component {
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 218,
+                                lineNumber: 217,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 217,
+                            lineNumber: 216,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -37043,12 +37041,12 @@ class HomePage extends _reactDefault.default.Component {
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 221,
+                                lineNumber: 220,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 220,
+                            lineNumber: 219,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
@@ -37060,24 +37058,24 @@ class HomePage extends _reactDefault.default.Component {
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(App, {
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 224,
+                                lineNumber: 223,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 223,
+                            lineNumber: 222,
                             columnNumber: 1
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/home-view/home-view.jsx",
-                    lineNumber: 201,
+                    lineNumber: 200,
                     columnNumber: 1
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/home-view/home-view.jsx",
-            lineNumber: 74,
+            lineNumber: 73,
             columnNumber: 1
         }, this));
     }
@@ -37088,7 +37086,7 @@ class HomePage extends _reactDefault.default.Component {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","./home-view.scss":"hOFAc","../../Images/clown2.png":"gqkxv","../../Images/purple.png":"jmlpZ","../../Images/king.png":"bnPG3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../our-team/our-team":"huuAe","../faq/faq":"7Z5fw","../roadmap-view/roadmap-view":"cYOCB","../our-story/our-story":"5GGbr","aos":"eRzTM","aos/dist/aos.css":"iYkXi","../../Images/arrow.png":"hZMRM"}],"hOFAc":[function() {},{}],"gqkxv":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","./home-view.scss":"hOFAc","../../Images/clown2.png":"gqkxv","../../Images/purple.png":"jmlpZ","../../Images/king.png":"bnPG3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../our-team/our-team":"huuAe","../faq/faq":"7Z5fw","../roadmap-view/roadmap-view":"cYOCB","aos":"eRzTM","aos/dist/aos.css":"iYkXi","../../Images/arrow.png":"hZMRM"}],"hOFAc":[function() {},{}],"gqkxv":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "clown2.dcdeefeb.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
@@ -37653,190 +37651,7 @@ $RefreshReg$(_c, "ContactMail");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5GGbr":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$b87c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$b87c.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactBootstrap = require("react-bootstrap");
-var _ourStoryScss = require("./our-story.scss");
-// these are both the Carousel images imported!
-var _purplePng = require("../../Images/purple.png");
-var _purplePngDefault = parcelHelpers.interopDefault(_purplePng);
-var _clown2Png = require("../../Images/clown2.png");
-var _clown2PngDefault = parcelHelpers.interopDefault(_clown2Png);
-var _kingPng = require("../../Images/king.png");
-var _kingPngDefault = parcelHelpers.interopDefault(_kingPng);
-class OurStory extends _reactDefault.default.Component {
-    render() {
-        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel, {
-            touch: true,
-            fade: true,
-            className: "look",
-            style: {
-                marginTop: "45px",
-                boxShadow: "2px 2px 10px 7px",
-                borderRadius: '15px',
-                width: "35em"
-            },
-            children: [
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Item, {
-                    interval: 6000,
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
-                            className: "d-block w-100",
-                            src: _clown2PngDefault.default,
-                            alt: "First slide",
-                            style: {
-                                borderRadius: '15px'
-                            }
-                        }, void 0, false, {
-                            fileName: "src/components/our-story/our-story.jsx",
-                            lineNumber: 17,
-                            columnNumber: 5
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Caption, {
-                            className: "text",
-                            children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
-                                    children: "Baby Turtles Club"
-                                }, void 0, false, {
-                                    fileName: "src/components/our-story/our-story.jsx",
-                                    lineNumber: 24,
-                                    columnNumber: 7
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                                    children: "Nulla vitae elit libero, a pharetra augue mollis interdum."
-                                }, void 0, false, {
-                                    fileName: "src/components/our-story/our-story.jsx",
-                                    lineNumber: 25,
-                                    columnNumber: 7
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/our-story/our-story.jsx",
-                            lineNumber: 23,
-                            columnNumber: 5
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/our-story/our-story.jsx",
-                    lineNumber: 16,
-                    columnNumber: 3
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Item, {
-                    interval: 3000,
-                    className: "looks",
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
-                            className: "d-block w-100",
-                            src: _purplePngDefault.default,
-                            alt: "Second slide",
-                            style: {
-                                borderRadius: '15px'
-                            }
-                        }, void 0, false, {
-                            fileName: "src/components/our-story/our-story.jsx",
-                            lineNumber: 30,
-                            columnNumber: 5
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Caption, {
-                            className: "text",
-                            children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
-                                    children: "The Future of NFTs"
-                                }, void 0, false, {
-                                    fileName: "src/components/our-story/our-story.jsx",
-                                    lineNumber: 37,
-                                    columnNumber: 7
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                                    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                                }, void 0, false, {
-                                    fileName: "src/components/our-story/our-story.jsx",
-                                    lineNumber: 38,
-                                    columnNumber: 7
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/our-story/our-story.jsx",
-                            lineNumber: 36,
-                            columnNumber: 5
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/our-story/our-story.jsx",
-                    lineNumber: 29,
-                    columnNumber: 3
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Item, {
-                    interval: 1500,
-                    className: "looks",
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
-                            className: "d-block w-100",
-                            src: _kingPngDefault.default,
-                            alt: "Second slide",
-                            style: {
-                                borderRadius: '15px'
-                            }
-                        }, void 0, false, {
-                            fileName: "src/components/our-story/our-story.jsx",
-                            lineNumber: 43,
-                            columnNumber: 5
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Caption, {
-                            className: "text",
-                            children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
-                                    children: "We Mint Our Own!"
-                                }, void 0, false, {
-                                    fileName: "src/components/our-story/our-story.jsx",
-                                    lineNumber: 50,
-                                    columnNumber: 7
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                                    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                                }, void 0, false, {
-                                    fileName: "src/components/our-story/our-story.jsx",
-                                    lineNumber: 51,
-                                    columnNumber: 7
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/our-story/our-story.jsx",
-                            lineNumber: 49,
-                            columnNumber: 5
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/our-story/our-story.jsx",
-                    lineNumber: 42,
-                    columnNumber: 3
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/our-story/our-story.jsx",
-            lineNumber: 15,
-            columnNumber: 1
-        }, this));
-    }
-}
-exports.default = OurStory;
-
-  $parcel$ReactRefreshHelpers$b87c.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","./our-story.scss":"ehCFu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../Images/purple.png":"jmlpZ","../../Images/clown2.png":"gqkxv","../../Images/king.png":"bnPG3"}],"ehCFu":[function() {},{}],"eRzTM":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"eRzTM":[function(require,module,exports) {
 !function(e, t) {
     "object" == typeof exports && "object" == typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define([], t) : "object" == typeof exports ? exports.AOS = t() : e.AOS = t();
 }(this, function() {
@@ -40349,6 +40164,189 @@ var propTypes = {
 HashLink.propTypes = propTypes;
 NavHashLink.propTypes = propTypes;
 
-},{"react":"21dqq","prop-types":"7wKI2","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eBaMl":[function() {},{}],"lJZlQ":[function() {},{}]},["kn9T2","1SYPb","d8Dch"], "d8Dch", "parcelRequire0d16")
+},{"react":"21dqq","prop-types":"7wKI2","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eBaMl":[function() {},{}],"5GGbr":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$b87c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$b87c.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+var _ourStoryScss = require("./our-story.scss");
+// these are both the Carousel images imported!
+var _purplePng = require("../../Images/purple.png");
+var _purplePngDefault = parcelHelpers.interopDefault(_purplePng);
+var _clown2Png = require("../../Images/clown2.png");
+var _clown2PngDefault = parcelHelpers.interopDefault(_clown2Png);
+var _kingPng = require("../../Images/king.png");
+var _kingPngDefault = parcelHelpers.interopDefault(_kingPng);
+class OurStory extends _reactDefault.default.Component {
+    render() {
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel, {
+            touch: true,
+            fade: true,
+            className: "look",
+            style: {
+                marginTop: "45px",
+                boxShadow: "2px 2px 10px 7px",
+                borderRadius: '15px',
+                width: "35em"
+            },
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Item, {
+                    interval: 6000,
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                            className: "d-block w-100",
+                            src: _clown2PngDefault.default,
+                            alt: "First slide",
+                            style: {
+                                borderRadius: '15px'
+                            }
+                        }, void 0, false, {
+                            fileName: "src/components/our-story/our-story.jsx",
+                            lineNumber: 17,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Caption, {
+                            className: "text",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                                    children: "Baby Turtles Club"
+                                }, void 0, false, {
+                                    fileName: "src/components/our-story/our-story.jsx",
+                                    lineNumber: 24,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    children: "Nulla vitae elit libero, a pharetra augue mollis interdum."
+                                }, void 0, false, {
+                                    fileName: "src/components/our-story/our-story.jsx",
+                                    lineNumber: 25,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/our-story/our-story.jsx",
+                            lineNumber: 23,
+                            columnNumber: 5
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/our-story/our-story.jsx",
+                    lineNumber: 16,
+                    columnNumber: 3
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Item, {
+                    interval: 3000,
+                    className: "looks",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                            className: "d-block w-100",
+                            src: _purplePngDefault.default,
+                            alt: "Second slide",
+                            style: {
+                                borderRadius: '15px'
+                            }
+                        }, void 0, false, {
+                            fileName: "src/components/our-story/our-story.jsx",
+                            lineNumber: 30,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Caption, {
+                            className: "text",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                                    children: "The Future of NFTs"
+                                }, void 0, false, {
+                                    fileName: "src/components/our-story/our-story.jsx",
+                                    lineNumber: 37,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                                }, void 0, false, {
+                                    fileName: "src/components/our-story/our-story.jsx",
+                                    lineNumber: 38,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/our-story/our-story.jsx",
+                            lineNumber: 36,
+                            columnNumber: 5
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/our-story/our-story.jsx",
+                    lineNumber: 29,
+                    columnNumber: 3
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Item, {
+                    interval: 1500,
+                    className: "looks",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                            className: "d-block w-100",
+                            src: _kingPngDefault.default,
+                            alt: "Second slide",
+                            style: {
+                                borderRadius: '15px'
+                            }
+                        }, void 0, false, {
+                            fileName: "src/components/our-story/our-story.jsx",
+                            lineNumber: 43,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Caption, {
+                            className: "text",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                                    children: "We Mint Our Own!"
+                                }, void 0, false, {
+                                    fileName: "src/components/our-story/our-story.jsx",
+                                    lineNumber: 50,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                                }, void 0, false, {
+                                    fileName: "src/components/our-story/our-story.jsx",
+                                    lineNumber: 51,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/our-story/our-story.jsx",
+                            lineNumber: 49,
+                            columnNumber: 5
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/our-story/our-story.jsx",
+                    lineNumber: 42,
+                    columnNumber: 3
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/our-story/our-story.jsx",
+            lineNumber: 15,
+            columnNumber: 1
+        }, this));
+    }
+}
+exports.default = OurStory;
+
+  $parcel$ReactRefreshHelpers$b87c.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","./our-story.scss":"ehCFu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../Images/purple.png":"jmlpZ","../../Images/clown2.png":"gqkxv","../../Images/king.png":"bnPG3"}],"ehCFu":[function() {},{}],"lJZlQ":[function() {},{}]},["kn9T2","1SYPb","d8Dch"], "d8Dch", "parcelRequire0d16")
 
 //# sourceMappingURL=index.b4b6dfad.js.map

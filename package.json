@@ -9,6 +9,7 @@
     "author": "",
     "homepage": "https://github.com/Baileym8203/react-NFT",
     "dependencies": {
+        "aos": "^2.3.4",
         "parcel": "^2.2.1",
         "react": "^17.0.2",
         "react-bootstrap": "^2.1.2",

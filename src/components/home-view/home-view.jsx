@@ -5,7 +5,6 @@ import { Container, Col, Row, Image, ProgressBar, Button, Modal} from 'react-boo
 import OurTeam from '../our-team/our-team';
 import FactsAnswers from '../faq/faq';
 import ContactMail from '../roadmap-view/roadmap-view';
-import OurStory from '../our-story/our-story';
 // All the main file imports!
 
 import './home-view.scss';
