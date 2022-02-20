@@ -1,8 +1,8 @@
 import react from 'react';
 import { Card, Button, Image } from 'react-bootstrap'
 import clown from '../../Images/clown2.png'
-import instagram from '../../Images/instagram.png'
-import twitter from '../../Images/twiiter2.png'
+import instagram from '../../Images/Instagram.png'
+import twitter from '../../Images/twiiter.png'
 class OurTeam extends react.Component{
 render() {
 return (
@@ -18,7 +18,7 @@ return (
     <Image src={instagram} style={{width: "40px"}}></Image>
     </Button>
     <Button variant="warning" style={{marginLeft: "5px"}}>
-    <Image src={twitter} style={{width: "40px"}}></Image>
+    <Image src={twitter} style={{width: "40px", height: "30px"}}></Image>
     </Button>
   </Card.Body>
 </Card>

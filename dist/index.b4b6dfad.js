@@ -1015,18 +1015,10 @@ var _mainViewDefault = parcelHelpers.interopDefault(_mainView);
 var _indexScss = require("./index.scss");
 class nftApplication extends _reactDefault.default.Component {
     render() {
-        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-            className: "box",
-            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_mainViewDefault.default, {
-                className: "box"
-            }, void 0, false, {
-                fileName: "src/index.jsx",
-                lineNumber: 12,
-                columnNumber: 1
-            }, this)
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_mainViewDefault.default, {
         }, void 0, false, {
             fileName: "src/index.jsx",
-            lineNumber: 11,
+            lineNumber: 12,
             columnNumber: 1
         }, this));
     }
@@ -36183,35 +36175,23 @@ class MainView extends _reactDefault.default.Component {
         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.BrowserRouter, {
             children: [
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_navbarView.NavbarView, {
-                    className: "a"
                 }, void 0, false, {
                     fileName: "src/components/main-view/main-view.jsx",
-                    lineNumber: 19,
+                    lineNumber: 22,
                     columnNumber: 1
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Container, {
-                    className: "see",
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
-                            className: "center",
-                            style: {
-                                backgroundColor: "#a3a4fb",
-                                border: "solid 1px whitesmoke"
-                            },
-                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourStoryDefault.default, {
+                    fluid: true,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
+                        className: " main-view justify-content-md-center background-color",
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourStoryDefault.default, {
                             }, void 0, false, {
                                 fileName: "src/components/main-view/main-view.jsx",
-                                lineNumber: 22,
+                                lineNumber: 25,
                                 columnNumber: 1
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 21,
-                            columnNumber: 1
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
-                            className: " main-view justify-content-md-center",
-                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Routes, {
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Routes, {
                                 children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
                                     exact: true,
                                     path: "/",
@@ -36227,21 +36207,21 @@ class MainView extends _reactDefault.default.Component {
                                 lineNumber: 26,
                                 columnNumber: 1
                             }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 24,
-                            columnNumber: 1
-                        }, this)
-                    ]
-                }, void 0, true, {
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/main-view/main-view.jsx",
+                        lineNumber: 24,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
                     fileName: "src/components/main-view/main-view.jsx",
-                    lineNumber: 20,
+                    lineNumber: 23,
                     columnNumber: 1
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/main-view/main-view.jsx",
-            lineNumber: 17,
+            lineNumber: 21,
             columnNumber: 1
         }, this));
     }
@@ -36262,26 +36242,136 @@ $parcel$ReactRefreshHelpers$5f46.prelude(module);
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+// the start of the home page!
 parcelHelpers.export(exports, "HomePage", ()=>HomePage
 );
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactPlayer = require("react-player");
-var _reactPlayerDefault = parcelHelpers.interopDefault(_reactPlayer);
 var _reactBootstrap = require("react-bootstrap");
+// all the technology imports!
+var _ourTeam = require("../our-team/our-team");
+var _ourTeamDefault = parcelHelpers.interopDefault(_ourTeam);
+var _faq = require("../faq/faq");
+var _faqDefault = parcelHelpers.interopDefault(_faq);
+var _roadmapView = require("../roadmap-view/roadmap-view");
+var _roadmapViewDefault = parcelHelpers.interopDefault(_roadmapView);
+var _ourStory = require("../our-story/our-story");
+var _ourStoryDefault = parcelHelpers.interopDefault(_ourStory);
+// All the main file imports!
 var _homeViewScss = require("./home-view.scss");
+// This is the scss file!
+var _aos = require("aos");
+var _aosDefault = parcelHelpers.interopDefault(_aos);
+// AOS will help with the on scroll animations!!
+var _aosCss = require("aos/dist/aos.css");
+// The AOS dist folder to initialize AOS!
 var _clown2Png = require("../../Images/clown2.png");
 var _clown2PngDefault = parcelHelpers.interopDefault(_clown2Png);
 var _purplePng = require("../../Images/purple.png");
 var _purplePngDefault = parcelHelpers.interopDefault(_purplePng);
 var _kingPng = require("../../Images/king.png");
 var _kingPngDefault = parcelHelpers.interopDefault(_kingPng);
+var _arrowPng = require("../../Images/arrow.png");
+var _arrowPngDefault = parcelHelpers.interopDefault(_arrowPng);
+// all image imports!
+_aosDefault.default.init(); // the AOS initialize function!
 class HomePage extends _reactDefault.default.Component {
     render() {
+        var _s = $RefreshSig$();
+        function MyVerticallyCenteredModal(props) {
+            return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal, {
+                "data-aos": "fade-right",
+                ...props,
+                size: "lg",
+                "aria-labelledby": "contained-modal-title-vcenter",
+                centered: true,
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal.Header, {
+                        closeButton: true,
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal.Title, {
+                            id: "contained-modal-title-vcenter",
+                            children: "Contact Form"
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 41,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/home-view/home-view.jsx",
+                        lineNumber: 40,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal.Body, {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_roadmapViewDefault.default, {
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 46,
+                            columnNumber: 10
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/home-view/home-view.jsx",
+                        lineNumber: 45,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal.Footer, {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
+                            onClick: props.onHide,
+                            children: "Close"
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 49,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/home-view/home-view.jsx",
+                        lineNumber: 48,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/home-view/home-view.jsx",
+                lineNumber: 34,
+                columnNumber: 7
+            }, this));
+        }
+        function App() {
+            _s();
+            const [modalShow, setModalShow] = _reactDefault.default.useState(false);
+            return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_jsxDevRuntime.Fragment, {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
+                        variant: "primary",
+                        onClick: ()=>setModalShow(true)
+                        ,
+                        style: {
+                            marginTop: "25px"
+                        },
+                        children: "Contact Us"
+                    }, void 0, false, {
+                        fileName: "src/components/home-view/home-view.jsx",
+                        lineNumber: 60,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(MyVerticallyCenteredModal, {
+                        show: modalShow,
+                        onHide: ()=>setModalShow(false)
+                    }, void 0, false, {
+                        fileName: "src/components/home-view/home-view.jsx",
+                        lineNumber: 64,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true));
+        }
+        _s(App, "xuPPltV/3J92+XaNotdpXxySp+I=");
+        // end of modal functions!
         return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Container, {
             fluid: true,
-            className: "back",
+            className: "",
+            style: {
+                background: ""
+            },
             children: [
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
                     className: "background-color",
@@ -36291,111 +36381,101 @@ class HomePage extends _reactDefault.default.Component {
                     id: "up",
                     children: [
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                            sm: 6,
+                            "data-aos": "fade-down",
+                            xs: 6,
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
                                     className: "font",
                                     style: {
-                                        backgroundColor: "#e8f6df",
-                                        marginTop: "100px",
-                                        marginLeft: "5px",
-                                        boxShadow: "2px 4px 15px 6px"
+                                        color: "white",
+                                        marginTop: "100px"
                                     },
                                     children: "Baby Turtles Club"
                                 }, void 0, false, {
                                     fileName: "src/components/home-view/home-view.jsx",
-                                    lineNumber: 17,
+                                    lineNumber: 77,
                                     columnNumber: 1
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
                                     className: "font",
                                     style: {
-                                        backgroundColor: "#e8f6df",
-                                        marginLeft: "5px",
-                                        marginTop: "-5px",
-                                        boxShadow: "2px 0px 15px 6px"
+                                        color: "white",
+                                        marginTop: "-5px"
                                     },
                                     children: "What we do?"
                                 }, void 0, false, {
                                     fileName: "src/components/home-view/home-view.jsx",
-                                    lineNumber: 18,
+                                    lineNumber: 78,
                                     columnNumber: 1
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
                                     className: "font",
                                     style: {
-                                        backgroundColor: "#e8f6df",
-                                        marginLeft: "5px",
-                                        marginTop: "-5px",
-                                        boxShadow: "2px 0px 15px 6px"
+                                        color: "white",
+                                        marginTop: "-5px"
                                     },
                                     children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                                 }, void 0, false, {
                                     fileName: "src/components/home-view/home-view.jsx",
-                                    lineNumber: 19,
+                                    lineNumber: 79,
                                     columnNumber: 1
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 16,
+                            lineNumber: 76,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                            sm: 6,
+                            "data-aos": "fade-down",
+                            xs: 6,
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
                                     className: "font",
                                     style: {
-                                        backgroundColor: "#e8f6df",
-                                        marginTop: "100px",
-                                        marginLeft: "5px",
-                                        boxShadow: "2px 4px 15px 6px"
+                                        color: "white",
+                                        marginTop: "100px"
                                     },
                                     children: "Our Trade"
                                 }, void 0, false, {
                                     fileName: "src/components/home-view/home-view.jsx",
-                                    lineNumber: 30,
+                                    lineNumber: 90,
                                     columnNumber: 1
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
                                     className: "font",
                                     style: {
-                                        backgroundColor: "#e8f6df",
-                                        marginLeft: "5px",
-                                        marginTop: "-5px",
-                                        boxShadow: "2px 0px 15px 6px"
+                                        color: "white",
+                                        marginTop: "-5px"
                                     },
                                     children: "How We Do It?"
                                 }, void 0, false, {
                                     fileName: "src/components/home-view/home-view.jsx",
-                                    lineNumber: 31,
+                                    lineNumber: 91,
                                     columnNumber: 1
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
                                     className: "font",
                                     style: {
-                                        backgroundColor: "#e8f6df",
-                                        marginLeft: "5px",
-                                        marginTop: "-5px",
-                                        boxShadow: "2px 0px 15px 6px"
+                                        color: "white",
+                                        marginTop: "-5px"
                                     },
                                     children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                                 }, void 0, false, {
                                     fileName: "src/components/home-view/home-view.jsx",
-                                    lineNumber: 32,
+                                    lineNumber: 92,
                                     columnNumber: 1
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 29,
+                            lineNumber: 89,
                             columnNumber: 1
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/home-view/home-view.jsx",
-                    lineNumber: 15,
+                    lineNumber: 75,
                     columnNumber: 1
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
@@ -36404,65 +36484,62 @@ class HomePage extends _reactDefault.default.Component {
                         textAlign: 'center'
                     },
                     children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                        "data-aos": "fade-up",
                         sm: 12,
                         children: [
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
                                 className: "font",
                                 style: {
-                                    backgroundColor: "#e8f6df",
-                                    marginTop: "100px",
-                                    marginLeft: "5px",
-                                    boxShadow: "2px 4px 15px 6px"
+                                    color: "white",
+                                    marginTop: "100px"
                                 },
                                 children: "NFTs"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 45,
+                                lineNumber: 105,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
                                 className: "font",
                                 style: {
-                                    backgroundColor: "#e8f6df",
-                                    marginLeft: "5px",
-                                    marginTop: "-5px",
-                                    boxShadow: "2px 0px 15px 6px"
+                                    color: "white",
+                                    marginTop: "-5px"
                                 },
                                 children: "Why Buy One?"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 46,
+                                lineNumber: 106,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
                                 className: "font",
                                 style: {
-                                    backgroundColor: "#e8f6df",
-                                    marginLeft: "5px",
+                                    color: "white",
                                     marginTop: "-5px",
-                                    boxShadow: "2px 0px 15px 6px",
                                     marginBottom: "50px"
                                 },
                                 children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 47,
+                                lineNumber: 107,
                                 columnNumber: 1
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 44,
+                        lineNumber: 104,
                         columnNumber: 1
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/home-view/home-view.jsx",
-                    lineNumber: 43,
+                    lineNumber: 103,
                     columnNumber: 1
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
+                    id: "border",
                     className: "background-color2",
                     style: {
+                        color: "white",
                         textAlign: "center",
                         border: "solid 1px whitesmoke"
                     },
@@ -36474,7 +36551,7 @@ class HomePage extends _reactDefault.default.Component {
                         children: [
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
                                 className: "font",
-                                id: "border",
+                                "data-aos": "fade-down",
                                 style: {
                                     marginTop: "50px",
                                     marginBottom: "35px"
@@ -36482,191 +36559,216 @@ class HomePage extends _reactDefault.default.Component {
                                 children: "Roadmap"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 60,
+                                lineNumber: 120,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
+                                "data-aos": "flip-down",
                                 animated: true,
                                 variant: "danger",
                                 now: 20
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 61,
+                                lineNumber: 121,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                                "data-aos": "flip-down",
+                                style: {
+                                    marginTop: "20px"
+                                },
                                 children: "looks after at Q1 2022"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 62,
+                                lineNumber: 122,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
+                                "data-aos": "flip-down",
                                 children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 63,
+                                lineNumber: 123,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
+                                "data-aos": "flip-down",
                                 animated: true,
                                 variant: "warning",
                                 now: 40
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 65,
+                                lineNumber: 125,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                                "data-aos": "flip-down",
+                                style: {
+                                    marginTop: "20px"
+                                },
                                 children: "looks after at Q2 2022"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 66,
+                                lineNumber: 126,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
+                                "data-aos": "flip-down",
                                 children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 67,
+                                lineNumber: 127,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
+                                "data-aos": "flip-up",
                                 animated: true,
                                 variant: "primary",
                                 now: 60
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 69,
+                                lineNumber: 129,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                                "data-aos": "flip-up",
+                                style: {
+                                    marginTop: "20px"
+                                },
                                 children: "looks after at Q3 2022"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 70,
+                                lineNumber: 130,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
+                                "data-aos": "flip-up",
                                 children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 71,
+                                lineNumber: 131,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
+                                "data-aos": "flip-up",
                                 animated: true,
                                 variant: "success",
                                 now: 80
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 73,
+                                lineNumber: 133,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                                "data-aos": "flip-up",
+                                style: {
+                                    marginTop: "20px"
+                                },
                                 children: "looks after at Q4 2022"
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 74,
+                                lineNumber: 134,
                                 columnNumber: 1
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
+                                "data-aos": "flip-up",
                                 style: {
                                     marginBottom: "50px"
                                 },
                                 children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 75,
+                                lineNumber: 135,
                                 columnNumber: 1
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/home-view/home-view.jsx",
-                        lineNumber: 59,
+                        lineNumber: 119,
                         columnNumber: 1
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/home-view/home-view.jsx",
-                    lineNumber: 58,
+                    lineNumber: 118,
                     columnNumber: 1
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
+                    id: "story",
                     className: "background-color3",
                     style: {
                         textAlign: "center"
                     },
                     children: [
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                            lg: 4,
+                            "data-aos": "slide-up",
+                            md: 4,
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
                                 fluid: true,
                                 style: {
                                     width: '375px',
                                     height: '375px',
-                                    marginLeft: "5px",
                                     marginTop: "50px",
                                     boxShadow: "2px 0px 15px 6px"
                                 },
                                 src: _clown2PngDefault.default
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 81,
+                                lineNumber: 141,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 80,
+                            lineNumber: 140,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                            lg: 4,
+                            "data-aos": "slide-up",
+                            md: 4,
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
                                 fluid: true,
                                 style: {
                                     width: '375px',
                                     height: '375px',
-                                    marginLeft: "5px",
                                     marginTop: "50px",
                                     boxShadow: "2px 0px 15px 6px"
                                 },
                                 src: _purplePngDefault.default
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 86,
+                                lineNumber: 146,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 85,
+                            lineNumber: 145,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                            lg: 4,
+                            "data-aos": "slide-up",
+                            md: 4,
                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
                                 fluid: true,
                                 style: {
                                     width: '375px',
                                     height: '375px',
-                                    marginLeft: "5px",
                                     marginTop: "50px",
                                     boxShadow: "2px 0px 15px 6px"
                                 },
-                                src: _kingPngDefault.default
+                                src: _arrowPngDefault.default
                             }, void 0, false, {
                                 fileName: "src/components/home-view/home-view.jsx",
-                                lineNumber: 91,
+                                lineNumber: 151,
                                 columnNumber: 1
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 90,
+                            lineNumber: 150,
                             columnNumber: 1
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/home-view/home-view.jsx",
-                    lineNumber: 79,
+                    lineNumber: 139,
                     columnNumber: 1
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
@@ -36674,63 +36776,308 @@ class HomePage extends _reactDefault.default.Component {
                     style: {
                         textAlign: "center"
                     },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                        "data-aos": "slide-up",
+                        sm: 12,
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                className: "font",
+                                style: {
+                                    color: "white",
+                                    marginTop: "50px"
+                                },
+                                children: "Our Story"
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 158,
+                                columnNumber: 1
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
+                                className: "font",
+                                style: {
+                                    color: "white",
+                                    marginTop: "-5px",
+                                    marginBottom: '50px'
+                                },
+                                children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 159,
+                                columnNumber: 1
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/home-view/home-view.jsx",
+                        lineNumber: 157,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/home-view/home-view.jsx",
+                    lineNumber: 156,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
+                    className: "background-color",
+                    style: {
+                        textAlign: "center"
+                    },
                     children: [
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            id: "team",
                             sm: 12,
-                            children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                                    className: "font",
-                                    id: "story",
-                                    style: {
-                                        backgroundColor: "#e8f6df",
-                                        marginTop: "50px",
-                                        marginLeft: "5px",
-                                        boxShadow: "2px 4px 15px 6px"
-                                    },
-                                    children: "Our Story"
-                                }, void 0, false, {
-                                    fileName: "src/components/home-view/home-view.jsx",
-                                    lineNumber: 98,
-                                    columnNumber: 1
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
-                                    className: "font",
-                                    style: {
-                                        backgroundColor: "#e8f6df",
-                                        marginLeft: "5px",
-                                        marginTop: "-5px",
-                                        boxShadow: "2px 0px 15px 6px",
-                                        marginBottom: '50px'
-                                    },
-                                    children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
-                                }, void 0, false, {
-                                    fileName: "src/components/home-view/home-view.jsx",
-                                    lineNumber: 99,
-                                    columnNumber: 1
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                "data-aos": "fade-up",
+                                className: "font",
+                                style: {
+                                    color: "white",
+                                    marginTop: "50px"
+                                },
+                                children: "Our Team"
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 179,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 97,
+                            lineNumber: 178,
                             columnNumber: 1
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                            sm: 4
+                            "data-aos": "slide-up",
+                            sm: 4,
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 182,
+                                columnNumber: 1
+                            }, this)
                         }, void 0, false, {
                             fileName: "src/components/home-view/home-view.jsx",
-                            lineNumber: 116,
+                            lineNumber: 181,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            "data-aos": "slide-up",
+                            sm: 4,
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 185,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 184,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            "data-aos": "slide-up",
+                            sm: 4,
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 188,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 187,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            "data-aos": "slide-up",
+                            sm: 4,
+                            className: "margin",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 191,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 190,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            "data-aos": "slide-up",
+                            sm: 4,
+                            className: "margin",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 194,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 193,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            "data-aos": "slide-up",
+                            sm: 4,
+                            className: "margin",
+                            style: {
+                                marginBottom: "50px"
+                            },
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 197,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 196,
                             columnNumber: 1
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/home-view/home-view.jsx",
-                    lineNumber: 96,
+                    lineNumber: 177,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
+                    id: "faq",
+                    className: "background-color2",
+                    style: {
+                        textAlign: "center",
+                        fontFamily: "Bubblegum Sans"
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            sm: 12,
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                "data-aos": "fade-down",
+                                className: "font",
+                                style: {
+                                    color: "white",
+                                    marginTop: "50px"
+                                },
+                                children: "FAQ"
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 203,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 202,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            "data-aos": "fade-up",
+                            sm: 4,
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 206,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 205,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            "data-aos": "fade-up",
+                            sm: 4,
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 209,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 208,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            "data-aos": "fade-up",
+                            sm: 4,
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 212,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 211,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            "data-aos": "fade-up",
+                            sm: 4,
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 215,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 214,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            "data-aos": "fade-up",
+                            sm: 4,
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 218,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 217,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            "data-aos": "fade-up",
+                            sm: 4,
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 221,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 220,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                            sm: 12,
+                            style: {
+                                marginBottom: "50px",
+                                marginTop: "10px"
+                            },
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(App, {
+                            }, void 0, false, {
+                                fileName: "src/components/home-view/home-view.jsx",
+                                lineNumber: 224,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/home-view.jsx",
+                            lineNumber: 223,
+                            columnNumber: 1
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/home-view/home-view.jsx",
+                    lineNumber: 201,
                     columnNumber: 1
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/home-view/home-view.jsx",
-            lineNumber: 14,
+            lineNumber: 74,
             columnNumber: 1
         }, this));
     }
@@ -36741,7 +37088,7 @@ class HomePage extends _reactDefault.default.Component {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","./home-view.scss":"hOFAc","../../Images/clown2.png":"gqkxv","../../Images/purple.png":"jmlpZ","../../Images/king.png":"bnPG3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-player":"6tM2f"}],"hOFAc":[function() {},{}],"gqkxv":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","./home-view.scss":"hOFAc","../../Images/clown2.png":"gqkxv","../../Images/purple.png":"jmlpZ","../../Images/king.png":"bnPG3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../our-team/our-team":"huuAe","../faq/faq":"7Z5fw","../roadmap-view/roadmap-view":"cYOCB","../our-story/our-story":"5GGbr","aos":"eRzTM","aos/dist/aos.css":"iYkXi","../../Images/arrow.png":"hZMRM"}],"hOFAc":[function() {},{}],"gqkxv":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "clown2.dcdeefeb.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
@@ -36905,2039 +37252,1038 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"6tM2f":[function(require,module,exports) {
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports["default"] = void 0;
-var _players = _interopRequireDefault(require("./players"));
-var _ReactPlayer = require("./ReactPlayer");
-function _interopRequireDefault(obj) {
-    return obj && obj.__esModule ? obj : {
-        "default": obj
-    };
-}
-// Fall back to FilePlayer if nothing else can play the URL
-var fallback = _players["default"][_players["default"].length - 1];
-var _default = (0, _ReactPlayer.createReactPlayer)(_players["default"], fallback);
-exports["default"] = _default;
+},{"react-refresh/runtime":"786KC"}],"huuAe":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$73a9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$73a9.prelude(module);
 
-},{"./players":"1LIzR","./ReactPlayer":"kI1Mr"}],"1LIzR":[function(require,module,exports) {
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports["default"] = void 0;
-var _react = require("react");
-var _utils = require("../utils");
-var _patterns = require("../patterns");
-function _typeof(obj1) {
-    if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") _typeof = function _typeof(obj) {
-        return typeof obj;
-    };
-    else _typeof = function _typeof(obj) {
-        return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-    };
-    return _typeof(obj1);
-}
-function _getRequireWildcardCache() {
-    if (typeof WeakMap !== "function") return null;
-    var cache = new WeakMap();
-    _getRequireWildcardCache = function _getRequireWildcardCache() {
-        return cache;
-    };
-    return cache;
-}
-function _interopRequireWildcard(obj) {
-    if (obj && obj.__esModule) return obj;
-    if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") return {
-        "default": obj
-    };
-    var cache = _getRequireWildcardCache();
-    if (cache && cache.has(obj)) return cache.get(obj);
-    var newObj = {
-    };
-    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
-    for(var key in obj)if (Object.prototype.hasOwnProperty.call(obj, key)) {
-        var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
-        if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
-        else newObj[key] = obj[key];
-    }
-    newObj["default"] = obj;
-    if (cache) cache.set(obj, newObj);
-    return newObj;
-}
-var _default = [
-    {
-        key: 'youtube',
-        name: 'YouTube',
-        canPlay: _patterns.canPlay.youtube,
-        lazyPlayer: /*#__PURE__*/ (0, _react.lazy)(function() {
-            return Promise.resolve().then(function() {
-                return require("ac1cd35c83d498fb");
-            }).then(function(res) {
-                return _interopRequireWildcard(res);
-            });
-        })
-    },
-    {
-        key: 'soundcloud',
-        name: 'SoundCloud',
-        canPlay: _patterns.canPlay.soundcloud,
-        lazyPlayer: /*#__PURE__*/ (0, _react.lazy)(function() {
-            return Promise.resolve().then(function() {
-                return require("11ada6d8a94c36d6");
-            }).then(function(res) {
-                return _interopRequireWildcard(res);
-            });
-        })
-    },
-    {
-        key: 'vimeo',
-        name: 'Vimeo',
-        canPlay: _patterns.canPlay.vimeo,
-        lazyPlayer: /*#__PURE__*/ (0, _react.lazy)(function() {
-            return Promise.resolve().then(function() {
-                return require("50dc69fac3e92ca7");
-            }).then(function(res) {
-                return _interopRequireWildcard(res);
-            });
-        })
-    },
-    {
-        key: 'facebook',
-        name: 'Facebook',
-        canPlay: _patterns.canPlay.facebook,
-        lazyPlayer: /*#__PURE__*/ (0, _react.lazy)(function() {
-            return Promise.resolve().then(function() {
-                return require("38d571cfbf1fb46b");
-            }).then(function(res) {
-                return _interopRequireWildcard(res);
-            });
-        })
-    },
-    {
-        key: 'streamable',
-        name: 'Streamable',
-        canPlay: _patterns.canPlay.streamable,
-        lazyPlayer: /*#__PURE__*/ (0, _react.lazy)(function() {
-            return Promise.resolve().then(function() {
-                return require("8f2a3ee49ba4dd7");
-            }).then(function(res) {
-                return _interopRequireWildcard(res);
-            });
-        })
-    },
-    {
-        key: 'wistia',
-        name: 'Wistia',
-        canPlay: _patterns.canPlay.wistia,
-        lazyPlayer: /*#__PURE__*/ (0, _react.lazy)(function() {
-            return Promise.resolve().then(function() {
-                return require("89c54b587a368b78");
-            }).then(function(res) {
-                return _interopRequireWildcard(res);
-            });
-        })
-    },
-    {
-        key: 'twitch',
-        name: 'Twitch',
-        canPlay: _patterns.canPlay.twitch,
-        lazyPlayer: /*#__PURE__*/ (0, _react.lazy)(function() {
-            return Promise.resolve().then(function() {
-                return require("79a4a92a6f7e6f47");
-            }).then(function(res) {
-                return _interopRequireWildcard(res);
-            });
-        })
-    },
-    {
-        key: 'dailymotion',
-        name: 'DailyMotion',
-        canPlay: _patterns.canPlay.dailymotion,
-        lazyPlayer: /*#__PURE__*/ (0, _react.lazy)(function() {
-            return Promise.resolve().then(function() {
-                return require("2eebf06904908583");
-            }).then(function(res) {
-                return _interopRequireWildcard(res);
-            });
-        })
-    },
-    {
-        key: 'mixcloud',
-        name: 'Mixcloud',
-        canPlay: _patterns.canPlay.mixcloud,
-        lazyPlayer: /*#__PURE__*/ (0, _react.lazy)(function() {
-            return Promise.resolve().then(function() {
-                return require("a70e390bcad585ce");
-            }).then(function(res) {
-                return _interopRequireWildcard(res);
-            });
-        })
-    },
-    {
-        key: 'vidyard',
-        name: 'Vidyard',
-        canPlay: _patterns.canPlay.vidyard,
-        lazyPlayer: /*#__PURE__*/ (0, _react.lazy)(function() {
-            return Promise.resolve().then(function() {
-                return require("419764d60a0c7b55");
-            }).then(function(res) {
-                return _interopRequireWildcard(res);
-            });
-        })
-    },
-    {
-        key: 'kaltura',
-        name: 'Kaltura',
-        canPlay: _patterns.canPlay.kaltura,
-        lazyPlayer: /*#__PURE__*/ (0, _react.lazy)(function() {
-            return Promise.resolve().then(function() {
-                return require("ebf06a9ddf45147b");
-            }).then(function(res) {
-                return _interopRequireWildcard(res);
-            });
-        })
-    },
-    {
-        key: 'file',
-        name: 'FilePlayer',
-        canPlay: _patterns.canPlay.file,
-        canEnablePIP: function canEnablePIP(url) {
-            return _patterns.canPlay.file(url) && (document.pictureInPictureEnabled || (0, _utils.supportsWebKitPresentationMode)()) && !_patterns.AUDIO_EXTENSIONS.test(url);
-        },
-        lazyPlayer: /*#__PURE__*/ (0, _react.lazy)(function() {
-            return Promise.resolve().then(function() {
-                return require("78091bedd2e033d4");
-            }).then(function(res) {
-                return _interopRequireWildcard(res);
-            });
-        })
-    }
-];
-exports["default"] = _default;
-
-},{"react":"21dqq","../utils":"2twkn","../patterns":"eeZWi","ac1cd35c83d498fb":"89Wzv","11ada6d8a94c36d6":"gOWuA","50dc69fac3e92ca7":"eIfld","38d571cfbf1fb46b":"ePfjo","8f2a3ee49ba4dd7":"kAGK5","89c54b587a368b78":"lqQc7","79a4a92a6f7e6f47":"aead6","2eebf06904908583":"kwam4","a70e390bcad585ce":"894IL","419764d60a0c7b55":"bwbxy","ebf06a9ddf45147b":"lrpRg","78091bedd2e033d4":"dC8Ky"}],"2twkn":[function(require,module,exports) {
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.parseStartTime = parseStartTime;
-exports.parseEndTime = parseEndTime;
-exports.randomString = randomString;
-exports.queryString = queryString;
-exports.getSDK = getSDK;
-exports.getConfig = getConfig;
-exports.omit = omit;
-exports.callPlayer = callPlayer;
-exports.isMediaStream = isMediaStream;
-exports.isBlobUrl = isBlobUrl;
-exports.supportsWebKitPresentationMode = supportsWebKitPresentationMode;
-var _loadScript = _interopRequireDefault(require("load-script"));
-var _deepmerge = _interopRequireDefault(require("deepmerge"));
-function _interopRequireDefault(obj) {
-    return obj && obj.__esModule ? obj : {
-        "default": obj
-    };
-}
-function _slicedToArray(arr, i) {
-    return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();
-}
-function _nonIterableRest() {
-    throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
-}
-function _unsupportedIterableToArray(o, minLen) {
-    if (!o) return;
-    if (typeof o === "string") return _arrayLikeToArray(o, minLen);
-    var n = Object.prototype.toString.call(o).slice(8, -1);
-    if (n === "Object" && o.constructor) n = o.constructor.name;
-    if (n === "Map" || n === "Set") return Array.from(o);
-    if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
-}
-function _arrayLikeToArray(arr, len) {
-    if (len == null || len > arr.length) len = arr.length;
-    for(var i = 0, arr2 = new Array(len); i < len; i++)arr2[i] = arr[i];
-    return arr2;
-}
-function _iterableToArrayLimit(arr, i) {
-    if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;
-    var _arr = [];
-    var _n = true;
-    var _d = false;
-    var _e = undefined;
-    try {
-        for(var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true){
-            _arr.push(_s.value);
-            if (i && _arr.length === i) break;
-        }
-    } catch (err) {
-        _d = true;
-        _e = err;
-    } finally{
-        try {
-            if (!_n && _i["return"] != null) _i["return"]();
-        } finally{
-            if (_d) throw _e;
-        }
-    }
-    return _arr;
-}
-function _arrayWithHoles(arr) {
-    if (Array.isArray(arr)) return arr;
-}
-var MATCH_START_QUERY = /[?&#](?:start|t)=([0-9hms]+)/;
-var MATCH_END_QUERY = /[?&#]end=([0-9hms]+)/;
-var MATCH_START_STAMP = /(\d+)(h|m|s)/g;
-var MATCH_NUMERIC = /^\d+$/; // Parse YouTube URL for a start time param, ie ?t=1h14m30s
-// and return the start time in seconds
-function parseTimeParam(url, pattern) {
-    if (url instanceof Array) return undefined;
-    var match = url.match(pattern);
-    if (match) {
-        var stamp = match[1];
-        if (stamp.match(MATCH_START_STAMP)) return parseTimeString(stamp);
-        if (MATCH_NUMERIC.test(stamp)) return parseInt(stamp);
-    }
-    return undefined;
-}
-function parseTimeString(stamp) {
-    var seconds = 0;
-    var array = MATCH_START_STAMP.exec(stamp);
-    while(array !== null){
-        var _array = array, _array2 = _slicedToArray(_array, 3), count = _array2[1], period = _array2[2];
-        if (period === 'h') seconds += parseInt(count, 10) * 3600;
-        if (period === 'm') seconds += parseInt(count, 10) * 60;
-        if (period === 's') seconds += parseInt(count, 10);
-        array = MATCH_START_STAMP.exec(stamp);
-    }
-    return seconds;
-}
-function parseStartTime(url) {
-    return parseTimeParam(url, MATCH_START_QUERY);
-}
-function parseEndTime(url) {
-    return parseTimeParam(url, MATCH_END_QUERY);
-} // http://stackoverflow.com/a/38622545
-function randomString() {
-    return Math.random().toString(36).substr(2, 5);
-}
-function queryString(object) {
-    return Object.keys(object).map(function(key) {
-        return "".concat(key, "=").concat(object[key]);
-    }).join('&');
-}
-function getGlobal(key) {
-    if (window[key]) return window[key];
-    if (window.exports && window.exports[key]) return window.exports[key];
-    if (window.module && window.module.exports && window.module.exports[key]) return window.module.exports[key];
-    return null;
-} // Util function to load an external SDK
-// or return the SDK if it is already loaded
-var requests = {
-};
-function getSDK(url, sdkGlobal) {
-    var sdkReady = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
-    var isLoaded = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : function() {
-        return true;
-    };
-    var fetchScript = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : _loadScript["default"];
-    var existingGlobal = getGlobal(sdkGlobal);
-    if (existingGlobal && isLoaded(existingGlobal)) return Promise.resolve(existingGlobal);
-    return new Promise(function(resolve, reject) {
-        // If we are already loading the SDK, add the resolve and reject
-        // functions to the existing array of requests
-        if (requests[url]) {
-            requests[url].push({
-                resolve: resolve,
-                reject: reject
-            });
-            return;
-        }
-        requests[url] = [
-            {
-                resolve: resolve,
-                reject: reject
-            }
-        ];
-        var onLoaded = function onLoaded(sdk) {
-            // When loaded, resolve all pending request promises
-            requests[url].forEach(function(request) {
-                return request.resolve(sdk);
-            });
-        };
-        if (sdkReady) {
-            var previousOnReady = window[sdkReady];
-            window[sdkReady] = function() {
-                if (previousOnReady) previousOnReady();
-                onLoaded(getGlobal(sdkGlobal));
-            };
-        }
-        fetchScript(url, function(err) {
-            if (err) {
-                // Loading the SDK failed – reject all requests and
-                // reset the array of requests for this SDK
-                requests[url].forEach(function(request) {
-                    return request.reject(err);
-                });
-                requests[url] = null;
-            } else if (!sdkReady) onLoaded(getGlobal(sdkGlobal));
-        });
-    });
-}
-function getConfig(props, defaultProps) {
-    return (0, _deepmerge["default"])(defaultProps.config, props.config);
-}
-function omit(object) {
-    var _ref;
-    for(var _len = arguments.length, arrays = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++)arrays[_key - 1] = arguments[_key];
-    var omitKeys = (_ref = []).concat.apply(_ref, arrays);
-    var output = {
-    };
-    var keys = Object.keys(object);
-    for(var _i2 = 0, _keys = keys; _i2 < _keys.length; _i2++){
-        var key = _keys[_i2];
-        if (omitKeys.indexOf(key) === -1) output[key] = object[key];
-    }
-    return output;
-}
-function callPlayer(method) {
-    var _this$player;
-    // Util method for calling a method on this.player
-    // but guard against errors and console.warn instead
-    if (!this.player || !this.player[method]) {
-        var message = "ReactPlayer: ".concat(this.constructor.displayName, " player could not call %c").concat(method, "%c \u2013 ");
-        if (!this.player) message += 'The player was not available';
-        else if (!this.player[method]) message += 'The method was not available';
-        console.warn(message, 'font-weight: bold', '');
-        return null;
-    }
-    for(var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++)args[_key2 - 1] = arguments[_key2];
-    return (_this$player = this.player)[method].apply(_this$player, args);
-}
-function isMediaStream(url) {
-    return typeof window !== 'undefined' && typeof window.MediaStream !== 'undefined' && url instanceof window.MediaStream;
-}
-function isBlobUrl(url) {
-    return /^blob:/.test(url);
-}
-function supportsWebKitPresentationMode() {
-    var video = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : document.createElement('video');
-    // Check if Safari supports PiP, and is not on mobile (other than iPad)
-    // iPhone safari appears to "support" PiP through the check, however PiP does not function
-    var notMobile = /iPhone|iPod/.test(navigator.userAgent) === false;
-    return video.webkitSupportsPresentationMode && typeof video.webkitSetPresentationMode === 'function' && notMobile;
-}
-
-},{"load-script":"8eVCX","deepmerge":"ck1Q2"}],"8eVCX":[function(require,module,exports) {
-module.exports = function load(src, opts, cb) {
-    var head = document.head || document.getElementsByTagName('head')[0];
-    var script = document.createElement('script');
-    if (typeof opts === 'function') {
-        cb = opts;
-        opts = {
-        };
-    }
-    opts = opts || {
-    };
-    cb = cb || function() {
-    };
-    script.type = opts.type || 'text/javascript';
-    script.charset = opts.charset || 'utf8';
-    script.async = 'async' in opts ? !!opts.async : true;
-    script.src = src;
-    if (opts.attrs) setAttributes(script, opts.attrs);
-    if (opts.text) script.text = '' + opts.text;
-    var onend = 'onload' in script ? stdOnEnd : ieOnEnd;
-    onend(script, cb);
-    // some good legacy browsers (firefox) fail the 'in' detection above
-    // so as a fallback we always set onload
-    // old IE will ignore this and new IE will set onload
-    if (!script.onload) stdOnEnd(script, cb);
-    head.appendChild(script);
-};
-function setAttributes(script, attrs) {
-    for(var attr in attrs)script.setAttribute(attr, attrs[attr]);
-}
-function stdOnEnd(script, cb) {
-    script.onload = function() {
-        this.onerror = this.onload = null;
-        cb(null, script);
-    };
-    script.onerror = function() {
-        // this.onload = null here is necessary
-        // because even IE9 works not like others
-        this.onerror = this.onload = null;
-        cb(new Error('Failed to load ' + this.src), script);
-    };
-}
-function ieOnEnd(script, cb) {
-    script.onreadystatechange = function() {
-        if (this.readyState != 'complete' && this.readyState != 'loaded') return;
-        this.onreadystatechange = null;
-        cb(null, script) // there is no way to catch loading errors in IE8
-        ;
-    };
-}
-
-},{}],"ck1Q2":[function(require,module,exports) {
-'use strict';
-var isMergeableObject = function isMergeableObject(value) {
-    return isNonNullObject(value) && !isSpecial(value);
-};
-function isNonNullObject(value) {
-    return !!value && typeof value === 'object';
-}
-function isSpecial(value) {
-    var stringValue = Object.prototype.toString.call(value);
-    return stringValue === '[object RegExp]' || stringValue === '[object Date]' || isReactElement(value);
-}
-// see https://github.com/facebook/react/blob/b5ac963fb791d1298e7f396236383bc955f916c1/src/isomorphic/classic/element/ReactElement.js#L21-L25
-var canUseSymbol = typeof Symbol === 'function' && Symbol.for;
-var REACT_ELEMENT_TYPE = canUseSymbol ? Symbol.for('react.element') : 60103;
-function isReactElement(value) {
-    return value.$$typeof === REACT_ELEMENT_TYPE;
-}
-function emptyTarget(val) {
-    return Array.isArray(val) ? [] : {
-    };
-}
-function cloneUnlessOtherwiseSpecified(value, options) {
-    return options.clone !== false && options.isMergeableObject(value) ? deepmerge(emptyTarget(value), value, options) : value;
-}
-function defaultArrayMerge(target, source, options) {
-    return target.concat(source).map(function(element) {
-        return cloneUnlessOtherwiseSpecified(element, options);
-    });
-}
-function getMergeFunction(key, options) {
-    if (!options.customMerge) return deepmerge;
-    var customMerge = options.customMerge(key);
-    return typeof customMerge === 'function' ? customMerge : deepmerge;
-}
-function getEnumerableOwnPropertySymbols(target) {
-    return Object.getOwnPropertySymbols ? Object.getOwnPropertySymbols(target).filter(function(symbol) {
-        return target.propertyIsEnumerable(symbol);
-    }) : [];
-}
-function getKeys(target) {
-    return Object.keys(target).concat(getEnumerableOwnPropertySymbols(target));
-}
-function propertyIsOnObject(object, property) {
-    try {
-        return property in object;
-    } catch (_) {
-        return false;
-    }
-}
-// Protects from prototype poisoning and unexpected merging up the prototype chain.
-function propertyIsUnsafe(target, key) {
-    return propertyIsOnObject(target, key) // Properties are safe to merge if they don't exist in the target yet,
-     && !(Object.hasOwnProperty.call(target, key) // unsafe if they exist up the prototype chain,
-     && Object.propertyIsEnumerable.call(target, key)) // and also unsafe if they're nonenumerable.
-    ;
-}
-function mergeObject(target, source, options) {
-    var destination = {
-    };
-    if (options.isMergeableObject(target)) getKeys(target).forEach(function(key) {
-        destination[key] = cloneUnlessOtherwiseSpecified(target[key], options);
-    });
-    getKeys(source).forEach(function(key) {
-        if (propertyIsUnsafe(target, key)) return;
-        if (propertyIsOnObject(target, key) && options.isMergeableObject(source[key])) destination[key] = getMergeFunction(key, options)(target[key], source[key], options);
-        else destination[key] = cloneUnlessOtherwiseSpecified(source[key], options);
-    });
-    return destination;
-}
-function deepmerge(target, source, options) {
-    options = options || {
-    };
-    options.arrayMerge = options.arrayMerge || defaultArrayMerge;
-    options.isMergeableObject = options.isMergeableObject || isMergeableObject;
-    // cloneUnlessOtherwiseSpecified is added to `options` so that custom arrayMerge()
-    // implementations can use it. The caller may not replace it.
-    options.cloneUnlessOtherwiseSpecified = cloneUnlessOtherwiseSpecified;
-    var sourceIsArray = Array.isArray(source);
-    var targetIsArray = Array.isArray(target);
-    var sourceAndTargetTypesMatch = sourceIsArray === targetIsArray;
-    if (!sourceAndTargetTypesMatch) return cloneUnlessOtherwiseSpecified(source, options);
-    else if (sourceIsArray) return options.arrayMerge(target, source, options);
-    else return mergeObject(target, source, options);
-}
-deepmerge.all = function deepmergeAll(array, options) {
-    if (!Array.isArray(array)) throw new Error('first argument should be an array');
-    return array.reduce(function(prev, next) {
-        return deepmerge(prev, next, options);
-    }, {
-    });
-};
-var deepmerge_1 = deepmerge;
-module.exports = deepmerge_1;
-
-},{}],"eeZWi":[function(require,module,exports) {
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.canPlay = exports.FLV_EXTENSIONS = exports.DASH_EXTENSIONS = exports.HLS_EXTENSIONS = exports.VIDEO_EXTENSIONS = exports.AUDIO_EXTENSIONS = exports.MATCH_URL_KALTURA = exports.MATCH_URL_VIDYARD = exports.MATCH_URL_MIXCLOUD = exports.MATCH_URL_DAILYMOTION = exports.MATCH_URL_TWITCH_CHANNEL = exports.MATCH_URL_TWITCH_VIDEO = exports.MATCH_URL_WISTIA = exports.MATCH_URL_STREAMABLE = exports.MATCH_URL_FACEBOOK_WATCH = exports.MATCH_URL_FACEBOOK = exports.MATCH_URL_VIMEO = exports.MATCH_URL_SOUNDCLOUD = exports.MATCH_URL_YOUTUBE = void 0;
-var _utils = require("./utils");
-function _createForOfIteratorHelper(o, allowArrayLike) {
-    var it;
-    if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) {
-        if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") {
-            if (it) o = it;
-            var i = 0;
-            var F = function F() {
-            };
-            return {
-                s: F,
-                n: function n() {
-                    if (i >= o.length) return {
-                        done: true
-                    };
-                    return {
-                        done: false,
-                        value: o[i++]
-                    };
-                },
-                e: function e(_e) {
-                    throw _e;
-                },
-                f: F
-            };
-        }
-        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
-    }
-    var normalCompletion = true, didErr = false, err;
-    return {
-        s: function s() {
-            it = o[Symbol.iterator]();
-        },
-        n: function n() {
-            var step = it.next();
-            normalCompletion = step.done;
-            return step;
-        },
-        e: function e(_e2) {
-            didErr = true;
-            err = _e2;
-        },
-        f: function f() {
-            try {
-                if (!normalCompletion && it["return"] != null) it["return"]();
-            } finally{
-                if (didErr) throw err;
-            }
-        }
-    };
-}
-function _unsupportedIterableToArray(o, minLen) {
-    if (!o) return;
-    if (typeof o === "string") return _arrayLikeToArray(o, minLen);
-    var n = Object.prototype.toString.call(o).slice(8, -1);
-    if (n === "Object" && o.constructor) n = o.constructor.name;
-    if (n === "Map" || n === "Set") return Array.from(o);
-    if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
-}
-function _arrayLikeToArray(arr, len) {
-    if (len == null || len > arr.length) len = arr.length;
-    for(var i = 0, arr2 = new Array(len); i < len; i++)arr2[i] = arr[i];
-    return arr2;
-}
-var MATCH_URL_YOUTUBE = /(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/(?:embed\/|v\/|watch\/|watch\?v=|watch\?.+&v=))((\w|-){11})|youtube\.com\/playlist\?list=|youtube\.com\/user\//;
-exports.MATCH_URL_YOUTUBE = MATCH_URL_YOUTUBE;
-var MATCH_URL_SOUNDCLOUD = /(?:soundcloud\.com|snd\.sc)\/[^.]+$/;
-exports.MATCH_URL_SOUNDCLOUD = MATCH_URL_SOUNDCLOUD;
-var MATCH_URL_VIMEO = /vimeo\.com\/.+/;
-exports.MATCH_URL_VIMEO = MATCH_URL_VIMEO;
-var MATCH_URL_FACEBOOK = /^https?:\/\/(www\.)?facebook\.com.*\/(video(s)?|watch|story)(\.php?|\/).+$/;
-exports.MATCH_URL_FACEBOOK = MATCH_URL_FACEBOOK;
-var MATCH_URL_FACEBOOK_WATCH = /^https?:\/\/fb\.watch\/.+$/;
-exports.MATCH_URL_FACEBOOK_WATCH = MATCH_URL_FACEBOOK_WATCH;
-var MATCH_URL_STREAMABLE = /streamable\.com\/([a-z0-9]+)$/;
-exports.MATCH_URL_STREAMABLE = MATCH_URL_STREAMABLE;
-var MATCH_URL_WISTIA = /(?:wistia\.(?:com|net)|wi\.st)\/(?:medias|embed)\/(?:iframe\/)?(.*)$/;
-exports.MATCH_URL_WISTIA = MATCH_URL_WISTIA;
-var MATCH_URL_TWITCH_VIDEO = /(?:www\.|go\.)?twitch\.tv\/videos\/(\d+)($|\?)/;
-exports.MATCH_URL_TWITCH_VIDEO = MATCH_URL_TWITCH_VIDEO;
-var MATCH_URL_TWITCH_CHANNEL = /(?:www\.|go\.)?twitch\.tv\/([a-zA-Z0-9_]+)($|\?)/;
-exports.MATCH_URL_TWITCH_CHANNEL = MATCH_URL_TWITCH_CHANNEL;
-var MATCH_URL_DAILYMOTION = /^(?:(?:https?):)?(?:\/\/)?(?:www\.)?(?:(?:dailymotion\.com(?:\/embed)?\/video)|dai\.ly)\/([a-zA-Z0-9]+)(?:_[\w_-]+)?$/;
-exports.MATCH_URL_DAILYMOTION = MATCH_URL_DAILYMOTION;
-var MATCH_URL_MIXCLOUD = /mixcloud\.com\/([^/]+\/[^/]+)/;
-exports.MATCH_URL_MIXCLOUD = MATCH_URL_MIXCLOUD;
-var MATCH_URL_VIDYARD = /vidyard.com\/(?:watch\/)?([a-zA-Z0-9-]+)/;
-exports.MATCH_URL_VIDYARD = MATCH_URL_VIDYARD;
-var MATCH_URL_KALTURA = /^https?:\/\/[a-zA-Z]+\.kaltura.(com|org)\/p\/([0-9]+)\/sp\/([0-9]+)00\/embedIframeJs\/uiconf_id\/([0-9]+)\/partner_id\/([0-9]+)(.*)entry_id.([a-zA-Z0-9-_]+)$/;
-exports.MATCH_URL_KALTURA = MATCH_URL_KALTURA;
-var AUDIO_EXTENSIONS = /\.(m4a|mp4a|mpga|mp2|mp2a|mp3|m2a|m3a|wav|weba|aac|oga|spx)($|\?)/i;
-exports.AUDIO_EXTENSIONS = AUDIO_EXTENSIONS;
-var VIDEO_EXTENSIONS = /\.(mp4|og[gv]|webm|mov|m4v)($|\?)/i;
-exports.VIDEO_EXTENSIONS = VIDEO_EXTENSIONS;
-var HLS_EXTENSIONS = /\.(m3u8)($|\?)/i;
-exports.HLS_EXTENSIONS = HLS_EXTENSIONS;
-var DASH_EXTENSIONS = /\.(mpd)($|\?)/i;
-exports.DASH_EXTENSIONS = DASH_EXTENSIONS;
-var FLV_EXTENSIONS = /\.(flv)($|\?)/i;
-exports.FLV_EXTENSIONS = FLV_EXTENSIONS;
-var canPlayFile = function canPlayFile1(url) {
-    if (url instanceof Array) {
-        var _iterator = _createForOfIteratorHelper(url), _step;
-        try {
-            for(_iterator.s(); !(_step = _iterator.n()).done;){
-                var item = _step.value;
-                if (typeof item === 'string' && canPlayFile1(item)) return true;
-                if (canPlayFile1(item.src)) return true;
-            }
-        } catch (err) {
-            _iterator.e(err);
-        } finally{
-            _iterator.f();
-        }
-        return false;
-    }
-    if ((0, _utils.isMediaStream)(url) || (0, _utils.isBlobUrl)(url)) return true;
-    return AUDIO_EXTENSIONS.test(url) || VIDEO_EXTENSIONS.test(url) || HLS_EXTENSIONS.test(url) || DASH_EXTENSIONS.test(url) || FLV_EXTENSIONS.test(url);
-};
-var canPlay = {
-    youtube: function youtube(url) {
-        if (url instanceof Array) return url.every(function(item) {
-            return MATCH_URL_YOUTUBE.test(item);
-        });
-        return MATCH_URL_YOUTUBE.test(url);
-    },
-    soundcloud: function soundcloud(url) {
-        return MATCH_URL_SOUNDCLOUD.test(url) && !AUDIO_EXTENSIONS.test(url);
-    },
-    vimeo: function vimeo(url) {
-        return MATCH_URL_VIMEO.test(url) && !VIDEO_EXTENSIONS.test(url) && !HLS_EXTENSIONS.test(url);
-    },
-    facebook: function facebook(url) {
-        return MATCH_URL_FACEBOOK.test(url) || MATCH_URL_FACEBOOK_WATCH.test(url);
-    },
-    streamable: function streamable(url) {
-        return MATCH_URL_STREAMABLE.test(url);
-    },
-    wistia: function wistia(url) {
-        return MATCH_URL_WISTIA.test(url);
-    },
-    twitch: function twitch(url) {
-        return MATCH_URL_TWITCH_VIDEO.test(url) || MATCH_URL_TWITCH_CHANNEL.test(url);
-    },
-    dailymotion: function dailymotion(url) {
-        return MATCH_URL_DAILYMOTION.test(url);
-    },
-    mixcloud: function mixcloud(url) {
-        return MATCH_URL_MIXCLOUD.test(url);
-    },
-    vidyard: function vidyard(url) {
-        return MATCH_URL_VIDYARD.test(url);
-    },
-    kaltura: function kaltura(url) {
-        return MATCH_URL_KALTURA.test(url);
-    },
-    file: canPlayFile
-};
-exports.canPlay = canPlay;
-
-},{"./utils":"2twkn"}],"89Wzv":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundle-url').getBundleURL('byUka') + "YouTube.8443fbc2.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root('ldM4q')
-);
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"61B45":[function(require,module,exports) {
-"use strict";
-var cacheLoader = require('../cacheLoader');
-module.exports = cacheLoader(function(bundle) {
-    return new Promise(function(resolve, reject) {
-        // Don't insert the same script twice (e.g. if it was already in the HTML)
-        var existingScripts = document.getElementsByTagName('script');
-        if ([].concat(existingScripts).some(function isCurrentBundle(script) {
-            return script.src === bundle;
-        })) {
-            resolve();
-            return;
-        }
-        var script1 = document.createElement('script');
-        script1.async = true;
-        script1.type = 'text/javascript';
-        script1.charset = 'utf-8';
-        script1.src = bundle;
-        script1.onerror = function(e) {
-            var error = new TypeError("Failed to fetch dynamically imported module: ".concat(bundle, ". Error: ").concat(e.message));
-            script1.onerror = script1.onload = null;
-            script1.remove();
-            reject(error);
-        };
-        script1.onload = function() {
-            script1.onerror = script1.onload = null;
-            resolve();
-        };
-        document.getElementsByTagName('head')[0].appendChild(script1);
-    });
-});
-
-},{"../cacheLoader":"j49pS"}],"j49pS":[function(require,module,exports) {
-"use strict";
-var cachedBundles = {
-};
-var cachedPreloads = {
-};
-var cachedPrefetches = {
-};
-function getCache(type) {
-    switch(type){
-        case 'preload':
-            return cachedPreloads;
-        case 'prefetch':
-            return cachedPrefetches;
-        default:
-            return cachedBundles;
-    }
-}
-module.exports = function(loader, type) {
-    return function(bundle) {
-        var cache = getCache(type);
-        if (cache[bundle]) return cache[bundle];
-        return cache[bundle] = loader.apply(null, arguments).catch(function(e) {
-            delete cache[bundle];
-            throw e;
-        });
-    };
-};
-
-},{}],"gOWuA":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundle-url').getBundleURL('byUka') + "SoundCloud.7588e177.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root('lkFXm')
-);
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"eIfld":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundle-url').getBundleURL('byUka') + "Vimeo.137fd17f.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root('3S8pC')
-);
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"ePfjo":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundle-url').getBundleURL('byUka') + "Facebook.25f11ec1.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root('jPrAJ')
-);
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"kAGK5":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundle-url').getBundleURL('byUka') + "Streamable.a3c8bbdc.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root('iXIpc')
-);
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"lqQc7":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundle-url').getBundleURL('byUka') + "Wistia.aaeb84b7.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root('f3sjL')
-);
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"aead6":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundle-url').getBundleURL('byUka') + "Twitch.38e5261d.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root('d7V7U')
-);
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"kwam4":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundle-url').getBundleURL('byUka') + "DailyMotion.f88d8793.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root('hmJJN')
-);
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"894IL":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundle-url').getBundleURL('byUka') + "Mixcloud.1c899b38.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root('gqJxL')
-);
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"bwbxy":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundle-url').getBundleURL('byUka') + "Vidyard.1ae288bb.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root('7qYee')
-);
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"lrpRg":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundle-url').getBundleURL('byUka') + "Kaltura.4d8ea33a.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root('ikVK4')
-);
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"dC8Ky":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundle-url').getBundleURL('byUka') + "FilePlayer.71beb3e5.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root('k0ASP')
-);
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"kI1Mr":[function(require,module,exports) {
-"use strict";
-var global = arguments[3];
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.createReactPlayer = void 0;
-var _react = _interopRequireWildcard(require("react"));
-var _deepmerge = _interopRequireDefault(require("deepmerge"));
-var _memoizeOne = _interopRequireDefault(require("memoize-one"));
-var _reactFastCompare = _interopRequireDefault(require("react-fast-compare"));
-var _props = require("./props");
-var _utils = require("./utils");
-var _Player3 = _interopRequireDefault(require("./Player"));
-function _interopRequireDefault(obj) {
-    return obj && obj.__esModule ? obj : {
-        "default": obj
-    };
-}
-function _typeof(obj1) {
-    if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") _typeof = function _typeof(obj) {
-        return typeof obj;
-    };
-    else _typeof = function _typeof(obj) {
-        return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-    };
-    return _typeof(obj1);
-}
-function ownKeys(object, enumerableOnly) {
-    var keys = Object.keys(object);
-    if (Object.getOwnPropertySymbols) {
-        var symbols = Object.getOwnPropertySymbols(object);
-        if (enumerableOnly) symbols = symbols.filter(function(sym) {
-            return Object.getOwnPropertyDescriptor(object, sym).enumerable;
-        });
-        keys.push.apply(keys, symbols);
-    }
-    return keys;
-}
-function _objectSpread(target) {
-    for(var i = 1; i < arguments.length; i++){
-        var source = arguments[i] != null ? arguments[i] : {
-        };
-        if (i % 2) ownKeys(Object(source), true).forEach(function(key) {
-            _defineProperty(target, key, source[key]);
-        });
-        else if (Object.getOwnPropertyDescriptors) Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
-        else ownKeys(Object(source)).forEach(function(key) {
-            Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
-        });
-    }
-    return target;
-}
-function _extends() {
-    _extends = Object.assign || function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
-        }
-        return target;
-    };
-    return _extends.apply(this, arguments);
-}
-function _toConsumableArray(arr) {
-    return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
-}
-function _nonIterableSpread() {
-    throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
-}
-function _unsupportedIterableToArray(o, minLen) {
-    if (!o) return;
-    if (typeof o === "string") return _arrayLikeToArray(o, minLen);
-    var n = Object.prototype.toString.call(o).slice(8, -1);
-    if (n === "Object" && o.constructor) n = o.constructor.name;
-    if (n === "Map" || n === "Set") return Array.from(o);
-    if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
-}
-function _iterableToArray(iter) {
-    if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter);
-}
-function _arrayWithoutHoles(arr) {
-    if (Array.isArray(arr)) return _arrayLikeToArray(arr);
-}
-function _arrayLikeToArray(arr, len) {
-    if (len == null || len > arr.length) len = arr.length;
-    for(var i = 0, arr2 = new Array(len); i < len; i++)arr2[i] = arr[i];
-    return arr2;
-}
-function _classCallCheck(instance, Constructor) {
-    if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function");
-}
-function _defineProperties(target, props) {
-    for(var i = 0; i < props.length; i++){
-        var descriptor = props[i];
-        descriptor.enumerable = descriptor.enumerable || false;
-        descriptor.configurable = true;
-        if ("value" in descriptor) descriptor.writable = true;
-        Object.defineProperty(target, descriptor.key, descriptor);
-    }
-}
-function _createClass(Constructor, protoProps, staticProps) {
-    if (protoProps) _defineProperties(Constructor.prototype, protoProps);
-    if (staticProps) _defineProperties(Constructor, staticProps);
-    return Constructor;
-}
-function _inherits(subClass, superClass) {
-    if (typeof superClass !== "function" && superClass !== null) throw new TypeError("Super expression must either be null or a function");
-    subClass.prototype = Object.create(superClass && superClass.prototype, {
-        constructor: {
-            value: subClass,
-            writable: true,
-            configurable: true
-        }
-    });
-    if (superClass) _setPrototypeOf(subClass, superClass);
-}
-function _setPrototypeOf(o1, p1) {
-    _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
-        o.__proto__ = p;
-        return o;
-    };
-    return _setPrototypeOf(o1, p1);
-}
-function _createSuper(Derived) {
-    var hasNativeReflectConstruct = _isNativeReflectConstruct();
-    return function _createSuperInternal() {
-        var Super = _getPrototypeOf(Derived), result;
-        if (hasNativeReflectConstruct) {
-            var NewTarget = _getPrototypeOf(this).constructor;
-            result = Reflect.construct(Super, arguments, NewTarget);
-        } else result = Super.apply(this, arguments);
-        return _possibleConstructorReturn(this, result);
-    };
-}
-function _possibleConstructorReturn(self, call) {
-    if (call && (_typeof(call) === "object" || typeof call === "function")) return call;
-    return _assertThisInitialized(self);
-}
-function _assertThisInitialized(self) {
-    if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-    return self;
-}
-function _isNativeReflectConstruct() {
-    if (typeof Reflect === "undefined" || !Reflect.construct) return false;
-    if (Reflect.construct.sham) return false;
-    if (typeof Proxy === "function") return true;
-    try {
-        Date.prototype.toString.call(Reflect.construct(Date, [], function() {
-        }));
-        return true;
-    } catch (e) {
-        return false;
-    }
-}
-function _getPrototypeOf(o2) {
-    _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
-        return o.__proto__ || Object.getPrototypeOf(o);
-    };
-    return _getPrototypeOf(o2);
-}
-function _defineProperty(obj, key, value) {
-    if (key in obj) Object.defineProperty(obj, key, {
-        value: value,
-        enumerable: true,
-        configurable: true,
-        writable: true
-    });
-    else obj[key] = value;
-    return obj;
-}
-function _getRequireWildcardCache() {
-    if (typeof WeakMap !== "function") return null;
-    var cache = new WeakMap();
-    _getRequireWildcardCache = function _getRequireWildcardCache() {
-        return cache;
-    };
-    return cache;
-}
-function _interopRequireWildcard(obj) {
-    if (obj && obj.__esModule) return obj;
-    if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") return {
-        "default": obj
-    };
-    var cache = _getRequireWildcardCache();
-    if (cache && cache.has(obj)) return cache.get(obj);
-    var newObj = {
-    };
-    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
-    for(var key in obj)if (Object.prototype.hasOwnProperty.call(obj, key)) {
-        var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
-        if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
-        else newObj[key] = obj[key];
-    }
-    newObj["default"] = obj;
-    if (cache) cache.set(obj, newObj);
-    return newObj;
-}
-var Preview = /*#__PURE__*/ (0, _react.lazy)(function() {
-    return Promise.resolve().then(function() {
-        return require("c65200a130a970c9");
-    }).then(function(res) {
-        return _interopRequireWildcard(res);
-    });
-});
-var IS_BROWSER = typeof window !== 'undefined' && window.document;
-var IS_GLOBAL = typeof global !== 'undefined' && global.window && global.window.document;
-var SUPPORTED_PROPS = Object.keys(_props.propTypes); // Return null when rendering on the server
-// as Suspense is not supported yet
-var UniversalSuspense = IS_BROWSER || IS_GLOBAL ? _react.Suspense : function() {
-    return null;
-};
-var customPlayers = [];
-var createReactPlayer = function createReactPlayer(players, fallback1) {
-    var _class, _temp;
-    return _temp = _class = /*#__PURE__*/ (function(_Component) {
-        _inherits(ReactPlayer, _Component);
-        var _super = _createSuper(ReactPlayer);
-        function ReactPlayer() {
-            var _this;
-            _classCallCheck(this, ReactPlayer);
-            for(var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++)args[_key] = arguments[_key];
-            _this = _super.call.apply(_super, [
-                this
-            ].concat(args));
-            _defineProperty(_assertThisInitialized(_this), "state", {
-                showPreview: !!_this.props.light
-            });
-            _defineProperty(_assertThisInitialized(_this), "references", {
-                wrapper: function wrapper(_wrapper) {
-                    _this.wrapper = _wrapper;
-                },
-                player: function player(_player) {
-                    _this.player = _player;
-                }
-            });
-            _defineProperty(_assertThisInitialized(_this), "handleClickPreview", function(e) {
-                _this.setState({
-                    showPreview: false
-                });
-                _this.props.onClickPreview(e);
-            });
-            _defineProperty(_assertThisInitialized(_this), "showPreview", function() {
-                _this.setState({
-                    showPreview: true
-                });
-            });
-            _defineProperty(_assertThisInitialized(_this), "getDuration", function() {
-                if (!_this.player) return null;
-                return _this.player.getDuration();
-            });
-            _defineProperty(_assertThisInitialized(_this), "getCurrentTime", function() {
-                if (!_this.player) return null;
-                return _this.player.getCurrentTime();
-            });
-            _defineProperty(_assertThisInitialized(_this), "getSecondsLoaded", function() {
-                if (!_this.player) return null;
-                return _this.player.getSecondsLoaded();
-            });
-            _defineProperty(_assertThisInitialized(_this), "getInternalPlayer", function() {
-                var key = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'player';
-                if (!_this.player) return null;
-                return _this.player.getInternalPlayer(key);
-            });
-            _defineProperty(_assertThisInitialized(_this), "seekTo", function(fraction, type) {
-                if (!_this.player) return null;
-                _this.player.seekTo(fraction, type);
-            });
-            _defineProperty(_assertThisInitialized(_this), "handleReady", function() {
-                _this.props.onReady(_assertThisInitialized(_this));
-            });
-            _defineProperty(_assertThisInitialized(_this), "getActivePlayer", (0, _memoizeOne["default"])(function(url) {
-                for(var _i = 0, _arr = [].concat(customPlayers, _toConsumableArray(players)); _i < _arr.length; _i++){
-                    var player = _arr[_i];
-                    if (player.canPlay(url)) return player;
-                }
-                if (fallback1) return fallback1;
-                return null;
-            }));
-            _defineProperty(_assertThisInitialized(_this), "getConfig", (0, _memoizeOne["default"])(function(url, key) {
-                var config = _this.props.config;
-                return _deepmerge["default"].all([
-                    _props.defaultProps.config,
-                    _props.defaultProps.config[key] || {
-                    },
-                    config,
-                    config[key] || {
-                    }
-                ]);
-            }));
-            _defineProperty(_assertThisInitialized(_this), "getAttributes", (0, _memoizeOne["default"])(function(url) {
-                return (0, _utils.omit)(_this.props, SUPPORTED_PROPS);
-            }));
-            _defineProperty(_assertThisInitialized(_this), "renderActivePlayer", function(url) {
-                if (!url) return null;
-                var player = _this.getActivePlayer(url);
-                if (!player) return null;
-                var config = _this.getConfig(url, player.key);
-                return(/*#__PURE__*/ _react["default"].createElement(_Player3["default"], _extends({
-                }, _this.props, {
-                    key: player.key,
-                    ref: _this.references.player,
-                    config: config,
-                    activePlayer: player.lazyPlayer || player,
-                    onReady: _this.handleReady
-                })));
-            });
-            return _this;
-        }
-        _createClass(ReactPlayer, [
-            {
-                key: "shouldComponentUpdate",
-                value: function shouldComponentUpdate(nextProps, nextState) {
-                    return !(0, _reactFastCompare["default"])(this.props, nextProps) || !(0, _reactFastCompare["default"])(this.state, nextState);
-                }
-            },
-            {
-                key: "componentDidUpdate",
-                value: function componentDidUpdate(prevProps) {
-                    var light = this.props.light;
-                    if (!prevProps.light && light) this.setState({
-                        showPreview: true
-                    });
-                    if (prevProps.light && !light) this.setState({
-                        showPreview: false
-                    });
-                }
-            },
-            {
-                key: "renderPreview",
-                value: function renderPreview(url) {
-                    if (!url) return null;
-                    var _this$props = this.props, light = _this$props.light, playIcon = _this$props.playIcon, previewTabIndex = _this$props.previewTabIndex;
-                    return(/*#__PURE__*/ _react["default"].createElement(Preview, {
-                        url: url,
-                        light: light,
-                        playIcon: playIcon,
-                        previewTabIndex: previewTabIndex,
-                        onClick: this.handleClickPreview
-                    }));
-                }
-            },
-            {
-                key: "render",
-                value: function render() {
-                    var _this$props2 = this.props, url = _this$props2.url, style = _this$props2.style, width = _this$props2.width, height = _this$props2.height, fallback = _this$props2.fallback, Wrapper = _this$props2.wrapper;
-                    var showPreview = this.state.showPreview;
-                    var attributes = this.getAttributes(url);
-                    return(/*#__PURE__*/ _react["default"].createElement(Wrapper, _extends({
-                        ref: this.references.wrapper,
-                        style: _objectSpread(_objectSpread({
-                        }, style), {
-                        }, {
-                            width: width,
-                            height: height
-                        })
-                    }, attributes), /*#__PURE__*/ _react["default"].createElement(UniversalSuspense, {
-                        fallback: fallback
-                    }, showPreview ? this.renderPreview(url) : this.renderActivePlayer(url))));
-                }
-            }
-        ]);
-        return ReactPlayer;
-    })(_react.Component), _defineProperty(_class, "displayName", 'ReactPlayer'), _defineProperty(_class, "propTypes", _props.propTypes), _defineProperty(_class, "defaultProps", _props.defaultProps), _defineProperty(_class, "addCustomPlayer", function(player) {
-        customPlayers.push(player);
-    }), _defineProperty(_class, "removeCustomPlayers", function() {
-        customPlayers.length = 0;
-    }), _defineProperty(_class, "canPlay", function(url) {
-        for(var _i2 = 0, _arr2 = [].concat(customPlayers, _toConsumableArray(players)); _i2 < _arr2.length; _i2++){
-            var _Player = _arr2[_i2];
-            if (_Player.canPlay(url)) return true;
-        }
-        return false;
-    }), _defineProperty(_class, "canEnablePIP", function(url) {
-        for(var _i3 = 0, _arr3 = [].concat(customPlayers, _toConsumableArray(players)); _i3 < _arr3.length; _i3++){
-            var _Player2 = _arr3[_i3];
-            if (_Player2.canEnablePIP && _Player2.canEnablePIP(url)) return true;
-        }
-        return false;
-    }), _temp;
-};
-exports.createReactPlayer = createReactPlayer;
-
-},{"react":"21dqq","deepmerge":"ck1Q2","memoize-one":"ajWd5","react-fast-compare":"isHbY","./props":"aLjed","./utils":"2twkn","./Player":"esXfx","c65200a130a970c9":"a20P9"}],"ajWd5":[function(require,module,exports) {
+try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var safeIsNaN = Number.isNaN || function ponyfill(value) {
-    return typeof value === 'number' && value !== value;
-};
-function isEqual(first, second) {
-    if (first === second) return true;
-    if (safeIsNaN(first) && safeIsNaN(second)) return true;
-    return false;
-}
-function areInputsEqual(newInputs, lastInputs) {
-    if (newInputs.length !== lastInputs.length) return false;
-    for(var i = 0; i < newInputs.length; i++){
-        if (!isEqual(newInputs[i], lastInputs[i])) return false;
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+var _clown2Png = require("../../Images/clown2.png");
+var _clown2PngDefault = parcelHelpers.interopDefault(_clown2Png);
+var _instagramPng = require("../../Images/Instagram.png");
+var _instagramPngDefault = parcelHelpers.interopDefault(_instagramPng);
+var _twiiterPng = require("../../Images/twiiter.png");
+var _twiiterPngDefault = parcelHelpers.interopDefault(_twiiterPng);
+class OurTeam extends _reactDefault.default.Component {
+    render() {
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card, {
+            fluid: true,
+            style: {
+                marginTop: "20px",
+                boxShadow: "black 0px 0px 11px 2px",
+                fontFamily: "Bubblegum Sans"
+            },
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card.Img, {
+                    variant: "top",
+                    src: _clown2PngDefault.default,
+                    style: {
+                    }
+                }, void 0, false, {
+                    fileName: "src/components/our-team/our-team.jsx",
+                    lineNumber: 10,
+                    columnNumber: 3
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card.Body, {
+                    style: {
+                        backgroundColor: "#e8f6df"
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card.Title, {
+                            children: "Card Title"
+                        }, void 0, false, {
+                            fileName: "src/components/our-team/our-team.jsx",
+                            lineNumber: 12,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card.Text, {
+                            style: {
+                                color: "black"
+                            },
+                            children: "Some quick example text to build on the card title and make up the bulk of the card's content."
+                        }, void 0, false, {
+                            fileName: "src/components/our-team/our-team.jsx",
+                            lineNumber: 13,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
+                            variant: "warning",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                                src: _instagramPngDefault.default,
+                                style: {
+                                    width: "40px"
+                                }
+                            }, void 0, false, {
+                                fileName: "src/components/our-team/our-team.jsx",
+                                lineNumber: 18,
+                                columnNumber: 5
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/our-team/our-team.jsx",
+                            lineNumber: 17,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
+                            variant: "warning",
+                            style: {
+                                marginLeft: "5px"
+                            },
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                                src: _twiiterPngDefault.default,
+                                style: {
+                                    width: "40px",
+                                    height: "30px"
+                                }
+                            }, void 0, false, {
+                                fileName: "src/components/our-team/our-team.jsx",
+                                lineNumber: 21,
+                                columnNumber: 5
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/our-team/our-team.jsx",
+                            lineNumber: 20,
+                            columnNumber: 5
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/our-team/our-team.jsx",
+                    lineNumber: 11,
+                    columnNumber: 3
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/our-team/our-team.jsx",
+            lineNumber: 9,
+            columnNumber: 1
+        }, this));
     }
-    return true;
 }
-function memoizeOne(resultFn, isEqual1) {
-    if (isEqual1 === void 0) isEqual1 = areInputsEqual;
-    var lastThis;
-    var lastArgs = [];
-    var lastResult;
-    var calledOnce = false;
-    function memoized() {
-        var newArgs = [];
-        for(var _i = 0; _i < arguments.length; _i++)newArgs[_i] = arguments[_i];
-        if (calledOnce && lastThis === this && isEqual1(newArgs, lastArgs)) return lastResult;
-        lastResult = resultFn.apply(this, newArgs);
-        calledOnce = true;
-        lastThis = this;
-        lastArgs = newArgs;
-        return lastResult;
-    }
-    return memoized;
-}
-exports.default = memoizeOne;
+exports.default = OurTeam;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"isHbY":[function(require,module,exports) {
-/* global Map:readonly, Set:readonly, ArrayBuffer:readonly */ var hasElementType = typeof Element !== 'undefined';
-var hasMap = typeof Map === 'function';
-var hasSet = typeof Set === 'function';
-var hasArrayBuffer = typeof ArrayBuffer === 'function' && !!ArrayBuffer.isView;
-// Note: We **don't** need `envHasBigInt64Array` in fde es6/index.js
-function equal(a, b) {
-    // START: fast-deep-equal es6/index.js 3.1.1
-    if (a === b) return true;
-    if (a && b && typeof a == 'object' && typeof b == 'object') {
-        if (a.constructor !== b.constructor) return false;
-        var length, i, keys;
-        if (Array.isArray(a)) {
-            length = a.length;
-            if (length != b.length) return false;
-            for(i = length; (i--) !== 0;)if (!equal(a[i], b[i])) return false;
-            return true;
-        }
-        // START: Modifications:
-        // 1. Extra `has<Type> &&` helpers in initial condition allow es6 code
-        //    to co-exist with es5.
-        // 2. Replace `for of` with es5 compliant iteration using `for`.
-        //    Basically, take:
-        //
-        //    ```js
-        //    for (i of a.entries())
-        //      if (!b.has(i[0])) return false;
-        //    ```
-        //
-        //    ... and convert to:
-        //
-        //    ```js
-        //    it = a.entries();
-        //    while (!(i = it.next()).done)
-        //      if (!b.has(i.value[0])) return false;
-        //    ```
-        //
-        //    **Note**: `i` access switches to `i.value`.
-        var it;
-        if (hasMap && a instanceof Map && b instanceof Map) {
-            if (a.size !== b.size) return false;
-            it = a.entries();
-            while(!(i = it.next()).done)if (!b.has(i.value[0])) return false;
-            it = a.entries();
-            while(!(i = it.next()).done)if (!equal(i.value[1], b.get(i.value[0]))) return false;
-            return true;
-        }
-        if (hasSet && a instanceof Set && b instanceof Set) {
-            if (a.size !== b.size) return false;
-            it = a.entries();
-            while(!(i = it.next()).done)if (!b.has(i.value[0])) return false;
-            return true;
-        }
-        // END: Modifications
-        if (hasArrayBuffer && ArrayBuffer.isView(a) && ArrayBuffer.isView(b)) {
-            length = a.length;
-            if (length != b.length) return false;
-            for(i = length; (i--) !== 0;)if (a[i] !== b[i]) return false;
-            return true;
-        }
-        if (a.constructor === RegExp) return a.source === b.source && a.flags === b.flags;
-        if (a.valueOf !== Object.prototype.valueOf) return a.valueOf() === b.valueOf();
-        if (a.toString !== Object.prototype.toString) return a.toString() === b.toString();
-        keys = Object.keys(a);
-        length = keys.length;
-        if (length !== Object.keys(b).length) return false;
-        for(i = length; (i--) !== 0;)if (!Object.prototype.hasOwnProperty.call(b, keys[i])) return false;
-        // END: fast-deep-equal
-        // START: react-fast-compare
-        // custom handling for DOM elements
-        if (hasElementType && a instanceof Element) return false;
-        // custom handling for React/Preact
-        for(i = length; (i--) !== 0;){
-            if ((keys[i] === '_owner' || keys[i] === '__v' || keys[i] === '__o') && a.$$typeof) continue;
-            // all other properties should be traversed as usual
-            if (!equal(a[keys[i]], b[keys[i]])) return false;
-        }
-        // END: react-fast-compare
-        // START: fast-deep-equal
-        return true;
-    }
-    return a !== a && b !== b;
+  $parcel$ReactRefreshHelpers$73a9.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
 }
-// end fast-deep-equal
-module.exports = function isEqual(a, b) {
-    try {
-        return equal(a, b);
-    } catch (error) {
-        if ((error.message || '').match(/stack|recursion/i)) {
-            // warn on circular references, don't crash
-            // browsers give this different errors name and messages:
-            // chrome/safari: "RangeError", "Maximum call stack size exceeded"
-            // firefox: "InternalError", too much recursion"
-            // edge: "Error", "Out of stack space"
-            console.warn('react-fast-compare cannot handle circular refs');
-            return false;
-        }
-        // some other error. we should definitely know about these
-        throw error;
-    }
-};
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","../../Images/clown2.png":"gqkxv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../Images/Instagram.png":"8yxoJ","../../Images/twiiter.png":"3swJN"}],"8yxoJ":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "Instagram.12546bd9.png" + "?" + Date.now();
 
-},{}],"aLjed":[function(require,module,exports) {
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.defaultProps = exports.propTypes = void 0;
-var _propTypes = _interopRequireDefault(require("prop-types"));
-function _interopRequireDefault(obj) {
-    return obj && obj.__esModule ? obj : {
-        "default": obj
-    };
-}
-var string = _propTypes["default"].string, bool = _propTypes["default"].bool, number = _propTypes["default"].number, array = _propTypes["default"].array, oneOfType = _propTypes["default"].oneOfType, shape = _propTypes["default"].shape, object = _propTypes["default"].object, func = _propTypes["default"].func, node = _propTypes["default"].node;
-var propTypes = {
-    url: oneOfType([
-        string,
-        array,
-        object
-    ]),
-    playing: bool,
-    loop: bool,
-    controls: bool,
-    volume: number,
-    muted: bool,
-    playbackRate: number,
-    width: oneOfType([
-        string,
-        number
-    ]),
-    height: oneOfType([
-        string,
-        number
-    ]),
-    style: object,
-    progressInterval: number,
-    playsinline: bool,
-    pip: bool,
-    stopOnUnmount: bool,
-    light: oneOfType([
-        bool,
-        string
-    ]),
-    playIcon: node,
-    previewTabIndex: number,
-    fallback: node,
-    wrapper: oneOfType([
-        string,
-        func,
-        shape({
-            render: func.isRequired
-        })
-    ]),
-    config: shape({
-        soundcloud: shape({
-            options: object
-        }),
-        youtube: shape({
-            playerVars: object,
-            embedOptions: object,
-            onUnstarted: func
-        }),
-        facebook: shape({
-            appId: string,
-            version: string,
-            playerId: string,
-            attributes: object
-        }),
-        dailymotion: shape({
-            params: object
-        }),
-        vimeo: shape({
-            playerOptions: object
-        }),
-        file: shape({
-            attributes: object,
-            tracks: array,
-            forceVideo: bool,
-            forceAudio: bool,
-            forceHLS: bool,
-            forceDASH: bool,
-            forceFLV: bool,
-            hlsOptions: object,
-            hlsVersion: string,
-            dashVersion: string,
-            flvVersion: string
-        }),
-        wistia: shape({
-            options: object,
-            playerId: string,
-            customControls: array
-        }),
-        mixcloud: shape({
-            options: object
-        }),
-        twitch: shape({
-            options: object,
-            playerId: string
-        }),
-        vidyard: shape({
-            options: object
-        })
-    }),
-    onReady: func,
-    onStart: func,
-    onPlay: func,
-    onPause: func,
-    onBuffer: func,
-    onBufferEnd: func,
-    onEnded: func,
-    onError: func,
-    onDuration: func,
-    onSeek: func,
-    onProgress: func,
-    onClickPreview: func,
-    onEnablePIP: func,
-    onDisablePIP: func
-};
-exports.propTypes = propTypes;
-var noop = function noop() {
-};
-var defaultProps = {
-    playing: false,
-    loop: false,
-    controls: false,
-    volume: null,
-    muted: false,
-    playbackRate: 1,
-    width: '640px',
-    height: '360px',
-    style: {
-    },
-    progressInterval: 1000,
-    playsinline: false,
-    pip: false,
-    stopOnUnmount: true,
-    light: false,
-    fallback: null,
-    wrapper: 'div',
-    previewTabIndex: 0,
-    config: {
-        soundcloud: {
-            options: {
-                visual: true,
-                // Undocumented, but makes player fill container and look better
-                buying: false,
-                liking: false,
-                download: false,
-                sharing: false,
-                show_comments: false,
-                show_playcount: false
-            }
-        },
-        youtube: {
-            playerVars: {
-                playsinline: 1,
-                showinfo: 0,
-                rel: 0,
-                iv_load_policy: 3,
-                modestbranding: 1
-            },
-            embedOptions: {
-            },
-            onUnstarted: noop
-        },
-        facebook: {
-            appId: '1309697205772819',
-            version: 'v3.3',
-            playerId: null,
-            attributes: {
-            }
-        },
-        dailymotion: {
-            params: {
-                api: 1,
-                'endscreen-enable': false
-            }
-        },
-        vimeo: {
-            playerOptions: {
-                autopause: false,
-                byline: false,
-                portrait: false,
-                title: false
-            }
-        },
-        file: {
-            attributes: {
-            },
-            tracks: [],
-            forceVideo: false,
-            forceAudio: false,
-            forceHLS: false,
-            forceDASH: false,
-            forceFLV: false,
-            hlsOptions: {
-            },
-            hlsVersion: '0.14.16',
-            dashVersion: '3.1.3',
-            flvVersion: '1.5.0'
-        },
-        wistia: {
-            options: {
-            },
-            playerId: null,
-            customControls: null
-        },
-        mixcloud: {
-            options: {
-                hide_cover: 1
-            }
-        },
-        twitch: {
-            options: {
-            },
-            playerId: null
-        },
-        vidyard: {
-            options: {
-            }
-        }
-    },
-    onReady: noop,
-    onStart: noop,
-    onPlay: noop,
-    onPause: noop,
-    onBuffer: noop,
-    onBufferEnd: noop,
-    onEnded: noop,
-    onError: noop,
-    onDuration: noop,
-    onSeek: noop,
-    onProgress: noop,
-    onClickPreview: noop,
-    onEnablePIP: noop,
-    onDisablePIP: noop
-};
-exports.defaultProps = defaultProps;
+},{"./helpers/bundle-url":"lgJ39"}],"3swJN":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "twiiter.b85780a4.png" + "?" + Date.now();
 
-},{"prop-types":"7wKI2"}],"esXfx":[function(require,module,exports) {
-"use strict";
-function _typeof(obj1) {
-    if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") _typeof = function _typeof(obj) {
-        return typeof obj;
-    };
-    else _typeof = function _typeof(obj) {
-        return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-    };
-    return _typeof(obj1);
-}
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports["default"] = void 0;
-var _react = _interopRequireWildcard(require("react"));
-var _reactFastCompare = _interopRequireDefault(require("react-fast-compare"));
-var _props = require("./props");
-function _interopRequireDefault(obj) {
-    return obj && obj.__esModule ? obj : {
-        "default": obj
-    };
-}
-function _getRequireWildcardCache() {
-    if (typeof WeakMap !== "function") return null;
-    var cache = new WeakMap();
-    _getRequireWildcardCache = function _getRequireWildcardCache() {
-        return cache;
-    };
-    return cache;
-}
-function _interopRequireWildcard(obj) {
-    if (obj && obj.__esModule) return obj;
-    if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") return {
-        "default": obj
-    };
-    var cache = _getRequireWildcardCache();
-    if (cache && cache.has(obj)) return cache.get(obj);
-    var newObj = {
-    };
-    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
-    for(var key in obj)if (Object.prototype.hasOwnProperty.call(obj, key)) {
-        var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
-        if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
-        else newObj[key] = obj[key];
-    }
-    newObj["default"] = obj;
-    if (cache) cache.set(obj, newObj);
-    return newObj;
-}
-function _extends() {
-    _extends = Object.assign || function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
-        }
-        return target;
-    };
-    return _extends.apply(this, arguments);
-}
-function _classCallCheck(instance, Constructor) {
-    if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function");
-}
-function _defineProperties(target, props) {
-    for(var i = 0; i < props.length; i++){
-        var descriptor = props[i];
-        descriptor.enumerable = descriptor.enumerable || false;
-        descriptor.configurable = true;
-        if ("value" in descriptor) descriptor.writable = true;
-        Object.defineProperty(target, descriptor.key, descriptor);
-    }
-}
-function _createClass(Constructor, protoProps, staticProps) {
-    if (protoProps) _defineProperties(Constructor.prototype, protoProps);
-    if (staticProps) _defineProperties(Constructor, staticProps);
-    return Constructor;
-}
-function _inherits(subClass, superClass) {
-    if (typeof superClass !== "function" && superClass !== null) throw new TypeError("Super expression must either be null or a function");
-    subClass.prototype = Object.create(superClass && superClass.prototype, {
-        constructor: {
-            value: subClass,
-            writable: true,
-            configurable: true
-        }
-    });
-    if (superClass) _setPrototypeOf(subClass, superClass);
-}
-function _setPrototypeOf(o1, p1) {
-    _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
-        o.__proto__ = p;
-        return o;
-    };
-    return _setPrototypeOf(o1, p1);
-}
-function _createSuper(Derived) {
-    var hasNativeReflectConstruct = _isNativeReflectConstruct();
-    return function _createSuperInternal() {
-        var Super = _getPrototypeOf(Derived), result;
-        if (hasNativeReflectConstruct) {
-            var NewTarget = _getPrototypeOf(this).constructor;
-            result = Reflect.construct(Super, arguments, NewTarget);
-        } else result = Super.apply(this, arguments);
-        return _possibleConstructorReturn(this, result);
-    };
-}
-function _possibleConstructorReturn(self, call) {
-    if (call && (_typeof(call) === "object" || typeof call === "function")) return call;
-    return _assertThisInitialized(self);
-}
-function _assertThisInitialized(self) {
-    if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-    return self;
-}
-function _isNativeReflectConstruct() {
-    if (typeof Reflect === "undefined" || !Reflect.construct) return false;
-    if (Reflect.construct.sham) return false;
-    if (typeof Proxy === "function") return true;
-    try {
-        Date.prototype.toString.call(Reflect.construct(Date, [], function() {
-        }));
-        return true;
-    } catch (e) {
-        return false;
+},{"./helpers/bundle-url":"lgJ39"}],"7Z5fw":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$840d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$840d.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+class FactsAnswers extends _reactDefault.default.Component {
+    render() {
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion, {
+            defaultActiveKey: "0",
+            style: {
+                boxShadow: "black 0px 0px 15px 0px",
+                background: "#e8f6df",
+                marginTop: "40px"
+            },
+            flush: true,
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Item, {
+                    eventKey: "0",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Header, {
+                            style: {
+                                boxShadow: "black 0px 0px 15px 2px"
+                            },
+                            children: "Where do I Buy?"
+                        }, void 0, false, {
+                            fileName: "src/components/faq/faq.jsx",
+                            lineNumber: 9,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Body, {
+                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        }, void 0, false, {
+                            fileName: "src/components/faq/faq.jsx",
+                            lineNumber: 10,
+                            columnNumber: 5
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/faq/faq.jsx",
+                    lineNumber: 8,
+                    columnNumber: 3
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Item, {
+                    eventKey: "1",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Header, {
+                            style: {
+                                boxShadow: "black 0px 0px 15px 0px"
+                            },
+                            children: "How do I contact You?"
+                        }, void 0, false, {
+                            fileName: "src/components/faq/faq.jsx",
+                            lineNumber: 21,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Body, {
+                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        }, void 0, false, {
+                            fileName: "src/components/faq/faq.jsx",
+                            lineNumber: 22,
+                            columnNumber: 5
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/faq/faq.jsx",
+                    lineNumber: 20,
+                    columnNumber: 3
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/faq/faq.jsx",
+            lineNumber: 7,
+            columnNumber: 1
+        }, this));
     }
 }
-function _getPrototypeOf(o2) {
-    _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
-        return o.__proto__ || Object.getPrototypeOf(o);
-    };
-    return _getPrototypeOf(o2);
+exports.default = FactsAnswers;
+
+  $parcel$ReactRefreshHelpers$840d.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
 }
-function _defineProperty(obj, key, value) {
-    if (key in obj) Object.defineProperty(obj, key, {
-        value: value,
-        enumerable: true,
-        configurable: true,
-        writable: true
-    });
-    else obj[key] = value;
-    return obj;
-}
-var SEEK_ON_PLAY_EXPIRY = 5000;
-var Player = /*#__PURE__*/ function(_Component) {
-    _inherits(Player1, _Component);
-    var _super = _createSuper(Player1);
-    function Player1() {
-        var _this;
-        _classCallCheck(this, Player1);
-        for(var _len = arguments.length, _args = new Array(_len), _key = 0; _key < _len; _key++)_args[_key] = arguments[_key];
-        _this = _super.call.apply(_super, [
-            this
-        ].concat(_args));
-        _defineProperty(_assertThisInitialized(_this), "mounted", false);
-        _defineProperty(_assertThisInitialized(_this), "isReady", false);
-        _defineProperty(_assertThisInitialized(_this), "isPlaying", false);
-        _defineProperty(_assertThisInitialized(_this), "isLoading", true);
-        _defineProperty(_assertThisInitialized(_this), "loadOnReady", null);
-        _defineProperty(_assertThisInitialized(_this), "startOnPlay", true);
-        _defineProperty(_assertThisInitialized(_this), "seekOnPlay", null);
-        _defineProperty(_assertThisInitialized(_this), "onDurationCalled", false);
-        _defineProperty(_assertThisInitialized(_this), "handlePlayerMount", function(player) {
-            _this.player = player;
-            _this.player.load(_this.props.url);
-            _this.progress();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cYOCB":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$723b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$723b.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+var _s = $RefreshSig$();
+const ContactMail = ()=>{
+    _s();
+    const [status, setStatus] = _react.useState("Submit");
+    const handleSubmit = async (e)=>{
+        e.preventDefault();
+        setStatus("Sending...");
+        const { name , email , message  } = e.target.elements;
+        let details = {
+            name: name.value,
+            email: email.value,
+            message: message.value
+        };
+        let response = await fetch("http://localhost:5000/contact", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json;charset=utf-8"
+            },
+            body: JSON.stringify(details)
         });
-        _defineProperty(_assertThisInitialized(_this), "getInternalPlayer", function(key) {
-            if (!_this.player) return null;
-            return _this.player[key];
-        });
-        _defineProperty(_assertThisInitialized(_this), "progress", function() {
-            if (_this.props.url && _this.player && _this.isReady) {
-                var playedSeconds = _this.getCurrentTime() || 0;
-                var loadedSeconds = _this.getSecondsLoaded();
-                var duration = _this.getDuration();
-                if (duration) {
-                    var progress = {
-                        playedSeconds: playedSeconds,
-                        played: playedSeconds / duration
+        setStatus("Submit");
+        let result = await response.json();
+        alert(result.status);
+    };
+    return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Container, {
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Form, {
+            onSubmit: handleSubmit,
+            style: {
+                border: "solid black 2px ",
+                background: " #e8f6df",
+                marginTop: "35px",
+                boxShadow: "black 0px 0px 20px 7px"
+            },
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Form.Label, {
+                            htmlFor: "name",
+                            children: "Name"
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 30,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 31,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                            style: {
+                                width: "250px"
+                            },
+                            type: "text",
+                            id: "name",
+                            required: true
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 32,
+                            columnNumber: 9
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                    lineNumber: 29,
+                    columnNumber: 7
+                }, undefined),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Form.Label, {
+                            htmlFor: "email",
+                            children: "Email"
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 35,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 36,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                            style: {
+                                width: "300px"
+                            },
+                            type: "email",
+                            id: "email",
+                            required: true
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 37,
+                            columnNumber: 9
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                    lineNumber: 34,
+                    columnNumber: 7
+                }, undefined),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Form.Label, {
+                            htmlFor: "message",
+                            children: "Message"
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 40,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 41,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("textarea", {
+                            style: {
+                                width: "400px"
+                            },
+                            id: "message",
+                            required: true
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 42,
+                            columnNumber: 9
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                    lineNumber: 39,
+                    columnNumber: 7
+                }, undefined),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
+                    style: {
+                        width: "150px",
+                        marginBottom: "20px",
+                        marginLeft: "20px"
+                    },
+                    type: "submit",
+                    children: status
+                }, void 0, false, {
+                    fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                    lineNumber: 44,
+                    columnNumber: 7
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+            lineNumber: 28,
+            columnNumber: 5
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/roadmap-view/roadmap-view.jsx",
+        lineNumber: 26,
+        columnNumber: 5
+    }, undefined));
+};
+_s(ContactMail, "qESKK7LDpFTuMSR0UrKu+hcLdmU=");
+_c = ContactMail;
+exports.default = ContactMail;
+var _c;
+$RefreshReg$(_c, "ContactMail");
+
+  $parcel$ReactRefreshHelpers$723b.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5GGbr":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$b87c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$b87c.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+var _ourStoryScss = require("./our-story.scss");
+// these are both the Carousel images imported!
+var _purplePng = require("../../Images/purple.png");
+var _purplePngDefault = parcelHelpers.interopDefault(_purplePng);
+var _clown2Png = require("../../Images/clown2.png");
+var _clown2PngDefault = parcelHelpers.interopDefault(_clown2Png);
+var _kingPng = require("../../Images/king.png");
+var _kingPngDefault = parcelHelpers.interopDefault(_kingPng);
+class OurStory extends _reactDefault.default.Component {
+    render() {
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel, {
+            touch: true,
+            fade: true,
+            className: "look",
+            style: {
+                marginTop: "45px",
+                boxShadow: "2px 2px 10px 7px",
+                borderRadius: '15px',
+                width: "35em"
+            },
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Item, {
+                    interval: 6000,
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                            className: "d-block w-100",
+                            src: _clown2PngDefault.default,
+                            alt: "First slide",
+                            style: {
+                                borderRadius: '15px'
+                            }
+                        }, void 0, false, {
+                            fileName: "src/components/our-story/our-story.jsx",
+                            lineNumber: 17,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Caption, {
+                            className: "text",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                                    children: "Baby Turtles Club"
+                                }, void 0, false, {
+                                    fileName: "src/components/our-story/our-story.jsx",
+                                    lineNumber: 24,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    children: "Nulla vitae elit libero, a pharetra augue mollis interdum."
+                                }, void 0, false, {
+                                    fileName: "src/components/our-story/our-story.jsx",
+                                    lineNumber: 25,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/our-story/our-story.jsx",
+                            lineNumber: 23,
+                            columnNumber: 5
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/our-story/our-story.jsx",
+                    lineNumber: 16,
+                    columnNumber: 3
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Item, {
+                    interval: 3000,
+                    className: "looks",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                            className: "d-block w-100",
+                            src: _purplePngDefault.default,
+                            alt: "Second slide",
+                            style: {
+                                borderRadius: '15px'
+                            }
+                        }, void 0, false, {
+                            fileName: "src/components/our-story/our-story.jsx",
+                            lineNumber: 30,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Caption, {
+                            className: "text",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                                    children: "The Future of NFTs"
+                                }, void 0, false, {
+                                    fileName: "src/components/our-story/our-story.jsx",
+                                    lineNumber: 37,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                                }, void 0, false, {
+                                    fileName: "src/components/our-story/our-story.jsx",
+                                    lineNumber: 38,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/our-story/our-story.jsx",
+                            lineNumber: 36,
+                            columnNumber: 5
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/our-story/our-story.jsx",
+                    lineNumber: 29,
+                    columnNumber: 3
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Item, {
+                    interval: 1500,
+                    className: "looks",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                            className: "d-block w-100",
+                            src: _kingPngDefault.default,
+                            alt: "Second slide",
+                            style: {
+                                borderRadius: '15px'
+                            }
+                        }, void 0, false, {
+                            fileName: "src/components/our-story/our-story.jsx",
+                            lineNumber: 43,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Caption, {
+                            className: "text",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                                    children: "We Mint Our Own!"
+                                }, void 0, false, {
+                                    fileName: "src/components/our-story/our-story.jsx",
+                                    lineNumber: 50,
+                                    columnNumber: 7
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                                }, void 0, false, {
+                                    fileName: "src/components/our-story/our-story.jsx",
+                                    lineNumber: 51,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/our-story/our-story.jsx",
+                            lineNumber: 49,
+                            columnNumber: 5
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/our-story/our-story.jsx",
+                    lineNumber: 42,
+                    columnNumber: 3
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/our-story/our-story.jsx",
+            lineNumber: 15,
+            columnNumber: 1
+        }, this));
+    }
+}
+exports.default = OurStory;
+
+  $parcel$ReactRefreshHelpers$b87c.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","./our-story.scss":"ehCFu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../Images/purple.png":"jmlpZ","../../Images/clown2.png":"gqkxv","../../Images/king.png":"bnPG3"}],"ehCFu":[function() {},{}],"eRzTM":[function(require,module,exports) {
+!function(e, t) {
+    "object" == typeof exports && "object" == typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define([], t) : "object" == typeof exports ? exports.AOS = t() : e.AOS = t();
+}(this, function() {
+    return (function(e) {
+        function t(o) {
+            if (n[o]) return n[o].exports;
+            var i = n[o] = {
+                exports: {
+                },
+                id: o,
+                loaded: !1
+            };
+            return e[o].call(i.exports, i, i.exports, t), i.loaded = !0, i.exports;
+        }
+        var n = {
+        };
+        return t.m = e, t.c = n, t.p = "dist/", t(0);
+    })([
+        function(e1, t1, n1) {
+            "use strict";
+            function o1(e) {
+                return e && e.__esModule ? e : {
+                    default: e
+                };
+            }
+            var i = Object.assign || function(e) {
+                for(var t = 1; t < arguments.length; t++){
+                    var n = arguments[t];
+                    for(var o in n)Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
+                }
+                return e;
+            }, r = n1(1), a = (o1(r), n1(6)), u = o1(a), c = n1(7), s = o1(c), f = n1(8), d = o1(f), l = n1(9), p = o1(l), m = n1(10), b = o1(m), v = n1(11), y = o1(v), g = n1(14), h = o1(g), w = [], k = !1, x = {
+                offset: 120,
+                delay: 0,
+                easing: "ease",
+                duration: 400,
+                disable: !1,
+                once: !1,
+                startEvent: "DOMContentLoaded",
+                throttleDelay: 99,
+                debounceDelay: 50,
+                disableMutationObserver: !1
+            }, j = function() {
+                var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
+                if (e && (k = !0), k) return w = (0, y.default)(w, x), (0, b.default)(w, x.once), w;
+            }, O = function() {
+                w = (0, h.default)(), j();
+            }, M = function() {
+                w.forEach(function(e, t) {
+                    e.node.removeAttribute("data-aos"), e.node.removeAttribute("data-aos-easing"), e.node.removeAttribute("data-aos-duration"), e.node.removeAttribute("data-aos-delay");
+                });
+            }, S = function(e) {
+                return e === !0 || "mobile" === e && p.default.mobile() || "phone" === e && p.default.phone() || "tablet" === e && p.default.tablet() || "function" == typeof e && e() === !0;
+            }, _ = function(e) {
+                x = i(x, e), w = (0, h.default)();
+                var t = document.all && !window.atob;
+                return S(x.disable) || t ? M() : (x.disableMutationObserver || d.default.isSupported() || (console.info('\n      aos: MutationObserver is not supported on this browser,\n      code mutations observing has been disabled.\n      You may have to call "refreshHard()" by yourself.\n    '), x.disableMutationObserver = !0), document.querySelector("body").setAttribute("data-aos-easing", x.easing), document.querySelector("body").setAttribute("data-aos-duration", x.duration), document.querySelector("body").setAttribute("data-aos-delay", x.delay), "DOMContentLoaded" === x.startEvent && [
+                    "complete",
+                    "interactive"
+                ].indexOf(document.readyState) > -1 ? j(!0) : "load" === x.startEvent ? window.addEventListener(x.startEvent, function() {
+                    j(!0);
+                }) : document.addEventListener(x.startEvent, function() {
+                    j(!0);
+                }), window.addEventListener("resize", (0, s.default)(j, x.debounceDelay, !0)), window.addEventListener("orientationchange", (0, s.default)(j, x.debounceDelay, !0)), window.addEventListener("scroll", (0, u.default)(function() {
+                    (0, b.default)(w, x.once);
+                }, x.throttleDelay)), x.disableMutationObserver || d.default.ready("[data-aos]", O), w);
+            };
+            e1.exports = {
+                init: _,
+                refresh: j,
+                refreshHard: O
+            };
+        },
+        function(e, t) {
+        },
+        ,
+        ,
+        ,
+        ,
+        function(e2, t2) {
+            (function(t3) {
+                function n2(e3, t4, n3) {
+                    function o3(t) {
+                        var n = b, o = v;
+                        return b = v = void 0, k = t, g = e3.apply(o, n);
+                    }
+                    function r(e) {
+                        return k = e, h = setTimeout(f, t4), M ? o3(e) : g;
+                    }
+                    function a(e) {
+                        var n = e - w, o = e - k, i = t4 - n;
+                        return S ? j(i, y - o) : i;
+                    }
+                    function c(e) {
+                        var n = e - w, o = e - k;
+                        return void 0 === w || n >= t4 || n < 0 || S && o >= y;
+                    }
+                    function f() {
+                        var e = O();
+                        return c(e) ? d(e) : void (h = setTimeout(f, a(e)));
+                    }
+                    function d(e) {
+                        return h = void 0, _ && b ? o3(e) : (b = v = void 0, g);
+                    }
+                    function l() {
+                        void 0 !== h && clearTimeout(h), k = 0, b = w = v = h = void 0;
+                    }
+                    function p() {
+                        return void 0 === h ? g : d(O());
+                    }
+                    function m() {
+                        var e = O(), n = c(e);
+                        if (b = arguments, v = this, w = e, n) {
+                            if (void 0 === h) return r(w);
+                            if (S) return h = setTimeout(f, t4), o3(w);
+                        }
+                        return void 0 === h && (h = setTimeout(f, t4)), g;
+                    }
+                    var b, v, y, g, h, w, k = 0, M = !1, S = !1, _ = !0;
+                    if ("function" != typeof e3) throw new TypeError(s);
+                    return t4 = u(t4) || 0, i1(n3) && (M = !!n3.leading, S = "maxWait" in n3, y = S ? x(u(n3.maxWait) || 0, t4) : y, _ = "trailing" in n3 ? !!n3.trailing : _), m.cancel = l, m.flush = p, m;
+                }
+                function o2(e, t, o) {
+                    var r = !0, a = !0;
+                    if ("function" != typeof e) throw new TypeError(s);
+                    return i1(o) && (r = "leading" in o ? !!o.leading : r, a = "trailing" in o ? !!o.trailing : a), n2(e, t, {
+                        leading: r,
+                        maxWait: t,
+                        trailing: a
+                    });
+                }
+                function i1(e) {
+                    var t = "undefined" == typeof e ? "undefined" : c1(e);
+                    return !!e && ("object" == t || "function" == t);
+                }
+                function r1(e) {
+                    return !!e && "object" == ("undefined" == typeof e ? "undefined" : c1(e));
+                }
+                function a1(e) {
+                    return "symbol" == ("undefined" == typeof e ? "undefined" : c1(e)) || r1(e) && k1.call(e) == d1;
+                }
+                function u(e) {
+                    if ("number" == typeof e) return e;
+                    if (a1(e)) return f1;
+                    if (i1(e)) {
+                        var t = "function" == typeof e.valueOf ? e.valueOf() : e;
+                        e = i1(t) ? t + "" : t;
+                    }
+                    if ("string" != typeof e) return 0 === e ? e : +e;
+                    e = e.replace(l1, "");
+                    var n = m1.test(e);
+                    return n || b1.test(e) ? v1(e.slice(2), n ? 2 : 8) : p1.test(e) ? f1 : +e;
+                }
+                var c1 = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
+                    return typeof e;
+                } : function(e) {
+                    return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e;
+                }, s = "Expected a function", f1 = NaN, d1 = "[object Symbol]", l1 = /^\s+|\s+$/g, p1 = /^[-+]0x[0-9a-f]+$/i, m1 = /^0b[01]+$/i, b1 = /^0o[0-7]+$/i, v1 = parseInt, y1 = "object" == ("undefined" == typeof t3 ? "undefined" : c1(t3)) && t3 && t3.Object === Object && t3, g1 = "object" == ("undefined" == typeof self ? "undefined" : c1(self)) && self && self.Object === Object && self, h1 = y1 || g1 || Function("return this")(), w1 = Object.prototype, k1 = w1.toString, x = Math.max, j = Math.min, O = function() {
+                    return h1.Date.now();
+                };
+                e2.exports = o2;
+            }).call(t2, function() {
+                return this;
+            }());
+        },
+        function(e4, t5) {
+            (function(t6) {
+                function n4(e5, t7, n5) {
+                    function i3(t) {
+                        var n = b, o = v;
+                        return b = v = void 0, O = t, g = e5.apply(o, n);
+                    }
+                    function r(e) {
+                        return O = e, h = setTimeout(f, t7), M ? i3(e) : g;
+                    }
+                    function u(e) {
+                        var n = e - w, o = e - O, i = t7 - n;
+                        return S ? x(i, y - o) : i;
+                    }
+                    function s(e) {
+                        var n = e - w, o = e - O;
+                        return void 0 === w || n >= t7 || n < 0 || S && o >= y;
+                    }
+                    function f() {
+                        var e = j();
+                        return s(e) ? d(e) : void (h = setTimeout(f, u(e)));
+                    }
+                    function d(e) {
+                        return h = void 0, _ && b ? i3(e) : (b = v = void 0, g);
+                    }
+                    function l() {
+                        void 0 !== h && clearTimeout(h), O = 0, b = w = v = h = void 0;
+                    }
+                    function p() {
+                        return void 0 === h ? g : d(j());
+                    }
+                    function m() {
+                        var e = j(), n = s(e);
+                        if (b = arguments, v = this, w = e, n) {
+                            if (void 0 === h) return r(w);
+                            if (S) return h = setTimeout(f, t7), i3(w);
+                        }
+                        return void 0 === h && (h = setTimeout(f, t7)), g;
+                    }
+                    var b, v, y, g, h, w, O = 0, M = !1, S = !1, _ = !0;
+                    if ("function" != typeof e5) throw new TypeError(c);
+                    return t7 = a(t7) || 0, o4(n5) && (M = !!n5.leading, S = "maxWait" in n5, y = S ? k(a(n5.maxWait) || 0, t7) : y, _ = "trailing" in n5 ? !!n5.trailing : _), m.cancel = l, m.flush = p, m;
+                }
+                function o4(e) {
+                    var t = "undefined" == typeof e ? "undefined" : u1(e);
+                    return !!e && ("object" == t || "function" == t);
+                }
+                function i2(e) {
+                    return !!e && "object" == ("undefined" == typeof e ? "undefined" : u1(e));
+                }
+                function r2(e) {
+                    return "symbol" == ("undefined" == typeof e ? "undefined" : u1(e)) || i2(e) && w2.call(e) == f2;
+                }
+                function a(e) {
+                    if ("number" == typeof e) return e;
+                    if (r2(e)) return s1;
+                    if (o4(e)) {
+                        var t = "function" == typeof e.valueOf ? e.valueOf() : e;
+                        e = o4(t) ? t + "" : t;
+                    }
+                    if ("string" != typeof e) return 0 === e ? e : +e;
+                    e = e.replace(d2, "");
+                    var n = p2.test(e);
+                    return n || m2.test(e) ? b2(e.slice(2), n ? 2 : 8) : l2.test(e) ? s1 : +e;
+                }
+                var u1 = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
+                    return typeof e;
+                } : function(e) {
+                    return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e;
+                }, c = "Expected a function", s1 = NaN, f2 = "[object Symbol]", d2 = /^\s+|\s+$/g, l2 = /^[-+]0x[0-9a-f]+$/i, p2 = /^0b[01]+$/i, m2 = /^0o[0-7]+$/i, b2 = parseInt, v2 = "object" == ("undefined" == typeof t6 ? "undefined" : u1(t6)) && t6 && t6.Object === Object && t6, y2 = "object" == ("undefined" == typeof self ? "undefined" : u1(self)) && self && self.Object === Object && self, g2 = v2 || y2 || Function("return this")(), h2 = Object.prototype, w2 = h2.toString, k = Math.max, x = Math.min, j = function() {
+                    return g2.Date.now();
+                };
+                e4.exports = n4;
+            }).call(t5, function() {
+                return this;
+            }());
+        },
+        function(e6, t8) {
+            "use strict";
+            function n6(e) {
+                var t = void 0, o = void 0, i = void 0;
+                for(t = 0; t < e.length; t += 1){
+                    if (o = e[t], o.dataset && o.dataset.aos) return !0;
+                    if (i = o.children && n6(o.children)) return !0;
+                }
+                return !1;
+            }
+            function o5() {
+                return window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+            }
+            function i4() {
+                return !!o5();
+            }
+            function r3(e, t) {
+                var n = window.document, i = o5(), r = new i(a);
+                u = t, r.observe(n.documentElement, {
+                    childList: !0,
+                    subtree: !0,
+                    removedNodes: !0
+                });
+            }
+            function a(e7) {
+                e7 && e7.forEach(function(e) {
+                    var t = Array.prototype.slice.call(e.addedNodes), o = Array.prototype.slice.call(e.removedNodes), i = t.concat(o);
+                    if (n6(i)) return u();
+                });
+            }
+            Object.defineProperty(t8, "__esModule", {
+                value: !0
+            });
+            var u = function() {
+            };
+            t8.default = {
+                isSupported: i4,
+                ready: r3
+            };
+        },
+        function(e8, t9) {
+            "use strict";
+            function n7(e, t) {
+                if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function");
+            }
+            function o6() {
+                return navigator.userAgent || navigator.vendor || window.opera || "";
+            }
+            Object.defineProperty(t9, "__esModule", {
+                value: !0
+            });
+            var i = function() {
+                function e9(e, t) {
+                    for(var n = 0; n < t.length; n++){
+                        var o = t[n];
+                        o.enumerable = o.enumerable || !1, o.configurable = !0, "value" in o && (o.writable = !0), Object.defineProperty(e, o.key, o);
+                    }
+                }
+                return function(t, n, o) {
+                    return n && e9(t.prototype, n), o && e9(t, o), t;
+                };
+            }(), r = /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i, a = /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i, u = /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i, c = /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i, s = function() {
+                function e10() {
+                    n7(this, e10);
+                }
+                return i(e10, [
+                    {
+                        key: "phone",
+                        value: function() {
+                            var e = o6();
+                            return !(!r.test(e) && !a.test(e.substr(0, 4)));
+                        }
+                    },
+                    {
+                        key: "mobile",
+                        value: function() {
+                            var e = o6();
+                            return !(!u.test(e) && !c.test(e.substr(0, 4)));
+                        }
+                    },
+                    {
+                        key: "tablet",
+                        value: function() {
+                            return this.mobile() && !this.phone();
+                        }
+                    }
+                ]), e10;
+            }();
+            t9.default = new s;
+        },
+        function(e11, t10) {
+            "use strict";
+            Object.defineProperty(t10, "__esModule", {
+                value: !0
+            });
+            var n8 = function(e, t, n) {
+                var o = e.node.getAttribute("data-aos-once");
+                t > e.position ? e.node.classList.add("aos-animate") : "undefined" != typeof o && ("false" === o || !n && "true" !== o) && e.node.classList.remove("aos-animate");
+            }, o7 = function(e12, t) {
+                var o = window.pageYOffset, i = window.innerHeight;
+                e12.forEach(function(e, r) {
+                    n8(e, i + o, t);
+                });
+            };
+            t10.default = o7;
+        },
+        function(e13, t11, n) {
+            "use strict";
+            function o(e) {
+                return e && e.__esModule ? e : {
+                    default: e
+                };
+            }
+            Object.defineProperty(t11, "__esModule", {
+                value: !0
+            });
+            var i = n(12), r = o(i), a = function(e14, t) {
+                return e14.forEach(function(e, n) {
+                    e.node.classList.add("aos-init"), e.position = (0, r.default)(e.node, t.offset);
+                }), e14;
+            };
+            t11.default = a;
+        },
+        function(e15, t12, n9) {
+            "use strict";
+            function o8(e) {
+                return e && e.__esModule ? e : {
+                    default: e
+                };
+            }
+            Object.defineProperty(t12, "__esModule", {
+                value: !0
+            });
+            var i5 = n9(13), r = o8(i5), a2 = function(e, t) {
+                var n = 0, o = 0, i = window.innerHeight, a = {
+                    offset: e.getAttribute("data-aos-offset"),
+                    anchor: e.getAttribute("data-aos-anchor"),
+                    anchorPlacement: e.getAttribute("data-aos-anchor-placement")
+                };
+                switch(a.offset && !isNaN(a.offset) && (o = parseInt(a.offset)), a.anchor && document.querySelectorAll(a.anchor) && (e = document.querySelectorAll(a.anchor)[0]), n = (0, r.default)(e).top, a.anchorPlacement){
+                    case "top-bottom":
+                        break;
+                    case "center-bottom":
+                        n += e.offsetHeight / 2;
+                        break;
+                    case "bottom-bottom":
+                        n += e.offsetHeight;
+                        break;
+                    case "top-center":
+                        n += i / 2;
+                        break;
+                    case "bottom-center":
+                        n += i / 2 + e.offsetHeight;
+                        break;
+                    case "center-center":
+                        n += i / 2 + e.offsetHeight / 2;
+                        break;
+                    case "top-top":
+                        n += i;
+                        break;
+                    case "bottom-top":
+                        n += e.offsetHeight + i;
+                        break;
+                    case "center-top":
+                        n += e.offsetHeight / 2 + i;
+                }
+                return a.anchorPlacement || a.offset || isNaN(t) || (o = t), n + o;
+            };
+            t12.default = a2;
+        },
+        function(e16, t13) {
+            "use strict";
+            Object.defineProperty(t13, "__esModule", {
+                value: !0
+            });
+            var n10 = function(e) {
+                for(var t = 0, n = 0; e && !isNaN(e.offsetLeft) && !isNaN(e.offsetTop);)t += e.offsetLeft - ("BODY" != e.tagName ? e.scrollLeft : 0), n += e.offsetTop - ("BODY" != e.tagName ? e.scrollTop : 0), e = e.offsetParent;
+                return {
+                    top: n,
+                    left: t
+                };
+            };
+            t13.default = n10;
+        },
+        function(e17, t) {
+            "use strict";
+            Object.defineProperty(t, "__esModule", {
+                value: !0
+            });
+            var n = function(e18) {
+                return e18 = e18 || document.querySelectorAll("[data-aos]"), Array.prototype.map.call(e18, function(e) {
+                    return {
+                        node: e
                     };
-                    if (loadedSeconds !== null) {
-                        progress.loadedSeconds = loadedSeconds;
-                        progress.loaded = loadedSeconds / duration;
-                    } // Only call onProgress if values have changed
-                    if (progress.playedSeconds !== _this.prevPlayed || progress.loadedSeconds !== _this.prevLoaded) _this.props.onProgress(progress);
-                    _this.prevPlayed = progress.playedSeconds;
-                    _this.prevLoaded = progress.loadedSeconds;
-                }
-            }
-            _this.progressTimeout = setTimeout(_this.progress, _this.props.progressFrequency || _this.props.progressInterval);
-        });
-        _defineProperty(_assertThisInitialized(_this), "handleReady", function() {
-            if (!_this.mounted) return;
-            _this.isReady = true;
-            _this.isLoading = false;
-            var _this$props = _this.props, onReady = _this$props.onReady, playing = _this$props.playing, volume = _this$props.volume, muted = _this$props.muted;
-            onReady();
-            if (!muted && volume !== null) _this.player.setVolume(volume);
-            if (_this.loadOnReady) {
-                _this.player.load(_this.loadOnReady, true);
-                _this.loadOnReady = null;
-            } else if (playing) _this.player.play();
-            _this.handleDurationCheck();
-        });
-        _defineProperty(_assertThisInitialized(_this), "handlePlay", function() {
-            _this.isPlaying = true;
-            _this.isLoading = false;
-            var _this$props2 = _this.props, onStart = _this$props2.onStart, onPlay = _this$props2.onPlay, playbackRate = _this$props2.playbackRate;
-            if (_this.startOnPlay) {
-                if (_this.player.setPlaybackRate && playbackRate !== 1) _this.player.setPlaybackRate(playbackRate);
-                onStart();
-                _this.startOnPlay = false;
-            }
-            onPlay();
-            if (_this.seekOnPlay) {
-                _this.seekTo(_this.seekOnPlay);
-                _this.seekOnPlay = null;
-            }
-            _this.handleDurationCheck();
-        });
-        _defineProperty(_assertThisInitialized(_this), "handlePause", function(e) {
-            _this.isPlaying = false;
-            if (!_this.isLoading) _this.props.onPause(e);
-        });
-        _defineProperty(_assertThisInitialized(_this), "handleEnded", function() {
-            var _this$props3 = _this.props, activePlayer = _this$props3.activePlayer, loop = _this$props3.loop, onEnded = _this$props3.onEnded;
-            if (activePlayer.loopOnEnded && loop) _this.seekTo(0);
-            if (!loop) {
-                _this.isPlaying = false;
-                onEnded();
-            }
-        });
-        _defineProperty(_assertThisInitialized(_this), "handleError", function() {
-            var _this$props4;
-            _this.isLoading = false;
-            (_this$props4 = _this.props).onError.apply(_this$props4, arguments);
-        });
-        _defineProperty(_assertThisInitialized(_this), "handleDurationCheck", function() {
-            clearTimeout(_this.durationCheckTimeout);
-            var duration = _this.getDuration();
-            if (duration) {
-                if (!_this.onDurationCalled) {
-                    _this.props.onDuration(duration);
-                    _this.onDurationCalled = true;
-                }
-            } else _this.durationCheckTimeout = setTimeout(_this.handleDurationCheck, 100);
-        });
-        _defineProperty(_assertThisInitialized(_this), "handleLoaded", function() {
-            // Sometimes we know loading has stopped but onReady/onPlay are never called
-            // so this provides a way for players to avoid getting stuck
-            _this.isLoading = false;
-        });
-        return _this;
-    }
-    _createClass(Player1, [
-        {
-            key: "componentDidMount",
-            value: function componentDidMount() {
-                this.mounted = true;
-            }
-        },
-        {
-            key: "componentWillUnmount",
-            value: function componentWillUnmount() {
-                clearTimeout(this.progressTimeout);
-                clearTimeout(this.durationCheckTimeout);
-                if (this.isReady && this.props.stopOnUnmount) {
-                    this.player.stop();
-                    if (this.player.disablePIP) this.player.disablePIP();
-                }
-                this.mounted = false;
-            }
-        },
-        {
-            key: "componentDidUpdate",
-            value: function componentDidUpdate(prevProps) {
-                var _this2 = this;
-                // If there isn’t a player available, don’t do anything
-                if (!this.player) return;
-                 // Invoke player methods based on changed props
-                var _this$props5 = this.props, url = _this$props5.url, playing = _this$props5.playing, volume = _this$props5.volume, muted = _this$props5.muted, playbackRate = _this$props5.playbackRate, pip = _this$props5.pip, loop = _this$props5.loop, activePlayer = _this$props5.activePlayer;
-                if (!(0, _reactFastCompare["default"])(prevProps.url, url)) {
-                    if (this.isLoading && !activePlayer.forceLoad) {
-                        console.warn("ReactPlayer: the attempt to load ".concat(url, " is being deferred until the player has loaded"));
-                        this.loadOnReady = url;
-                        return;
-                    }
-                    this.isLoading = true;
-                    this.startOnPlay = true;
-                    this.onDurationCalled = false;
-                    this.player.load(url, this.isReady);
-                }
-                if (!prevProps.playing && playing && !this.isPlaying) this.player.play();
-                if (prevProps.playing && !playing && this.isPlaying) this.player.pause();
-                if (!prevProps.pip && pip && this.player.enablePIP) this.player.enablePIP();
-                if (prevProps.pip && !pip && this.player.disablePIP) this.player.disablePIP();
-                if (prevProps.volume !== volume && volume !== null) this.player.setVolume(volume);
-                if (prevProps.muted !== muted) {
-                    if (muted) this.player.mute();
-                    else {
-                        this.player.unmute();
-                        if (volume !== null) // Set volume next tick to fix a bug with DailyMotion
-                        setTimeout(function() {
-                            return _this2.player.setVolume(volume);
-                        });
-                    }
-                }
-                if (prevProps.playbackRate !== playbackRate && this.player.setPlaybackRate) this.player.setPlaybackRate(playbackRate);
-                if (prevProps.loop !== loop && this.player.setLoop) this.player.setLoop(loop);
-            }
-        },
-        {
-            key: "getDuration",
-            value: function getDuration() {
-                if (!this.isReady) return null;
-                return this.player.getDuration();
-            }
-        },
-        {
-            key: "getCurrentTime",
-            value: function getCurrentTime() {
-                if (!this.isReady) return null;
-                return this.player.getCurrentTime();
-            }
-        },
-        {
-            key: "getSecondsLoaded",
-            value: function getSecondsLoaded() {
-                if (!this.isReady) return null;
-                return this.player.getSecondsLoaded();
-            }
-        },
-        {
-            key: "seekTo",
-            value: function seekTo(amount, type) {
-                var _this3 = this;
-                // When seeking before player is ready, store value and seek later
-                if (!this.isReady && amount !== 0) {
-                    this.seekOnPlay = amount;
-                    setTimeout(function() {
-                        _this3.seekOnPlay = null;
-                    }, SEEK_ON_PLAY_EXPIRY);
-                    return;
-                }
-                var isFraction = !type ? amount > 0 && amount < 1 : type === 'fraction';
-                if (isFraction) {
-                    // Convert fraction to seconds based on duration
-                    var duration = this.player.getDuration();
-                    if (!duration) {
-                        console.warn('ReactPlayer: could not seek using fraction – duration not yet available');
-                        return;
-                    }
-                    this.player.seekTo(duration * amount);
-                    return;
-                }
-                this.player.seekTo(amount);
-            }
-        },
-        {
-            key: "render",
-            value: function render() {
-                var Player2 = this.props.activePlayer;
-                if (!Player2) return null;
-                return(/*#__PURE__*/ _react["default"].createElement(Player2, _extends({
-                }, this.props, {
-                    onMount: this.handlePlayerMount,
-                    onReady: this.handleReady,
-                    onPlay: this.handlePlay,
-                    onPause: this.handlePause,
-                    onEnded: this.handleEnded,
-                    onLoaded: this.handleLoaded,
-                    onError: this.handleError
-                })));
-            }
+                });
+            };
+            t.default = n;
         }
     ]);
-    return Player1;
-}(_react.Component);
-exports["default"] = Player;
-_defineProperty(Player, "displayName", 'Player');
-_defineProperty(Player, "propTypes", _props.propTypes);
-_defineProperty(Player, "defaultProps", _props.defaultProps);
+});
 
-},{"react":"21dqq","react-fast-compare":"isHbY","./props":"aLjed"}],"a20P9":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require('./helpers/bundle-url').getBundleURL('byUka') + "Preview.03bde0f9.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root('8Vhrn')
-);
+},{}],"iYkXi":[function() {},{}],"hZMRM":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "arrow.f5f9dd53.png" + "?" + Date.now();
 
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"fdOAw":[function(require,module,exports) {
+},{"./helpers/bundle-url":"lgJ39"}],"fdOAw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>_reactRouter.MemoryRouter
@@ -40661,19 +40007,19 @@ class NavbarView extends _reactDefault.default.Component {
                             }
                         }, void 0, false, {
                             fileName: "src/components/navbar/navbar-view.jsx",
-                            lineNumber: 20,
+                            lineNumber: 19,
                             columnNumber: 53
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/navbar/navbar-view.jsx",
-                        lineNumber: 20,
+                        lineNumber: 19,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Navbar.Toggle, {
                         "aria-controls": "basic-navbar-nav"
                     }, void 0, false, {
                         fileName: "src/components/navbar/navbar-view.jsx",
-                        lineNumber: 21,
+                        lineNumber: 20,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Navbar.Collapse, {
@@ -40687,11 +40033,12 @@ class NavbarView extends _reactDefault.default.Component {
                                     style: {
                                         color: 'white'
                                     },
-                                    to: "#",
+                                    to: "#team",
+                                    smooth: true,
                                     children: "Our Team"
                                 }, void 0, false, {
                                     fileName: "src/components/navbar/navbar-view.jsx",
-                                    lineNumber: 24,
+                                    lineNumber: 23,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
@@ -40705,7 +40052,7 @@ class NavbarView extends _reactDefault.default.Component {
                                     children: "Our Story"
                                 }, void 0, false, {
                                     fileName: "src/components/navbar/navbar-view.jsx",
-                                    lineNumber: 25,
+                                    lineNumber: 24,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
@@ -40714,12 +40061,12 @@ class NavbarView extends _reactDefault.default.Component {
                                     style: {
                                         color: 'white'
                                     },
-                                    to: "#",
+                                    to: "#faq",
                                     smooth: true,
                                     children: "FAQ"
                                 }, void 0, false, {
                                     fileName: "src/components/navbar/navbar-view.jsx",
-                                    lineNumber: 26,
+                                    lineNumber: 25,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
@@ -40733,13 +40080,13 @@ class NavbarView extends _reactDefault.default.Component {
                                     children: "Roadmap"
                                 }, void 0, false, {
                                     fileName: "src/components/navbar/navbar-view.jsx",
-                                    lineNumber: 27,
+                                    lineNumber: 26,
                                     columnNumber: 9
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Nav, {
                                     children: [
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Nav.Link, {
-                                            href: "#t",
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
+                                            to: "#t",
                                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
                                                 className: "move-right",
                                                 src: _twitterPngDefault.default,
@@ -40749,16 +40096,16 @@ class NavbarView extends _reactDefault.default.Component {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "src/components/navbar/navbar-view.jsx",
-                                                lineNumber: 30,
+                                                lineNumber: 29,
                                                 columnNumber: 9
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/navbar/navbar-view.jsx",
-                                            lineNumber: 29,
+                                            lineNumber: 28,
                                             columnNumber: 9
                                         }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Nav.Link, {
-                                            href: "#y",
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
+                                            to: "#y",
                                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
                                                 className: "move-left",
                                                 src: _discordPngDefault.default,
@@ -40768,40 +40115,40 @@ class NavbarView extends _reactDefault.default.Component {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "src/components/navbar/navbar-view.jsx",
-                                                lineNumber: 33,
+                                                lineNumber: 32,
                                                 columnNumber: 9
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/navbar/navbar-view.jsx",
-                                            lineNumber: 32,
+                                            lineNumber: 31,
                                             columnNumber: 9
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/navbar/navbar-view.jsx",
-                                    lineNumber: 28,
+                                    lineNumber: 27,
                                     columnNumber: 9
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/navbar/navbar-view.jsx",
-                            lineNumber: 23,
+                            lineNumber: 22,
                             columnNumber: 7
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/navbar/navbar-view.jsx",
-                        lineNumber: 22,
+                        lineNumber: 21,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/navbar/navbar-view.jsx",
-                lineNumber: 19,
+                lineNumber: 18,
                 columnNumber: 3
             }, this)
         }, void 0, false, {
             fileName: "src/components/navbar/navbar-view.jsx",
-            lineNumber: 18,
+            lineNumber: 17,
             columnNumber: 1
         }, this));
     }
@@ -41002,148 +40349,6 @@ var propTypes = {
 HashLink.propTypes = propTypes;
 NavHashLink.propTypes = propTypes;
 
-},{"react":"21dqq","prop-types":"7wKI2","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eBaMl":[function() {},{}],"5GGbr":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$b87c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$b87c.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactBootstrap = require("react-bootstrap");
-var _ourStoryScss = require("./our-story.scss");
-// these are both the Carousel images imported!
-var _astroPng = require("../../Images/astro.png");
-var _astroPngDefault = parcelHelpers.interopDefault(_astroPng);
-var _clownPng = require("../../Images/clown.png");
-var _clownPngDefault = parcelHelpers.interopDefault(_clownPng);
-class OurStory extends _reactDefault.default.Component {
-    render() {
-        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Container, {
-            sm: 12,
-            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel, {
-                touch: true,
-                fade: true,
-                className: "look",
-                children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Item, {
-                        interval: 6000,
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
-                                className: "d-block w-100",
-                                src: _clownPngDefault.default,
-                                alt: "First slide",
-                                style: {
-                                    width: "110em",
-                                    height: "43em"
-                                }
-                            }, void 0, false, {
-                                fileName: "src/components/our-story/our-story.jsx",
-                                lineNumber: 17,
-                                columnNumber: 5
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Caption, {
-                                className: "text",
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
-                                        children: "Baby Turtles Club"
-                                    }, void 0, false, {
-                                        fileName: "src/components/our-story/our-story.jsx",
-                                        lineNumber: 24,
-                                        columnNumber: 7
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                                        children: "Nulla vitae elit libero, a pharetra augue mollis interdum."
-                                    }, void 0, false, {
-                                        fileName: "src/components/our-story/our-story.jsx",
-                                        lineNumber: 25,
-                                        columnNumber: 7
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/our-story/our-story.jsx",
-                                lineNumber: 23,
-                                columnNumber: 5
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/our-story/our-story.jsx",
-                        lineNumber: 16,
-                        columnNumber: 3
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Item, {
-                        interval: 3000,
-                        className: "looks",
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                                className: "d-block w-100",
-                                src: _astroPngDefault.default,
-                                alt: "Second slide",
-                                style: {
-                                    width: "110em",
-                                    height: "43em"
-                                }
-                            }, void 0, false, {
-                                fileName: "src/components/our-story/our-story.jsx",
-                                lineNumber: 30,
-                                columnNumber: 5
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Carousel.Caption, {
-                                className: "text",
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
-                                        children: "The Future of NFTs"
-                                    }, void 0, false, {
-                                        fileName: "src/components/our-story/our-story.jsx",
-                                        lineNumber: 37,
-                                        columnNumber: 7
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                                        children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                                    }, void 0, false, {
-                                        fileName: "src/components/our-story/our-story.jsx",
-                                        lineNumber: 38,
-                                        columnNumber: 7
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/our-story/our-story.jsx",
-                                lineNumber: 36,
-                                columnNumber: 5
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/our-story/our-story.jsx",
-                        lineNumber: 29,
-                        columnNumber: 3
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/our-story/our-story.jsx",
-                lineNumber: 15,
-                columnNumber: 1
-            }, this)
-        }, void 0, false, {
-            fileName: "src/components/our-story/our-story.jsx",
-            lineNumber: 14,
-            columnNumber: 1
-        }, this));
-    }
-}
-exports.default = OurStory;
-
-  $parcel$ReactRefreshHelpers$b87c.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","./our-story.scss":"ehCFu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../Images/astro.png":"kKA5Y","../../Images/clown.png":"2jlZo"}],"ehCFu":[function() {},{}],"kKA5Y":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "astro.464c2450.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lJZlQ":[function() {},{}]},["kn9T2","1SYPb","d8Dch"], "d8Dch", "parcelRequire0d16")
+},{"react":"21dqq","prop-types":"7wKI2","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eBaMl":[function() {},{}],"lJZlQ":[function() {},{}]},["kn9T2","1SYPb","d8Dch"], "d8Dch", "parcelRequire0d16")
 
 //# sourceMappingURL=index.b4b6dfad.js.map
