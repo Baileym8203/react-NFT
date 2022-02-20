@@ -12,7 +12,7 @@ class OurStory extends react.Component{
 render() {
 return(
 
-<Carousel touch={true} fade={true} className="look" style={{marginTop: "75px", boxShadow: "2px 2px 10px 7px", borderRadius: '15px', width: "35em"}}>
+<Carousel touch fade className="look" style={{marginTop: "75px", boxShadow: "2px 2px 10px 7px", borderRadius: '15px', width: "35em"}}>
   <Carousel.Item interval={6000}>
     <Image
       className="d-block w-100"
