@@ -1,26 +1,52 @@
 {
 
     "name": "react-nft",
+
     "version": "1.0.0",
+
     "description": "",
+
     "entry": "src/index.html",
+
     "scripts": {
+
         "test": "no error specified"
+
     },
+
     "author": "",
+
     "homepage": "https://github.com/Baileym8203/react-NFT",
+
     "dependencies": {
+
+        "aos": "^2.3.4",
+
+        "axios": "^0.26.0",
+
         "parcel": "^2.2.1",
+
         "react": "^17.0.2",
+
         "react-bootstrap": "^2.1.2",
+
         "react-dom": "^17.0.2",
+
         "react-player": "^2.9.0",
+
         "react-router-dom": "^6.2.1",
+
         "react-router-hash-link": "^2.4.3"
+
     },
+
     "devDependencies": {
+
         "@parcel/transformer-image": "^2.3.1",
+
         "@parcel/transformer-sass": "^2.3.1"
+
     }
 
 }
+

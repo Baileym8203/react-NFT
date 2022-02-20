@@ -4,21 +4,21 @@ import { Carousel, Image, Container} from 'react-bootstrap';
 import './our-story.scss'
 
 // these are both the Carousel images imported!
-import astro from '../../Images/astro.png'
-
-import clown from '../../Images/clown.png'
+import purple from '../../Images/purple.png'
+import clown2 from '../../Images/clown2.png'
+import king from '../../Images/king.png'
 
 class OurStory extends react.Component{
 render() {
 return(
-<Container sm={12}>
-<Carousel touch={true} fade={true} className="look">
+
+<Carousel touch={true} fade={true} className="look" style={{marginTop: "45px", boxShadow: "2px 2px 10px 7px", borderRadius: '15px', width: "35em"}}>
   <Carousel.Item interval={6000}>
     <Image
       className="d-block w-100"
-      src={clown}
+      src={clown2}
       alt="First slide"
-      style={{width: "110em", height: "43em",}}>
+      style={{  borderRadius: '15px'}}>
     </Image>
     <Carousel.Caption className='text'>
       <h3>Baby Turtles Club</h3>
@@ -27,19 +27,31 @@ return(
   </Carousel.Item>
 
   <Carousel.Item interval={3000} className="looks">
-    <img
+    <Image
       className="d-block w-100"
-      src={astro}
+      src={purple}
       alt="Second slide"
-      style={{width: "110em", height: "43em"}}
-    />
+      style={{ borderRadius: '15px'}}>
+    </Image>
     <Carousel.Caption className='text'>
       <h3>The Future of NFTs</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
+
+  <Carousel.Item interval={1500} className="looks">
+    <Image
+      className="d-block w-100"
+      src={king}
+      alt="Second slide"
+      style={{ borderRadius: '15px'}}>
+    </Image>
+    <Carousel.Caption className='text'>
+      <h3>We Mint Our Own!</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
 </Carousel>
-</Container>
 )
 }
 }
