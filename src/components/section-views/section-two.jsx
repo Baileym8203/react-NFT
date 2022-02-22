@@ -4,7 +4,7 @@ import {Row, Col, ProgressBar} from 'react-bootstrap';
 class SectionTwo extends react.Component {
 render() {
 return (
-<Row id="border" className='background-color2' style={{color: "white", textAlign: "center", border: "solid 1px whitesmoke"}}>
+<Row id="border" className='background-color2' style={{color: "white", textAlign: "center"}}>
 <Col sm={12} style={{border: "solid 1px white fill"}}>
 <h1 className='font' data-aos="fade-down" style={{marginTop: "50px", marginBottom: "35px"}}>Roadmap</h1>
 <ProgressBar data-aos="flip-down"  animated variant='danger' now={20} />

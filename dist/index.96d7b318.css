@@ -88,14 +88,33 @@
   font-size: 24px;
 }
 
-.move-right {
-  margin-right: 300px;
-  margin-top: -4px;
+#basic-navbar-nav.justify {
+  display: flex;
+  justify-content: end;
 }
 
 #center {
   margin-top: 8.5px;
   margin-left: 10px;
+}
+
+.nav.hidden {
+  display: none;
+}
+
+#log.move {
+  display: flex;
+  justify-content: space-around;
+}
+
+#show.hide {
+  display: block;
+}
+
+@media screen and (max-width: 990px) {
+  #log {
+    margin-top: 10px;
+  }
 }
 .center {
   display: flex;

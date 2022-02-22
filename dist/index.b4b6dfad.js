@@ -36339,7 +36339,136 @@ class HomePage extends _reactDefault.default.Component {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","./home-view.scss":"hOFAc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","aos":"eRzTM","aos/dist/aos.css":"iYkXi","../section-views/section-two":"jSBw5","../section-views/section-three":"5X90L","../section-views/section-four":"dt4He","../section-views/section-five":"bQwHX","../section-views/section-six":"dqVbK","./section-zero":"ecMjE","./section-one":"fXmSd"}],"hOFAc":[function() {},{}],"km3Ru":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","./section-zero":"ecMjE","./section-one":"fXmSd","../section-views/section-two":"jSBw5","../section-views/section-three":"5X90L","../section-views/section-four":"dt4He","../section-views/section-five":"bQwHX","../section-views/section-six":"dqVbK","./home-view.scss":"hOFAc","aos":"eRzTM","aos/dist/aos.css":"iYkXi","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ecMjE":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$121a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$121a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+class SectionZero extends _reactDefault.default.Component {
+    render() {
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
+            className: "background-color",
+            style: {
+                textAlign: "center"
+            },
+            id: "up",
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "fade-down",
+                    xs: 6,
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                            className: "font",
+                            style: {
+                                color: "white",
+                                marginTop: "200px"
+                            },
+                            children: "Baby Turtles Club"
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/section-zero.jsx",
+                            lineNumber: 9,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                            className: "font",
+                            style: {
+                                color: "white",
+                                marginTop: "-5px"
+                            },
+                            children: "What we do?"
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/section-zero.jsx",
+                            lineNumber: 10,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
+                            className: "font",
+                            style: {
+                                color: "white",
+                                marginTop: "-5px"
+                            },
+                            children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/section-zero.jsx",
+                            lineNumber: 11,
+                            columnNumber: 1
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/home-view/section-zero.jsx",
+                    lineNumber: 8,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "fade-down",
+                    xs: 6,
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                            className: "font",
+                            style: {
+                                color: "white",
+                                marginTop: "200px"
+                            },
+                            children: "Our Trade"
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/section-zero.jsx",
+                            lineNumber: 22,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                            className: "font",
+                            style: {
+                                color: "white",
+                                marginTop: "-5px"
+                            },
+                            children: "How We Do It?"
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/section-zero.jsx",
+                            lineNumber: 23,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
+                            className: "font",
+                            style: {
+                                color: "white",
+                                marginTop: "-5px"
+                            },
+                            children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
+                        }, void 0, false, {
+                            fileName: "src/components/home-view/section-zero.jsx",
+                            lineNumber: 24,
+                            columnNumber: 1
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/home-view/section-zero.jsx",
+                    lineNumber: 21,
+                    columnNumber: 1
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/home-view/section-zero.jsx",
+            lineNumber: 7,
+            columnNumber: 1
+        }, this));
+    }
+}
+exports.default = SectionZero;
+
+  $parcel$ReactRefreshHelpers$121a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"km3Ru":[function(require,module,exports) {
 "use strict";
 var Refresh = require('react-refresh/runtime');
 function debounce(func, delay) {
@@ -36459,7 +36588,1290 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"eRzTM":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"fXmSd":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$a30e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a30e.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+class SectionOne extends _reactDefault.default.Component {
+    render() {
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
+            className: "background-color",
+            style: {
+                textAlign: 'center'
+            },
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                "data-aos": "fade-up",
+                sm: 12,
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                        className: "font",
+                        style: {
+                            color: "white",
+                            marginTop: "150px"
+                        },
+                        children: "NFTs"
+                    }, void 0, false, {
+                        fileName: "src/components/home-view/section-one.jsx",
+                        lineNumber: 9,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                        className: "font",
+                        style: {
+                            color: "white",
+                            marginTop: "-5px"
+                        },
+                        children: "Why Buy One?"
+                    }, void 0, false, {
+                        fileName: "src/components/home-view/section-one.jsx",
+                        lineNumber: 10,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
+                        className: "font",
+                        style: {
+                            color: "white",
+                            marginTop: "-5px",
+                            marginBottom: "50px"
+                        },
+                        children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
+                    }, void 0, false, {
+                        fileName: "src/components/home-view/section-one.jsx",
+                        lineNumber: 11,
+                        columnNumber: 1
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/home-view/section-one.jsx",
+                lineNumber: 8,
+                columnNumber: 1
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/home-view/section-one.jsx",
+            lineNumber: 7,
+            columnNumber: 1
+        }, this));
+    }
+}
+exports.default = SectionOne;
+
+  $parcel$ReactRefreshHelpers$a30e.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jSBw5":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$365d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$365d.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+class SectionTwo extends _reactDefault.default.Component {
+    render() {
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
+            id: "border",
+            className: "background-color2",
+            style: {
+                color: "white",
+                textAlign: "center"
+            },
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                sm: 12,
+                style: {
+                    border: "solid 1px white fill"
+                },
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                        className: "font",
+                        "data-aos": "fade-down",
+                        style: {
+                            marginTop: "50px",
+                            marginBottom: "35px"
+                        },
+                        children: "Roadmap"
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-two.jsx",
+                        lineNumber: 9,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
+                        "data-aos": "flip-down",
+                        animated: true,
+                        variant: "danger",
+                        now: 20
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-two.jsx",
+                        lineNumber: 10,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                        "data-aos": "flip-down",
+                        style: {
+                            marginTop: "20px"
+                        },
+                        children: "looks after at Q1 2022"
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-two.jsx",
+                        lineNumber: 11,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
+                        "data-aos": "flip-down",
+                        children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-two.jsx",
+                        lineNumber: 12,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
+                        "data-aos": "flip-down",
+                        animated: true,
+                        variant: "warning",
+                        now: 40
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-two.jsx",
+                        lineNumber: 14,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                        "data-aos": "flip-down",
+                        style: {
+                            marginTop: "20px"
+                        },
+                        children: "looks after at Q2 2022"
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-two.jsx",
+                        lineNumber: 15,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
+                        "data-aos": "flip-down",
+                        children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-two.jsx",
+                        lineNumber: 16,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
+                        "data-aos": "flip-up",
+                        animated: true,
+                        variant: "primary",
+                        now: 60
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-two.jsx",
+                        lineNumber: 18,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                        "data-aos": "flip-up",
+                        style: {
+                            marginTop: "20px"
+                        },
+                        children: "looks after at Q3 2022"
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-two.jsx",
+                        lineNumber: 19,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
+                        "data-aos": "flip-up",
+                        children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-two.jsx",
+                        lineNumber: 20,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
+                        "data-aos": "flip-up",
+                        animated: true,
+                        variant: "success",
+                        now: 80
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-two.jsx",
+                        lineNumber: 22,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                        "data-aos": "flip-up",
+                        style: {
+                            marginTop: "20px"
+                        },
+                        children: "looks after at Q4 2022"
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-two.jsx",
+                        lineNumber: 23,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
+                        "data-aos": "flip-up",
+                        style: {
+                            marginBottom: "50px"
+                        },
+                        children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-two.jsx",
+                        lineNumber: 24,
+                        columnNumber: 1
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/section-views/section-two.jsx",
+                lineNumber: 8,
+                columnNumber: 1
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/section-views/section-two.jsx",
+            lineNumber: 7,
+            columnNumber: 1
+        }, this));
+    }
+}
+exports.default = SectionTwo;
+
+  $parcel$ReactRefreshHelpers$365d.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5X90L":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1732 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1732.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+var _clown2Png = require("../../Images/clown2.png");
+var _clown2PngDefault = parcelHelpers.interopDefault(_clown2Png);
+var _purplePng = require("../../Images/purple.png");
+var _purplePngDefault = parcelHelpers.interopDefault(_purplePng);
+var _arrowPng = require("../../Images/arrow.png");
+var _arrowPngDefault = parcelHelpers.interopDefault(_arrowPng);
+class SectionTwo extends _reactDefault.default.Component {
+    render() {
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
+            id: "story",
+            className: "background-color3",
+            style: {
+                textAlign: "center"
+            },
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "slide-up",
+                    md: 4,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                        fluid: true,
+                        style: {
+                            width: '375px',
+                            height: '375px',
+                            marginTop: "50px",
+                            boxShadow: "2px 0px 15px 6px"
+                        },
+                        src: _clown2PngDefault.default
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-three.jsx",
+                        lineNumber: 12,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-three.jsx",
+                    lineNumber: 11,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "slide-up",
+                    md: 4,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                        fluid: true,
+                        style: {
+                            width: '375px',
+                            height: '375px',
+                            marginTop: "50px",
+                            boxShadow: "2px 0px 15px 6px"
+                        },
+                        src: _purplePngDefault.default
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-three.jsx",
+                        lineNumber: 17,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-three.jsx",
+                    lineNumber: 16,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "slide-up",
+                    md: 4,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                        fluid: true,
+                        style: {
+                            width: '375px',
+                            height: '375px',
+                            marginTop: "50px",
+                            boxShadow: "2px 0px 15px 6px"
+                        },
+                        src: _arrowPngDefault.default
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-three.jsx",
+                        lineNumber: 22,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-three.jsx",
+                    lineNumber: 21,
+                    columnNumber: 1
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/section-views/section-three.jsx",
+            lineNumber: 10,
+            columnNumber: 1
+        }, this));
+    }
+}
+exports.default = SectionTwo;
+
+  $parcel$ReactRefreshHelpers$1732.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","../../Images/clown2.png":"gqkxv","../../Images/purple.png":"jmlpZ","../../Images/arrow.png":"hZMRM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gqkxv":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "clown2.dcdeefeb.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {
+};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return '/';
+}
+function getBaseURL(url) {
+    return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ('' + url).match(/(https?|file|ftp):\/\/[^/]+/);
+    if (!matches) throw new Error('Origin not found');
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"jmlpZ":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "purple.ec0474fa.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"hZMRM":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "arrow.f5f9dd53.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"dt4He":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$09b1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$09b1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+class SectionFour extends _reactDefault.default.Component {
+    render() {
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
+            className: "background-color3",
+            style: {
+                textAlign: "center"
+            },
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                "data-aos": "slide-up",
+                sm: 12,
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                        className: "font",
+                        style: {
+                            color: "white",
+                            marginTop: "50px"
+                        },
+                        children: "Our Story"
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-four.jsx",
+                        lineNumber: 9,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
+                        className: "font",
+                        style: {
+                            color: "white",
+                            marginTop: "-5px",
+                            marginBottom: '50px'
+                        },
+                        children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-four.jsx",
+                        lineNumber: 10,
+                        columnNumber: 1
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/section-views/section-four.jsx",
+                lineNumber: 8,
+                columnNumber: 1
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/section-views/section-four.jsx",
+            lineNumber: 7,
+            columnNumber: 1
+        }, this));
+    }
+}
+exports.default = SectionFour;
+
+  $parcel$ReactRefreshHelpers$09b1.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bQwHX":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$00f5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$00f5.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+var _ourTeam = require("../our-team/our-team");
+var _ourTeamDefault = parcelHelpers.interopDefault(_ourTeam);
+class SectionFive extends _reactDefault.default.Component {
+    render() {
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
+            className: "background-color",
+            style: {
+                textAlign: "center"
+            },
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    id: "team",
+                    sm: 12,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                        "data-aos": "fade-up",
+                        className: "font",
+                        style: {
+                            color: "white",
+                            marginTop: "50px"
+                        },
+                        children: "Our Team"
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-five.jsx",
+                        lineNumber: 10,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-five.jsx",
+                    lineNumber: 9,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "slide-up",
+                    sm: 4,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-five.jsx",
+                        lineNumber: 13,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-five.jsx",
+                    lineNumber: 12,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "slide-up",
+                    sm: 4,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-five.jsx",
+                        lineNumber: 16,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-five.jsx",
+                    lineNumber: 15,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "slide-up",
+                    sm: 4,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-five.jsx",
+                        lineNumber: 19,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-five.jsx",
+                    lineNumber: 18,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "slide-up",
+                    sm: 4,
+                    className: "margin",
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-five.jsx",
+                        lineNumber: 22,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-five.jsx",
+                    lineNumber: 21,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "slide-up",
+                    sm: 4,
+                    className: "margin",
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-five.jsx",
+                        lineNumber: 25,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-five.jsx",
+                    lineNumber: 24,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "slide-up",
+                    sm: 4,
+                    className: "margin",
+                    style: {
+                        marginBottom: "50px"
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-five.jsx",
+                        lineNumber: 28,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-five.jsx",
+                    lineNumber: 27,
+                    columnNumber: 1
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/section-views/section-five.jsx",
+            lineNumber: 8,
+            columnNumber: 1
+        }, this));
+    }
+}
+exports.default = SectionFive;
+
+  $parcel$ReactRefreshHelpers$00f5.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","../our-team/our-team":"huuAe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"huuAe":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$73a9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$73a9.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+var _clown2Png = require("../../Images/clown2.png");
+var _clown2PngDefault = parcelHelpers.interopDefault(_clown2Png);
+var _instagramPng = require("../../Images/Instagram.png");
+var _instagramPngDefault = parcelHelpers.interopDefault(_instagramPng);
+var _twiiterPng = require("../../Images/twiiter.png");
+var _twiiterPngDefault = parcelHelpers.interopDefault(_twiiterPng);
+class OurTeam extends _reactDefault.default.Component {
+    render() {
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card, {
+            fluid: true,
+            style: {
+                marginTop: "20px",
+                boxShadow: "black 0px 0px 11px 2px",
+                fontFamily: "Bubblegum Sans"
+            },
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card.Img, {
+                    variant: "top",
+                    src: _clown2PngDefault.default,
+                    style: {
+                    }
+                }, void 0, false, {
+                    fileName: "src/components/our-team/our-team.jsx",
+                    lineNumber: 10,
+                    columnNumber: 3
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card.Body, {
+                    style: {
+                        backgroundColor: "#e8f6df"
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card.Title, {
+                            children: "Card Title"
+                        }, void 0, false, {
+                            fileName: "src/components/our-team/our-team.jsx",
+                            lineNumber: 12,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card.Text, {
+                            style: {
+                                color: "black"
+                            },
+                            children: "Some quick example text to build on the card title and make up the bulk of the card's content."
+                        }, void 0, false, {
+                            fileName: "src/components/our-team/our-team.jsx",
+                            lineNumber: 13,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
+                            variant: "warning",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                                src: _instagramPngDefault.default,
+                                style: {
+                                    width: "40px"
+                                }
+                            }, void 0, false, {
+                                fileName: "src/components/our-team/our-team.jsx",
+                                lineNumber: 18,
+                                columnNumber: 5
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/our-team/our-team.jsx",
+                            lineNumber: 17,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
+                            variant: "warning",
+                            style: {
+                                marginLeft: "5px"
+                            },
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                                src: _twiiterPngDefault.default,
+                                style: {
+                                    width: "40px",
+                                    height: "30px"
+                                }
+                            }, void 0, false, {
+                                fileName: "src/components/our-team/our-team.jsx",
+                                lineNumber: 21,
+                                columnNumber: 5
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/our-team/our-team.jsx",
+                            lineNumber: 20,
+                            columnNumber: 5
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/our-team/our-team.jsx",
+                    lineNumber: 11,
+                    columnNumber: 3
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/our-team/our-team.jsx",
+            lineNumber: 9,
+            columnNumber: 1
+        }, this));
+    }
+}
+exports.default = OurTeam;
+
+  $parcel$ReactRefreshHelpers$73a9.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","../../Images/clown2.png":"gqkxv","../../Images/Instagram.png":"8yxoJ","../../Images/twiiter.png":"3swJN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8yxoJ":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "Instagram.12546bd9.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"3swJN":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "twiiter.b85780a4.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"dqVbK":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1839 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1839.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+var _faq = require("../faq/faq");
+var _faqDefault = parcelHelpers.interopDefault(_faq);
+var _roadmapView = require("../roadmap-view/roadmap-view");
+var _roadmapViewDefault = parcelHelpers.interopDefault(_roadmapView);
+class SectionSix extends _reactDefault.default.Component {
+    render() {
+        var _s = $RefreshSig$();
+        function MyVerticallyCenteredModal(props) {
+            return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal, {
+                "data-aos": "fade-right",
+                ...props,
+                size: "lg",
+                "aria-labelledby": "contained-modal-title-vcenter",
+                centered: true,
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal.Header, {
+                        closeButton: true,
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal.Title, {
+                            id: "contained-modal-title-vcenter",
+                            children: "Contact Form"
+                        }, void 0, false, {
+                            fileName: "src/components/section-views/section-six.jsx",
+                            lineNumber: 17,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-six.jsx",
+                        lineNumber: 16,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal.Body, {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_roadmapViewDefault.default, {
+                        }, void 0, false, {
+                            fileName: "src/components/section-views/section-six.jsx",
+                            lineNumber: 22,
+                            columnNumber: 14
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-six.jsx",
+                        lineNumber: 21,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal.Footer, {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
+                            onClick: props.onHide,
+                            children: "Close"
+                        }, void 0, false, {
+                            fileName: "src/components/section-views/section-six.jsx",
+                            lineNumber: 25,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-six.jsx",
+                        lineNumber: 24,
+                        columnNumber: 13
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/section-views/section-six.jsx",
+                lineNumber: 10,
+                columnNumber: 11
+            }, this));
+        }
+        function App() {
+            _s();
+            const [modalShow, setModalShow] = _reactDefault.default.useState(false);
+            return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_jsxDevRuntime.Fragment, {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
+                        variant: "primary",
+                        onClick: ()=>setModalShow(true)
+                        ,
+                        style: {
+                            marginTop: "25px"
+                        },
+                        children: "Contact Us"
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-six.jsx",
+                        lineNumber: 36,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(MyVerticallyCenteredModal, {
+                        show: modalShow,
+                        onHide: ()=>setModalShow(false)
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-six.jsx",
+                        lineNumber: 40,
+                        columnNumber: 13
+                    }, this)
+                ]
+            }, void 0, true));
+        }
+        _s(App, "xuPPltV/3J92+XaNotdpXxySp+I=");
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
+            id: "faq",
+            className: "background-color2",
+            style: {
+                textAlign: "center",
+                fontFamily: "Bubblegum Sans"
+            },
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    sm: 12,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                        "data-aos": "fade-down",
+                        className: "font",
+                        style: {
+                            color: "white",
+                            marginTop: "50px"
+                        },
+                        children: "FAQ"
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-six.jsx",
+                        lineNumber: 50,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-six.jsx",
+                    lineNumber: 49,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "fade-up",
+                    sm: 4,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-six.jsx",
+                        lineNumber: 53,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-six.jsx",
+                    lineNumber: 52,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "fade-up",
+                    sm: 4,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-six.jsx",
+                        lineNumber: 56,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-six.jsx",
+                    lineNumber: 55,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "fade-up",
+                    sm: 4,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-six.jsx",
+                        lineNumber: 59,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-six.jsx",
+                    lineNumber: 58,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "fade-up",
+                    sm: 4,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-six.jsx",
+                        lineNumber: 62,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-six.jsx",
+                    lineNumber: 61,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "fade-up",
+                    sm: 4,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-six.jsx",
+                        lineNumber: 65,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-six.jsx",
+                    lineNumber: 64,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    "data-aos": "fade-up",
+                    sm: 4,
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-six.jsx",
+                        lineNumber: 68,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-six.jsx",
+                    lineNumber: 67,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
+                    sm: 12,
+                    style: {
+                        marginBottom: "50px",
+                        marginTop: "10px"
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(App, {
+                    }, void 0, false, {
+                        fileName: "src/components/section-views/section-six.jsx",
+                        lineNumber: 71,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/section-views/section-six.jsx",
+                    lineNumber: 70,
+                    columnNumber: 1
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/section-views/section-six.jsx",
+            lineNumber: 48,
+            columnNumber: 1
+        }, this));
+    }
+}
+exports.default = SectionSix;
+
+  $parcel$ReactRefreshHelpers$1839.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","../faq/faq":"7Z5fw","../roadmap-view/roadmap-view":"cYOCB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7Z5fw":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$840d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$840d.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+class FactsAnswers extends _reactDefault.default.Component {
+    render() {
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion, {
+            defaultActiveKey: "0",
+            style: {
+                boxShadow: "black 0px 0px 15px 0px",
+                background: "#e8f6df",
+                marginTop: "40px"
+            },
+            flush: true,
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Item, {
+                    eventKey: "0",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Header, {
+                            style: {
+                                boxShadow: "black 0px 0px 15px 2px"
+                            },
+                            children: "Where do I Buy?"
+                        }, void 0, false, {
+                            fileName: "src/components/faq/faq.jsx",
+                            lineNumber: 9,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Body, {
+                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        }, void 0, false, {
+                            fileName: "src/components/faq/faq.jsx",
+                            lineNumber: 10,
+                            columnNumber: 5
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/faq/faq.jsx",
+                    lineNumber: 8,
+                    columnNumber: 3
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Item, {
+                    eventKey: "1",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Header, {
+                            style: {
+                                boxShadow: "black 0px 0px 15px 0px"
+                            },
+                            children: "How do I contact You?"
+                        }, void 0, false, {
+                            fileName: "src/components/faq/faq.jsx",
+                            lineNumber: 21,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Body, {
+                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        }, void 0, false, {
+                            fileName: "src/components/faq/faq.jsx",
+                            lineNumber: 22,
+                            columnNumber: 5
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/faq/faq.jsx",
+                    lineNumber: 20,
+                    columnNumber: 3
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/faq/faq.jsx",
+            lineNumber: 7,
+            columnNumber: 1
+        }, this));
+    }
+}
+exports.default = FactsAnswers;
+
+  $parcel$ReactRefreshHelpers$840d.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cYOCB":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$723b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$723b.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+var _s = $RefreshSig$();
+const ContactMail = ()=>{
+    _s();
+    const [status, setStatus] = _react.useState("Submit");
+    const handleSubmit = async (e)=>{
+        e.preventDefault();
+        setStatus("Sending...");
+        const { name , email , message  } = e.target.elements;
+        let details = {
+            name: name.value,
+            email: email.value,
+            message: message.value
+        };
+        let response = await fetch("http://localhost:5000/contact", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json;charset=utf-8"
+            },
+            body: JSON.stringify(details)
+        });
+        setStatus("Submit");
+        let result = await response.json();
+        alert(result.status);
+    };
+    return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Container, {
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Form, {
+            onSubmit: handleSubmit,
+            style: {
+                border: "solid black 2px ",
+                background: " #e8f6df",
+                marginTop: "35px",
+                boxShadow: "black 0px 0px 20px 7px"
+            },
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Form.Label, {
+                            htmlFor: "name",
+                            children: "Name"
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 30,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 31,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                            style: {
+                                width: "250px"
+                            },
+                            type: "text",
+                            id: "name",
+                            required: true
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 32,
+                            columnNumber: 9
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                    lineNumber: 29,
+                    columnNumber: 7
+                }, undefined),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Form.Label, {
+                            htmlFor: "email",
+                            children: "Email"
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 35,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 36,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                            style: {
+                                width: "300px"
+                            },
+                            type: "email",
+                            id: "email",
+                            required: true
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 37,
+                            columnNumber: 9
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                    lineNumber: 34,
+                    columnNumber: 7
+                }, undefined),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Form.Label, {
+                            htmlFor: "message",
+                            children: "Message"
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 40,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 41,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("textarea", {
+                            style: {
+                                width: "400px"
+                            },
+                            id: "message",
+                            required: true
+                        }, void 0, false, {
+                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                            lineNumber: 42,
+                            columnNumber: 9
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                    lineNumber: 39,
+                    columnNumber: 7
+                }, undefined),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
+                    style: {
+                        width: "150px",
+                        marginBottom: "20px",
+                        marginLeft: "20px"
+                    },
+                    type: "submit",
+                    children: status
+                }, void 0, false, {
+                    fileName: "src/components/roadmap-view/roadmap-view.jsx",
+                    lineNumber: 44,
+                    columnNumber: 7
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/roadmap-view/roadmap-view.jsx",
+            lineNumber: 28,
+            columnNumber: 5
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/roadmap-view/roadmap-view.jsx",
+        lineNumber: 26,
+        columnNumber: 5
+    }, undefined));
+};
+_s(ContactMail, "qESKK7LDpFTuMSR0UrKu+hcLdmU=");
+_c = ContactMail;
+exports.default = ContactMail;
+var _c;
+$RefreshReg$(_c, "ContactMail");
+
+  $parcel$ReactRefreshHelpers$723b.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hOFAc":[function() {},{}],"eRzTM":[function(require,module,exports) {
 !function(e, t) {
     "object" == typeof exports && "object" == typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define([], t) : "object" == typeof exports ? exports.AOS = t() : e.AOS = t();
 }(this, function() {
@@ -36903,1420 +38315,7 @@ function registerExportsForReactRefresh(module) {
     ]);
 });
 
-},{}],"iYkXi":[function() {},{}],"jSBw5":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$365d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$365d.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactBootstrap = require("react-bootstrap");
-class SectionTwo extends _reactDefault.default.Component {
-    render() {
-        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
-            id: "border",
-            className: "background-color2",
-            style: {
-                color: "white",
-                textAlign: "center",
-                border: "solid 1px whitesmoke"
-            },
-            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                sm: 12,
-                style: {
-                    border: "solid 1px white fill"
-                },
-                children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                        className: "font",
-                        "data-aos": "fade-down",
-                        style: {
-                            marginTop: "50px",
-                            marginBottom: "35px"
-                        },
-                        children: "Roadmap"
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-two.jsx",
-                        lineNumber: 9,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
-                        "data-aos": "flip-down",
-                        animated: true,
-                        variant: "danger",
-                        now: 20
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-two.jsx",
-                        lineNumber: 10,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
-                        "data-aos": "flip-down",
-                        style: {
-                            marginTop: "20px"
-                        },
-                        children: "looks after at Q1 2022"
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-two.jsx",
-                        lineNumber: 11,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
-                        "data-aos": "flip-down",
-                        children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-two.jsx",
-                        lineNumber: 12,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
-                        "data-aos": "flip-down",
-                        animated: true,
-                        variant: "warning",
-                        now: 40
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-two.jsx",
-                        lineNumber: 14,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
-                        "data-aos": "flip-down",
-                        style: {
-                            marginTop: "20px"
-                        },
-                        children: "looks after at Q2 2022"
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-two.jsx",
-                        lineNumber: 15,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
-                        "data-aos": "flip-down",
-                        children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-two.jsx",
-                        lineNumber: 16,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
-                        "data-aos": "flip-up",
-                        animated: true,
-                        variant: "primary",
-                        now: 60
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-two.jsx",
-                        lineNumber: 18,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
-                        "data-aos": "flip-up",
-                        style: {
-                            marginTop: "20px"
-                        },
-                        children: "looks after at Q3 2022"
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-two.jsx",
-                        lineNumber: 19,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
-                        "data-aos": "flip-up",
-                        children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-two.jsx",
-                        lineNumber: 20,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.ProgressBar, {
-                        "data-aos": "flip-up",
-                        animated: true,
-                        variant: "success",
-                        now: 80
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-two.jsx",
-                        lineNumber: 22,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
-                        "data-aos": "flip-up",
-                        style: {
-                            marginTop: "20px"
-                        },
-                        children: "looks after at Q4 2022"
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-two.jsx",
-                        lineNumber: 23,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
-                        "data-aos": "flip-up",
-                        style: {
-                            marginBottom: "50px"
-                        },
-                        children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-two.jsx",
-                        lineNumber: 24,
-                        columnNumber: 1
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/section-views/section-two.jsx",
-                lineNumber: 8,
-                columnNumber: 1
-            }, this)
-        }, void 0, false, {
-            fileName: "src/components/section-views/section-two.jsx",
-            lineNumber: 7,
-            columnNumber: 1
-        }, this));
-    }
-}
-exports.default = SectionTwo;
-
-  $parcel$ReactRefreshHelpers$365d.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5X90L":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$1732 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1732.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactBootstrap = require("react-bootstrap");
-var _clown2Png = require("../../Images/clown2.png");
-var _clown2PngDefault = parcelHelpers.interopDefault(_clown2Png);
-var _purplePng = require("../../Images/purple.png");
-var _purplePngDefault = parcelHelpers.interopDefault(_purplePng);
-var _arrowPng = require("../../Images/arrow.png");
-var _arrowPngDefault = parcelHelpers.interopDefault(_arrowPng);
-class SectionTwo extends _reactDefault.default.Component {
-    render() {
-        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
-            id: "story",
-            className: "background-color3",
-            style: {
-                textAlign: "center"
-            },
-            children: [
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "slide-up",
-                    md: 4,
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
-                        fluid: true,
-                        style: {
-                            width: '375px',
-                            height: '375px',
-                            marginTop: "50px",
-                            boxShadow: "2px 0px 15px 6px"
-                        },
-                        src: _clown2PngDefault.default
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-three.jsx",
-                        lineNumber: 12,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-three.jsx",
-                    lineNumber: 11,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "slide-up",
-                    md: 4,
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
-                        fluid: true,
-                        style: {
-                            width: '375px',
-                            height: '375px',
-                            marginTop: "50px",
-                            boxShadow: "2px 0px 15px 6px"
-                        },
-                        src: _purplePngDefault.default
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-three.jsx",
-                        lineNumber: 17,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-three.jsx",
-                    lineNumber: 16,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "slide-up",
-                    md: 4,
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
-                        fluid: true,
-                        style: {
-                            width: '375px',
-                            height: '375px',
-                            marginTop: "50px",
-                            boxShadow: "2px 0px 15px 6px"
-                        },
-                        src: _arrowPngDefault.default
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-three.jsx",
-                        lineNumber: 22,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-three.jsx",
-                    lineNumber: 21,
-                    columnNumber: 1
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/section-views/section-three.jsx",
-            lineNumber: 10,
-            columnNumber: 1
-        }, this));
-    }
-}
-exports.default = SectionTwo;
-
-  $parcel$ReactRefreshHelpers$1732.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../Images/clown2.png":"gqkxv","../../Images/purple.png":"jmlpZ","../../Images/arrow.png":"hZMRM"}],"gqkxv":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "clown2.dcdeefeb.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {
-};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return '/';
-}
-function getBaseURL(url) {
-    return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ('' + url).match(/(https?|file|ftp):\/\/[^/]+/);
-    if (!matches) throw new Error('Origin not found');
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"jmlpZ":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "purple.ec0474fa.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"hZMRM":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "arrow.f5f9dd53.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"dt4He":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$09b1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$09b1.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactBootstrap = require("react-bootstrap");
-class SectionFour extends _reactDefault.default.Component {
-    render() {
-        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
-            className: "background-color3",
-            style: {
-                textAlign: "center"
-            },
-            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                "data-aos": "slide-up",
-                sm: 12,
-                children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                        className: "font",
-                        style: {
-                            color: "white",
-                            marginTop: "50px"
-                        },
-                        children: "Our Story"
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-four.jsx",
-                        lineNumber: 9,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
-                        className: "font",
-                        style: {
-                            color: "white",
-                            marginTop: "-5px",
-                            marginBottom: '50px'
-                        },
-                        children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-four.jsx",
-                        lineNumber: 10,
-                        columnNumber: 1
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/section-views/section-four.jsx",
-                lineNumber: 8,
-                columnNumber: 1
-            }, this)
-        }, void 0, false, {
-            fileName: "src/components/section-views/section-four.jsx",
-            lineNumber: 7,
-            columnNumber: 1
-        }, this));
-    }
-}
-exports.default = SectionFour;
-
-  $parcel$ReactRefreshHelpers$09b1.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bQwHX":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$00f5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$00f5.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactBootstrap = require("react-bootstrap");
-var _ourTeam = require("../our-team/our-team");
-var _ourTeamDefault = parcelHelpers.interopDefault(_ourTeam);
-class SectionFive extends _reactDefault.default.Component {
-    render() {
-        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
-            className: "background-color",
-            style: {
-                textAlign: "center"
-            },
-            children: [
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    id: "team",
-                    sm: 12,
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                        "data-aos": "fade-up",
-                        className: "font",
-                        style: {
-                            color: "white",
-                            marginTop: "50px"
-                        },
-                        children: "Our Team"
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-five.jsx",
-                        lineNumber: 10,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-five.jsx",
-                    lineNumber: 9,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "slide-up",
-                    sm: 4,
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-five.jsx",
-                        lineNumber: 13,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-five.jsx",
-                    lineNumber: 12,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "slide-up",
-                    sm: 4,
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-five.jsx",
-                        lineNumber: 16,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-five.jsx",
-                    lineNumber: 15,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "slide-up",
-                    sm: 4,
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-five.jsx",
-                        lineNumber: 19,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-five.jsx",
-                    lineNumber: 18,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "slide-up",
-                    sm: 4,
-                    className: "margin",
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-five.jsx",
-                        lineNumber: 22,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-five.jsx",
-                    lineNumber: 21,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "slide-up",
-                    sm: 4,
-                    className: "margin",
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-five.jsx",
-                        lineNumber: 25,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-five.jsx",
-                    lineNumber: 24,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "slide-up",
-                    sm: 4,
-                    className: "margin",
-                    style: {
-                        marginBottom: "50px"
-                    },
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_ourTeamDefault.default, {
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-five.jsx",
-                        lineNumber: 28,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-five.jsx",
-                    lineNumber: 27,
-                    columnNumber: 1
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/section-views/section-five.jsx",
-            lineNumber: 8,
-            columnNumber: 1
-        }, this));
-    }
-}
-exports.default = SectionFive;
-
-  $parcel$ReactRefreshHelpers$00f5.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","../our-team/our-team":"huuAe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"huuAe":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$73a9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$73a9.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactBootstrap = require("react-bootstrap");
-var _clown2Png = require("../../Images/clown2.png");
-var _clown2PngDefault = parcelHelpers.interopDefault(_clown2Png);
-var _instagramPng = require("../../Images/Instagram.png");
-var _instagramPngDefault = parcelHelpers.interopDefault(_instagramPng);
-var _twiiterPng = require("../../Images/twiiter.png");
-var _twiiterPngDefault = parcelHelpers.interopDefault(_twiiterPng);
-class OurTeam extends _reactDefault.default.Component {
-    render() {
-        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card, {
-            fluid: true,
-            style: {
-                marginTop: "20px",
-                boxShadow: "black 0px 0px 11px 2px",
-                fontFamily: "Bubblegum Sans"
-            },
-            children: [
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card.Img, {
-                    variant: "top",
-                    src: _clown2PngDefault.default,
-                    style: {
-                    }
-                }, void 0, false, {
-                    fileName: "src/components/our-team/our-team.jsx",
-                    lineNumber: 10,
-                    columnNumber: 3
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card.Body, {
-                    style: {
-                        backgroundColor: "#e8f6df"
-                    },
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card.Title, {
-                            children: "Card Title"
-                        }, void 0, false, {
-                            fileName: "src/components/our-team/our-team.jsx",
-                            lineNumber: 12,
-                            columnNumber: 5
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Card.Text, {
-                            style: {
-                                color: "black"
-                            },
-                            children: "Some quick example text to build on the card title and make up the bulk of the card's content."
-                        }, void 0, false, {
-                            fileName: "src/components/our-team/our-team.jsx",
-                            lineNumber: 13,
-                            columnNumber: 5
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
-                            variant: "warning",
-                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
-                                src: _instagramPngDefault.default,
-                                style: {
-                                    width: "40px"
-                                }
-                            }, void 0, false, {
-                                fileName: "src/components/our-team/our-team.jsx",
-                                lineNumber: 18,
-                                columnNumber: 5
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/our-team/our-team.jsx",
-                            lineNumber: 17,
-                            columnNumber: 5
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
-                            variant: "warning",
-                            style: {
-                                marginLeft: "5px"
-                            },
-                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
-                                src: _twiiterPngDefault.default,
-                                style: {
-                                    width: "40px",
-                                    height: "30px"
-                                }
-                            }, void 0, false, {
-                                fileName: "src/components/our-team/our-team.jsx",
-                                lineNumber: 21,
-                                columnNumber: 5
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/our-team/our-team.jsx",
-                            lineNumber: 20,
-                            columnNumber: 5
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/our-team/our-team.jsx",
-                    lineNumber: 11,
-                    columnNumber: 3
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/our-team/our-team.jsx",
-            lineNumber: 9,
-            columnNumber: 1
-        }, this));
-    }
-}
-exports.default = OurTeam;
-
-  $parcel$ReactRefreshHelpers$73a9.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","../../Images/clown2.png":"gqkxv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../Images/Instagram.png":"8yxoJ","../../Images/twiiter.png":"3swJN"}],"8yxoJ":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "Instagram.12546bd9.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"3swJN":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "twiiter.b85780a4.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"dqVbK":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$1839 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1839.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactBootstrap = require("react-bootstrap");
-var _faq = require("../faq/faq");
-var _faqDefault = parcelHelpers.interopDefault(_faq);
-var _roadmapView = require("../roadmap-view/roadmap-view");
-var _roadmapViewDefault = parcelHelpers.interopDefault(_roadmapView);
-class SectionSix extends _reactDefault.default.Component {
-    render() {
-        var _s = $RefreshSig$();
-        function MyVerticallyCenteredModal(props) {
-            return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal, {
-                "data-aos": "fade-right",
-                ...props,
-                size: "lg",
-                "aria-labelledby": "contained-modal-title-vcenter",
-                centered: true,
-                children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal.Header, {
-                        closeButton: true,
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal.Title, {
-                            id: "contained-modal-title-vcenter",
-                            children: "Contact Form"
-                        }, void 0, false, {
-                            fileName: "src/components/section-views/section-six.jsx",
-                            lineNumber: 17,
-                            columnNumber: 15
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-six.jsx",
-                        lineNumber: 16,
-                        columnNumber: 13
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal.Body, {
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_roadmapViewDefault.default, {
-                        }, void 0, false, {
-                            fileName: "src/components/section-views/section-six.jsx",
-                            lineNumber: 22,
-                            columnNumber: 14
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-six.jsx",
-                        lineNumber: 21,
-                        columnNumber: 13
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Modal.Footer, {
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
-                            onClick: props.onHide,
-                            children: "Close"
-                        }, void 0, false, {
-                            fileName: "src/components/section-views/section-six.jsx",
-                            lineNumber: 25,
-                            columnNumber: 15
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-six.jsx",
-                        lineNumber: 24,
-                        columnNumber: 13
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/section-views/section-six.jsx",
-                lineNumber: 10,
-                columnNumber: 11
-            }, this));
-        }
-        function App() {
-            _s();
-            const [modalShow, setModalShow] = _reactDefault.default.useState(false);
-            return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_jsxDevRuntime.Fragment, {
-                children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
-                        variant: "primary",
-                        onClick: ()=>setModalShow(true)
-                        ,
-                        style: {
-                            marginTop: "25px"
-                        },
-                        children: "Contact Us"
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-six.jsx",
-                        lineNumber: 36,
-                        columnNumber: 13
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(MyVerticallyCenteredModal, {
-                        show: modalShow,
-                        onHide: ()=>setModalShow(false)
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-six.jsx",
-                        lineNumber: 40,
-                        columnNumber: 13
-                    }, this)
-                ]
-            }, void 0, true));
-        }
-        _s(App, "xuPPltV/3J92+XaNotdpXxySp+I=");
-        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
-            id: "faq",
-            className: "background-color2",
-            style: {
-                textAlign: "center",
-                fontFamily: "Bubblegum Sans"
-            },
-            children: [
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    sm: 12,
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                        "data-aos": "fade-down",
-                        className: "font",
-                        style: {
-                            color: "white",
-                            marginTop: "50px"
-                        },
-                        children: "FAQ"
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-six.jsx",
-                        lineNumber: 50,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-six.jsx",
-                    lineNumber: 49,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "fade-up",
-                    sm: 4,
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-six.jsx",
-                        lineNumber: 53,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-six.jsx",
-                    lineNumber: 52,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "fade-up",
-                    sm: 4,
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-six.jsx",
-                        lineNumber: 56,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-six.jsx",
-                    lineNumber: 55,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "fade-up",
-                    sm: 4,
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-six.jsx",
-                        lineNumber: 59,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-six.jsx",
-                    lineNumber: 58,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "fade-up",
-                    sm: 4,
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-six.jsx",
-                        lineNumber: 62,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-six.jsx",
-                    lineNumber: 61,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "fade-up",
-                    sm: 4,
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-six.jsx",
-                        lineNumber: 65,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-six.jsx",
-                    lineNumber: 64,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "fade-up",
-                    sm: 4,
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_faqDefault.default, {
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-six.jsx",
-                        lineNumber: 68,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-six.jsx",
-                    lineNumber: 67,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    sm: 12,
-                    style: {
-                        marginBottom: "50px",
-                        marginTop: "10px"
-                    },
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(App, {
-                    }, void 0, false, {
-                        fileName: "src/components/section-views/section-six.jsx",
-                        lineNumber: 71,
-                        columnNumber: 1
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/section-views/section-six.jsx",
-                    lineNumber: 70,
-                    columnNumber: 1
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/section-views/section-six.jsx",
-            lineNumber: 48,
-            columnNumber: 1
-        }, this));
-    }
-}
-exports.default = SectionSix;
-
-  $parcel$ReactRefreshHelpers$1839.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","../faq/faq":"7Z5fw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../roadmap-view/roadmap-view":"cYOCB"}],"7Z5fw":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$840d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$840d.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactBootstrap = require("react-bootstrap");
-class FactsAnswers extends _reactDefault.default.Component {
-    render() {
-        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion, {
-            defaultActiveKey: "0",
-            style: {
-                boxShadow: "black 0px 0px 15px 0px",
-                background: "#e8f6df",
-                marginTop: "40px"
-            },
-            flush: true,
-            children: [
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Item, {
-                    eventKey: "0",
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Header, {
-                            style: {
-                                boxShadow: "black 0px 0px 15px 2px"
-                            },
-                            children: "Where do I Buy?"
-                        }, void 0, false, {
-                            fileName: "src/components/faq/faq.jsx",
-                            lineNumber: 9,
-                            columnNumber: 5
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Body, {
-                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                        }, void 0, false, {
-                            fileName: "src/components/faq/faq.jsx",
-                            lineNumber: 10,
-                            columnNumber: 5
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/faq/faq.jsx",
-                    lineNumber: 8,
-                    columnNumber: 3
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Item, {
-                    eventKey: "1",
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Header, {
-                            style: {
-                                boxShadow: "black 0px 0px 15px 0px"
-                            },
-                            children: "How do I contact You?"
-                        }, void 0, false, {
-                            fileName: "src/components/faq/faq.jsx",
-                            lineNumber: 21,
-                            columnNumber: 5
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Accordion.Body, {
-                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                        }, void 0, false, {
-                            fileName: "src/components/faq/faq.jsx",
-                            lineNumber: 22,
-                            columnNumber: 5
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/faq/faq.jsx",
-                    lineNumber: 20,
-                    columnNumber: 3
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/faq/faq.jsx",
-            lineNumber: 7,
-            columnNumber: 1
-        }, this));
-    }
-}
-exports.default = FactsAnswers;
-
-  $parcel$ReactRefreshHelpers$840d.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cYOCB":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$723b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$723b.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactBootstrap = require("react-bootstrap");
-var _s = $RefreshSig$();
-const ContactMail = ()=>{
-    _s();
-    const [status, setStatus] = _react.useState("Submit");
-    const handleSubmit = async (e)=>{
-        e.preventDefault();
-        setStatus("Sending...");
-        const { name , email , message  } = e.target.elements;
-        let details = {
-            name: name.value,
-            email: email.value,
-            message: message.value
-        };
-        let response = await fetch("http://localhost:5000/contact", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json;charset=utf-8"
-            },
-            body: JSON.stringify(details)
-        });
-        setStatus("Submit");
-        let result = await response.json();
-        alert(result.status);
-    };
-    return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Container, {
-        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Form, {
-            onSubmit: handleSubmit,
-            style: {
-                border: "solid black 2px ",
-                background: " #e8f6df",
-                marginTop: "35px",
-                boxShadow: "black 0px 0px 20px 7px"
-            },
-            children: [
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Form.Label, {
-                            htmlFor: "name",
-                            children: "Name"
-                        }, void 0, false, {
-                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
-                            lineNumber: 30,
-                            columnNumber: 9
-                        }, undefined),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {
-                        }, void 0, false, {
-                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
-                            lineNumber: 31,
-                            columnNumber: 9
-                        }, undefined),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
-                            style: {
-                                width: "250px"
-                            },
-                            type: "text",
-                            id: "name",
-                            required: true
-                        }, void 0, false, {
-                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
-                            lineNumber: 32,
-                            columnNumber: 9
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/roadmap-view/roadmap-view.jsx",
-                    lineNumber: 29,
-                    columnNumber: 7
-                }, undefined),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Form.Label, {
-                            htmlFor: "email",
-                            children: "Email"
-                        }, void 0, false, {
-                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
-                            lineNumber: 35,
-                            columnNumber: 9
-                        }, undefined),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {
-                        }, void 0, false, {
-                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
-                            lineNumber: 36,
-                            columnNumber: 9
-                        }, undefined),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
-                            style: {
-                                width: "300px"
-                            },
-                            type: "email",
-                            id: "email",
-                            required: true
-                        }, void 0, false, {
-                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
-                            lineNumber: 37,
-                            columnNumber: 9
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/roadmap-view/roadmap-view.jsx",
-                    lineNumber: 34,
-                    columnNumber: 7
-                }, undefined),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Form.Label, {
-                            htmlFor: "message",
-                            children: "Message"
-                        }, void 0, false, {
-                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
-                            lineNumber: 40,
-                            columnNumber: 9
-                        }, undefined),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {
-                        }, void 0, false, {
-                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
-                            lineNumber: 41,
-                            columnNumber: 9
-                        }, undefined),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("textarea", {
-                            style: {
-                                width: "400px"
-                            },
-                            id: "message",
-                            required: true
-                        }, void 0, false, {
-                            fileName: "src/components/roadmap-view/roadmap-view.jsx",
-                            lineNumber: 42,
-                            columnNumber: 9
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/roadmap-view/roadmap-view.jsx",
-                    lineNumber: 39,
-                    columnNumber: 7
-                }, undefined),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Button, {
-                    style: {
-                        width: "150px",
-                        marginBottom: "20px",
-                        marginLeft: "20px"
-                    },
-                    type: "submit",
-                    children: status
-                }, void 0, false, {
-                    fileName: "src/components/roadmap-view/roadmap-view.jsx",
-                    lineNumber: 44,
-                    columnNumber: 7
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/roadmap-view/roadmap-view.jsx",
-            lineNumber: 28,
-            columnNumber: 5
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/components/roadmap-view/roadmap-view.jsx",
-        lineNumber: 26,
-        columnNumber: 5
-    }, undefined));
-};
-_s(ContactMail, "qESKK7LDpFTuMSR0UrKu+hcLdmU=");
-_c = ContactMail;
-exports.default = ContactMail;
-var _c;
-$RefreshReg$(_c, "ContactMail");
-
-  $parcel$ReactRefreshHelpers$723b.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ecMjE":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$121a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$121a.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactBootstrap = require("react-bootstrap");
-class SectionZero extends _reactDefault.default.Component {
-    render() {
-        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
-            className: "background-color",
-            style: {
-                textAlign: "center"
-            },
-            id: "up",
-            children: [
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "fade-down",
-                    xs: 6,
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                            className: "font",
-                            style: {
-                                color: "white",
-                                marginTop: "200px"
-                            },
-                            children: "Baby Turtles Club"
-                        }, void 0, false, {
-                            fileName: "src/components/home-view/section-zero.jsx",
-                            lineNumber: 9,
-                            columnNumber: 1
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
-                            className: "font",
-                            style: {
-                                color: "white",
-                                marginTop: "-5px"
-                            },
-                            children: "What we do?"
-                        }, void 0, false, {
-                            fileName: "src/components/home-view/section-zero.jsx",
-                            lineNumber: 10,
-                            columnNumber: 1
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
-                            className: "font",
-                            style: {
-                                color: "white",
-                                marginTop: "-5px"
-                            },
-                            children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
-                        }, void 0, false, {
-                            fileName: "src/components/home-view/section-zero.jsx",
-                            lineNumber: 11,
-                            columnNumber: 1
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/home-view/section-zero.jsx",
-                    lineNumber: 8,
-                    columnNumber: 1
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                    "data-aos": "fade-down",
-                    xs: 6,
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                            className: "font",
-                            style: {
-                                color: "white",
-                                marginTop: "200px"
-                            },
-                            children: "Our Trade"
-                        }, void 0, false, {
-                            fileName: "src/components/home-view/section-zero.jsx",
-                            lineNumber: 22,
-                            columnNumber: 1
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
-                            className: "font",
-                            style: {
-                                color: "white",
-                                marginTop: "-5px"
-                            },
-                            children: "How We Do It?"
-                        }, void 0, false, {
-                            fileName: "src/components/home-view/section-zero.jsx",
-                            lineNumber: 23,
-                            columnNumber: 1
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
-                            className: "font",
-                            style: {
-                                color: "white",
-                                marginTop: "-5px"
-                            },
-                            children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
-                        }, void 0, false, {
-                            fileName: "src/components/home-view/section-zero.jsx",
-                            lineNumber: 24,
-                            columnNumber: 1
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/home-view/section-zero.jsx",
-                    lineNumber: 21,
-                    columnNumber: 1
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/home-view/section-zero.jsx",
-            lineNumber: 7,
-            columnNumber: 1
-        }, this));
-    }
-}
-exports.default = SectionZero;
-
-  $parcel$ReactRefreshHelpers$121a.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fXmSd":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$a30e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$a30e.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactBootstrap = require("react-bootstrap");
-class SectionOne extends _reactDefault.default.Component {
-    render() {
-        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Row, {
-            className: "background-color",
-            style: {
-                textAlign: 'center'
-            },
-            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Col, {
-                "data-aos": "fade-up",
-                sm: 12,
-                children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                        className: "font",
-                        style: {
-                            color: "white",
-                            marginTop: "150px"
-                        },
-                        children: "NFTs"
-                    }, void 0, false, {
-                        fileName: "src/components/home-view/section-one.jsx",
-                        lineNumber: 9,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
-                        className: "font",
-                        style: {
-                            color: "white",
-                            marginTop: "-5px"
-                        },
-                        children: "Why Buy One?"
-                    }, void 0, false, {
-                        fileName: "src/components/home-view/section-one.jsx",
-                        lineNumber: 10,
-                        columnNumber: 1
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h5", {
-                        className: "font",
-                        style: {
-                            color: "white",
-                            marginTop: "-5px",
-                            marginBottom: "50px"
-                        },
-                        children: "Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum."
-                    }, void 0, false, {
-                        fileName: "src/components/home-view/section-one.jsx",
-                        lineNumber: 11,
-                        columnNumber: 1
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/home-view/section-one.jsx",
-                lineNumber: 8,
-                columnNumber: 1
-            }, this)
-        }, void 0, false, {
-            fileName: "src/components/home-view/section-one.jsx",
-            lineNumber: 7,
-            columnNumber: 1
-        }, this));
-    }
-}
-exports.default = SectionOne;
-
-  $parcel$ReactRefreshHelpers$a30e.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fdOAw":[function(require,module,exports) {
+},{}],"iYkXi":[function() {},{}],"fdOAw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>_reactRouter.MemoryRouter
@@ -40006,8 +40005,8 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactBootstrap = require("react-bootstrap");
-var _clownPng = require("../../Images/clown.png");
-var _clownPngDefault = parcelHelpers.interopDefault(_clownPng);
+var _clown3Png = require("../../Images/clown3.png");
+var _clown3PngDefault = parcelHelpers.interopDefault(_clown3Png);
 var _discordPng = require("../../Images/discord.png");
 var _discordPngDefault = parcelHelpers.interopDefault(_discordPng);
 var _twitterPng = require("../../Images/twitter.png");
@@ -40016,16 +40015,36 @@ var _navbarViewScss = require("./navbar-view.scss");
 var _reactRouterHashLink = require("react-router-hash-link");
 class NavbarView extends _reactDefault.default.Component {
     render() {
+        // this function will change the navbar based on scroll as well as screen size!
+        let lastScrollY = window.scrollY;
+        window.addEventListener("scroll", ()=>{
+            if (lastScrollY < window.scrollY) {
+                document.querySelector('.nav').classList.add('hidden');
+                document.getElementById('basic-navbar-nav').classList.add('justify');
+            } else {
+                document.querySelector('.nav').classList.remove('hidden');
+                document.getElementById('basic-navbar-nav').classList.remove('justify');
+            }
+            if (window.screen.width <= 990) {
+                document.querySelector('.nav').classList.remove('hidden');
+                document.getElementById('basic-navbar-nav').classList.remove('justify');
+            }
+            lastScrollY = window.scrollY;
+        });
+        // start of navbar!
         return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Navbar, {
             bg: "primary",
             className: "color",
             style: {
-                position: "sticky"
+                position: "sticky",
+                display: "flex",
+                justifyContent: "space-between"
             },
             fixed: "top",
             expand: "lg",
             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Container, {
                 fluid: true,
+                id: "navbar",
                 children: [
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Navbar.Brand, {
                         style: {
@@ -40033,155 +40052,153 @@ class NavbarView extends _reactDefault.default.Component {
                         },
                         href: "/",
                         children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
-                            src: _clownPngDefault.default,
+                            src: _clown3PngDefault.default,
                             style: {
-                                width: "100px",
-                                height: "100px"
+                                width: "55px",
+                                height: "55px"
                             }
                         }, void 0, false, {
                             fileName: "src/components/navbar/navbar-view.jsx",
-                            lineNumber: 19,
+                            lineNumber: 45,
                             columnNumber: 53
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/navbar/navbar-view.jsx",
-                        lineNumber: 19,
+                        lineNumber: 45,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Navbar.Toggle, {
-                        "aria-controls": "basic-navbar-nav"
+                        "aria-controls": "basic-navbar-nav",
+                        id: "show"
                     }, void 0, false, {
                         fileName: "src/components/navbar/navbar-view.jsx",
-                        lineNumber: 20,
+                        lineNumber: 46,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Navbar.Collapse, {
                         id: "basic-navbar-nav",
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Nav, {
-                            className: "m-auto",
-                            children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
-                                    className: "font size",
-                                    id: "center",
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Nav, {
+                                className: "m-auto nav",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
+                                        className: "font size",
+                                        id: "center",
+                                        style: {
+                                            color: 'white'
+                                        },
+                                        to: "#team",
+                                        smooth: true,
+                                        children: "Our Team"
+                                    }, void 0, false, {
+                                        fileName: "src/components/navbar/navbar-view.jsx",
+                                        lineNumber: 49,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
+                                        className: "font size",
+                                        id: "center",
+                                        style: {
+                                            color: 'white'
+                                        },
+                                        to: "#story",
+                                        smooth: true,
+                                        children: "Our Story"
+                                    }, void 0, false, {
+                                        fileName: "src/components/navbar/navbar-view.jsx",
+                                        lineNumber: 50,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
+                                        className: "font size",
+                                        id: "center",
+                                        style: {
+                                            color: 'white'
+                                        },
+                                        to: "#faq",
+                                        smooth: true,
+                                        children: "FAQ"
+                                    }, void 0, false, {
+                                        fileName: "src/components/navbar/navbar-view.jsx",
+                                        lineNumber: 51,
+                                        columnNumber: 9
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
+                                        className: "font size",
+                                        id: "center",
+                                        style: {
+                                            color: 'white'
+                                        },
+                                        to: "#border",
+                                        smooth: true,
+                                        children: "Roadmap"
+                                    }, void 0, false, {
+                                        fileName: "src/components/navbar/navbar-view.jsx",
+                                        lineNumber: 52,
+                                        columnNumber: 9
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/navbar/navbar-view.jsx",
+                                lineNumber: 48,
+                                columnNumber: 7
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
+                                to: "#t",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                                    id: "log",
+                                    className: "twitter",
+                                    src: _twitterPngDefault.default,
                                     style: {
-                                        color: 'white'
-                                    },
-                                    to: "#team",
-                                    smooth: true,
-                                    children: "Our Team"
+                                        width: "2.5em",
+                                        height: '2.0em',
+                                        marginRight: "10px"
+                                    }
                                 }, void 0, false, {
                                     fileName: "src/components/navbar/navbar-view.jsx",
-                                    lineNumber: 23,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
-                                    className: "font size",
-                                    id: "center",
-                                    style: {
-                                        color: 'white'
-                                    },
-                                    to: "#story",
-                                    smooth: true,
-                                    children: "Our Story"
-                                }, void 0, false, {
-                                    fileName: "src/components/navbar/navbar-view.jsx",
-                                    lineNumber: 24,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
-                                    className: "font size",
-                                    id: "center",
-                                    style: {
-                                        color: 'white'
-                                    },
-                                    to: "#faq",
-                                    smooth: true,
-                                    children: "FAQ"
-                                }, void 0, false, {
-                                    fileName: "src/components/navbar/navbar-view.jsx",
-                                    lineNumber: 25,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
-                                    className: "font size",
-                                    id: "center",
-                                    style: {
-                                        color: 'white'
-                                    },
-                                    to: "#border",
-                                    smooth: true,
-                                    children: "Roadmap"
-                                }, void 0, false, {
-                                    fileName: "src/components/navbar/navbar-view.jsx",
-                                    lineNumber: 26,
-                                    columnNumber: 9
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Nav, {
-                                    children: [
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
-                                            to: "#t",
-                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
-                                                className: "move-right",
-                                                src: _twitterPngDefault.default,
-                                                style: {
-                                                    width: "3em",
-                                                    height: '3.2em'
-                                                }
-                                            }, void 0, false, {
-                                                fileName: "src/components/navbar/navbar-view.jsx",
-                                                lineNumber: 29,
-                                                columnNumber: 9
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/navbar/navbar-view.jsx",
-                                            lineNumber: 28,
-                                            columnNumber: 9
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
-                                            to: "#y",
-                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
-                                                className: "move-left",
-                                                src: _discordPngDefault.default,
-                                                style: {
-                                                    width: "3em",
-                                                    height: '2.6em'
-                                                }
-                                            }, void 0, false, {
-                                                fileName: "src/components/navbar/navbar-view.jsx",
-                                                lineNumber: 32,
-                                                columnNumber: 9
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/navbar/navbar-view.jsx",
-                                            lineNumber: 31,
-                                            columnNumber: 9
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/navbar/navbar-view.jsx",
-                                    lineNumber: 27,
+                                    lineNumber: 55,
                                     columnNumber: 9
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/navbar/navbar-view.jsx",
-                            lineNumber: 22,
-                            columnNumber: 7
-                        }, this)
-                    }, void 0, false, {
+                            }, void 0, false, {
+                                fileName: "src/components/navbar/navbar-view.jsx",
+                                lineNumber: 54,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterHashLink.HashLink, {
+                                to: "#y",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactBootstrap.Image, {
+                                    id: "log",
+                                    className: "discord",
+                                    src: _discordPngDefault.default,
+                                    style: {
+                                        width: "2.5em",
+                                        height: '1.7em'
+                                    }
+                                }, void 0, false, {
+                                    fileName: "src/components/navbar/navbar-view.jsx",
+                                    lineNumber: 58,
+                                    columnNumber: 9
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/navbar/navbar-view.jsx",
+                                lineNumber: 57,
+                                columnNumber: 9
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/components/navbar/navbar-view.jsx",
-                        lineNumber: 21,
+                        lineNumber: 47,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/navbar/navbar-view.jsx",
-                lineNumber: 18,
+                lineNumber: 44,
                 columnNumber: 3
             }, this)
         }, void 0, false, {
             fileName: "src/components/navbar/navbar-view.jsx",
-            lineNumber: 17,
+            lineNumber: 43,
             columnNumber: 1
         }, this));
     }
@@ -40192,14 +40209,8 @@ class NavbarView extends _reactDefault.default.Component {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","../../Images/clown.png":"2jlZo","../../Images/discord.png":"k0Iv3","../../Images/twitter.png":"cM1ZF","./navbar-view.scss":"6LquG","react-router-hash-link":"19rTh","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2jlZo":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "clown.bab0a347.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"k0Iv3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","../../Images/discord.png":"k0Iv3","./navbar-view.scss":"6LquG","react-router-hash-link":"19rTh","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../Images/twitter.png":"cM1ZF","../../Images/clown3.png":"6Jifs"}],"k0Iv3":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "discord.bf94b416.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"cM1ZF":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "twitter.a72c41b4.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"6LquG":[function() {},{}],"19rTh":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -40382,7 +40393,13 @@ var propTypes = {
 HashLink.propTypes = propTypes;
 NavHashLink.propTypes = propTypes;
 
-},{"react":"21dqq","prop-types":"7wKI2","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eBaMl":[function() {},{}],"5GGbr":[function(require,module,exports) {
+},{"react":"21dqq","prop-types":"7wKI2","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cM1ZF":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "twitter.a72c41b4.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"6Jifs":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "clown3.0eee93b2.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"eBaMl":[function() {},{}],"5GGbr":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$b87c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -40565,7 +40582,7 @@ exports.default = OurStory;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","./our-story.scss":"ehCFu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../Images/purple.png":"jmlpZ","../../Images/clown2.png":"gqkxv","../../Images/king.png":"bnPG3"}],"ehCFu":[function() {},{}],"bnPG3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","./our-story.scss":"ehCFu","../../Images/purple.png":"jmlpZ","../../Images/clown2.png":"gqkxv","../../Images/king.png":"bnPG3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ehCFu":[function() {},{}],"bnPG3":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('byUka') + "king.ced8672d.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lJZlQ":[function() {},{}]},["kn9T2","1SYPb","d8Dch"], "d8Dch", "parcelRequire0d16")
