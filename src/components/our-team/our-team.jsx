@@ -1,8 +1,12 @@
 import react from 'react';
 import { Card, Button, Image } from 'react-bootstrap'
+// all technologies used!
+
 import clown from '../../Images/clown2.png'
 import instagram from '../../Images/Instagram.png'
 import twitter from '../../Images/twiiter.png'
+// all imported images!
+
 class OurTeam extends react.Component{
 render() {
 return (
@@ -22,8 +26,8 @@ return (
     </Button>
   </Card.Body>
 </Card>
-  )
- }
+  );
+ };
 }
 
 export default OurTeam 

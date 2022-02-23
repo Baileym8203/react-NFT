@@ -46,33 +46,41 @@ render() {
       }
 return(
 <Row id="faq" className='background-color2'style={{textAlign: "center", fontFamily: "Bubblegum Sans"}}>
+
 <Col sm={12}>
 <h1 data-aos="fade-down" className='font'  style={{color: "white", marginTop: "50px"}}>FAQ</h1>
 </Col>
+
 <Col data-aos="fade-up" sm={4}>
 <FactsAnswers/>
 </Col>
+
 <Col data-aos="fade-up" sm={4}>
 <FactsAnswers/>
 </Col>
+
 <Col data-aos="fade-up" sm={4}>
 <FactsAnswers/>
 </Col>
+
 <Col data-aos="fade-up" sm={4} >
 <FactsAnswers/>
 </Col>
+
 <Col data-aos="fade-up" sm={4} >
 <FactsAnswers/>
 </Col>
+
 <Col data-aos="fade-up" sm={4} >
 <FactsAnswers/>
 </Col>
+
 <Col sm={12} style={{marginBottom: "50px", marginTop: "10px"}}>
 <App />
 </Col>
 </Row>
-  )
- }
+  );
+ };
 }
 
 export default SectionSix;

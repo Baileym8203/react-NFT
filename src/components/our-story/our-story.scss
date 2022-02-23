@@ -1,14 +1,11 @@
+$red: #ff5b58;
+
 .look {
   font-family: "Bubblegum Sans";
   .text {
-    background-color: #ff5b58;
+    background-color: $red;
     box-shadow: black 2px 2px 12px 10px;
   }
 }
 
-.looks {
-}
 
-.carousel-indicators li {
-  visibility: hidden;
-}

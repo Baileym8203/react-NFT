@@ -2,8 +2,8 @@ import react from 'react';
 import { Container } from 'react-bootstrap';
 // all the technology imports!
 
-import SectionZero from './section-zero'; // 1 full Row per section!
-import SectionOne from './section-one';
+import SectionZero from '../section-views/section-zero'; // 1 full Row per section!
+import SectionOne from '../section-views/section-one';
 import SectionTwo from '../section-views/section-two';
 import SectionThree from '../section-views/section-three';
 import SectionFour from '../section-views/section-four';

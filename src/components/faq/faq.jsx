@@ -17,6 +17,7 @@ return(
       est laborum.
     </Accordion.Body>
   </Accordion.Item>
+  
   <Accordion.Item eventKey="1">
     <Accordion.Header style={{boxShadow: "black 0px 0px 15px 0px"}}>How do I contact You?</Accordion.Header>
     <Accordion.Body>
@@ -32,6 +33,6 @@ return(
 </Accordion>
   );
  };
-};
+}
 
 export default FactsAnswers

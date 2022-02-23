@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import {Container, Row, Col, Form, Button} from 'react-bootstrap';
+// all imported technologies!
+
 const ContactMail = () => {
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
@@ -31,16 +33,19 @@ const ContactMail = () => {
         <br></br>
         <input style={{width: "250px"}} type="text" id="name" required />
       </div>
+      
       <div>
         <Form.Label htmlFor="email">Email</Form.Label>
         <br></br>
         <input style={{width: "300px"}} type="email" id="email" required />
       </div>
+      
       <div>
         <Form.Label htmlFor="message">Message</Form.Label>
         <br></br>
         <textarea style={{width: "400px"}} id="message" required />
       </div>
+      
       <Button style={{width: "150px", marginBottom: "20px", marginLeft: "20px"}} type="submit">{status}</Button>
     </Form>
     </Container>

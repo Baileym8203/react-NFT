@@ -1,16 +1,16 @@
 .font {
-  font-family: "Bubblegum Sans";
+  font-family: "Bubblegum Sans"; // changes font
 }
 
 .color {
   filter: brightness(80%);
-  box-shadow: rgb(59, 59, 59) 0px 0px 15px 8px;
+  box-shadow: rgb(59, 59, 59) 0px 0px 15px 8px; // navbar background!
 }
 .size {
   font-size: 24px;
 }
 
-#basic-navbar-nav.justify {
+#basic-navbar-nav.justify { // for navbar scrollY function
   display: flex;
   justify-content: end;
 }
@@ -20,7 +20,7 @@
   margin-left: 10px;
 }
 
-.nav.hidden {
+.nav.hidden { // for navbar scrollY function
   display: none;
 }
 
@@ -29,12 +29,8 @@
   justify-content: space-around;
 }
 
-#show.hide {
-  display: block;
-}
-
 @media screen and (max-width: 990px) {
-  #log {
+  #log { // for navbar scrollY function
     margin-top: 10px;
     // this will push the logos down through toggle button viewpoint
   }

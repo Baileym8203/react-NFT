@@ -1,9 +1,12 @@
 import react from 'react';
 import { Carousel, Image, Container} from 'react-bootstrap';
+// all technologies imported!
+
 
 import './our-story.scss'
+// scss file imported!
 
-// these are both the Carousel images imported!
+// these are the Carousel images imported!
 import purple from '../../Images/purple.png'
 import clown2 from '../../Images/clown2.png'
 import king from '../../Images/king.png'
@@ -26,7 +29,7 @@ return(
     </Carousel.Caption>
   </Carousel.Item>
 
-  <Carousel.Item interval={3000} className="looks">
+  <Carousel.Item interval={3000}>
     <Image
       className="d-block w-100"
       src={purple}
@@ -52,7 +55,7 @@ return(
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-)
-}
+  );
+ };
 }
 export default OurStory;

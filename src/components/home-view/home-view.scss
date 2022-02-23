@@ -1,14 +1,22 @@
+$color: #72cee6;
+$color2: #e7adcc;
+$color3: #a3a4fb;
+// 3 main colors!
+$color2light:  #ffbee1;
+// light main color!
+
 .background-color {
-  background-color: #72cee6;
+  background-color: $color;
 }
 
 .background-color2 {
-  background-color: #e7adcc;
+  background-color: $color2; // all background colors!
 }
 
 .background-color3 {
-  background-color: #a3a4fb;
+  background-color: $color3;
 }
+
 
 #up {
   margin-top: 0px;
@@ -20,7 +28,7 @@
   font-family: "Bubblegum Sans";
   color: whitesmoke;
   box-shadow: grey 0px 2px 12px 1px;
-  background-color: #a3a4fb;
+  background-color: $color3;
 }
 
 .font3 {
@@ -29,16 +37,16 @@
   font-family: "Bubblegum Sans";
   color: whitesmoke;
   box-shadow: grey 0px -2px 15px 3px;
-  background-color: #a3a4fb;
+  background-color: $color3;
 }
 
 .font4 {
   margin-left: 5px;
   margin-top: -6.9px;
-  font-family: "Bubblegum Sans";
+  font-family: "Bubblegum Sans";      // all different font variations!
   color: whitesmoke;
   box-shadow: grey 0px -2px 15px 3px;
-  background-color: #ffbee1;
+  background-color: $color2light;
   text-align: center;
 }
 
@@ -48,7 +56,7 @@
   font-family: "Bubblegum Sans";
   color: whitesmoke;
   box-shadow: grey 2px 2px 15px 3px;
-  background-color: #ffbee1;
+  background-color: $color2light;
 }
 
 .right {
@@ -64,10 +72,10 @@
 }
 
 .border {
-  border: solid 1px white fill;
+  border: solid 1px white fill; 
 }
 
-.back {
+.back {                              //border class variations 
   border: solid 1px white;
 }
 

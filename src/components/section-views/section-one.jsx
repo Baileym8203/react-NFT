@@ -5,6 +5,7 @@ class SectionOne extends react.Component{
 render() {
 return(
 <Row className='background-color' style={{textAlign: 'center'}}>
+
 <Col data-aos="fade-up" sm={12}>
 <h1 className='font' style={{color: "white", marginTop: "150px"}}>NFTs</h1>
 <h3 className='font'  style={{color: "white", marginTop: "-5px"}}>Why Buy One?</h3>
@@ -19,8 +20,8 @@ return(
   </h5>
 </Col>
 </Row>
-  )
- }
+  );
+ };
 }
 
 export default SectionOne;

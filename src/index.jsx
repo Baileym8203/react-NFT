@@ -1,11 +1,12 @@
 import react from 'react';
-import { Container } from 'react-bootstrap';
 import reactDom from 'react-dom';
+// all imported technologies!
+
 import MainView from './components/main-view/main-view';
+// all imported files!
 
-import './index.scss';
 
-class nftApplication extends react.Component {
+class nftApplication extends react.Component { //start of render for index component to send to html!
 render () {
 return (
 
